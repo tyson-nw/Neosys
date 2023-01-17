@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
-class BouncerSeeder extends Seeder
+class PageSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,6 +13,6 @@ class BouncerSeeder extends Seeder
      */
     public function run()
     {
-        \Bouncer::allow('admin')->everything();
+        //
     }
 }
