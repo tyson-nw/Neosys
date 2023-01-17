@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         //
-        User::factory()->create([
+        $first = User::factory()->create([
             'id' => 1,
             "name"=>env('INITIAL_USER_NAME'),
             "email"=> env('INITIAL_USER_EMAIL'),
@@ -25,5 +25,6 @@ class UserSeeder extends Seeder
             "created_at"=> now(),
             "updated_at"=> now(),
         ]);
+        $first->assign('admin');
     }
 }
