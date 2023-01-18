@@ -20,6 +20,7 @@
         "tailwindcss": "^3.2.4"
     },
     "dependencies": {
+        "@toast-ui/editor": "^3.2.1",
         "normalize.css": "^8.0.1"
     }
 }

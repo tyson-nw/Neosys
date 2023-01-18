@@ -11,6 +11,7 @@
 
 		<!-- Scripts -->
 		<script src="{{ mix('js/app.js') }}" defer></script>
+        @yield('scripts')
 </head>
 <body class=''>
     <header class='p-6 md:flex md:justify-between md:items-center bg-slate-100 fixed top-0 left-0 right-0'>
@@ -39,5 +40,6 @@
             {{ $license }}
         @endif
     </footer>
+    @yield('latescripts')
 </body>
 </html>

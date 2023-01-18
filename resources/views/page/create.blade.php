@@ -1,8 +1,12 @@
 @extends('app')
 
+@section('scripts')
+<script src="{{ mix('js/editor.js') }}" defer></script>
+@endsection
+
 @section('main')
     <h1 class='text-3xl'> Create Page</h1>
-    <form method='POST' action='/pages/create'>
+    <form method='POST' action='/pages/create' id="form" onsubmit="event.preventDefault();">
         <div class='mx-10 my-3'>
             @csrf
             @if($errors->any())
@@ -42,11 +46,14 @@
                     <p>{{$message}}</p>
                 @enderror
                 <div>
+                    <div id="editor"><div>
+
                     <textarea class='w-full min-h-screen' name='content' id='content' >{{ old("content")}}</textarea>
+
                 </div>
             </div>
             <div>
-                <button type='submit' class='rounded-full bg-blue-300 p-1  px-3 m-1'>Create Page</button>
+                <button id='submit' class='rounded-full bg-blue-300 p-1  px-3 m-1'>Create Page</button>
             </div>
         </div>
     </form>
