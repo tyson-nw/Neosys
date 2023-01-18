@@ -16,9 +16,9 @@
             @endif
             
             <div>
-                @isset($id)
-                    <input type='hidden' name='id' value='{{$id}}' />
-                @endisset
+
+                <input type='hidden' name='id' value='{{$id}}' />
+
                 <div>
                     <label for='title'>Page Title</label>
                 </div>
