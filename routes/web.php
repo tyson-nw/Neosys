@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PageController;
-use App\Models\Page;
+use App\Http\Controllers\SpellController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,6 +27,14 @@ Route::get('/page/{page:slug}', [PageController::class, 'show']);
 Route::get('/page/{page:slug}/edit', [PageController::class, 'edit']);
 Route::patch('/page/{page:slug}/edit', [PageController::class, 'update']);
 Route::delete('/page/{page:slug}', [PageController::class, 'destroy']);
+
+Route::get('/spells', [SpellController::class, 'index']);
+Route::get('/spells/create', [SpellController::class, 'create']);
+Route::post('/spells/create', [SpellController::class, 'store']);
+Route::get('/spell/{page:slug}', [SpellController::class, 'show']);
+Route::get('/spell/{page:slug}/edit', [SpellController::class, 'edit']);
+Route::patch('/spell/{page:slug}/edit', [SpellController::class, 'update']);
+Route::delete('/spell/{page:slug}', [SpellController::class, 'destroy']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
