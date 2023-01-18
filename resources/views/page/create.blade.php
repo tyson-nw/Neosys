@@ -9,6 +9,8 @@
     <form method='POST' action='/pages/create' id="form" onsubmit="event.preventDefault();">
         <div class='mx-10 my-3'>
             @csrf
+            <input type="hidden" name="content" id="content">
+
             @if($errors->any())
                 <ul class='mx-auto background-yellow-100'>
                 @foreach($errors->all() as $error)
@@ -20,7 +22,7 @@
                 <div>
                     <label for='title'>Page Title</label>
                 </div>
-                
+
                 <input class='w-full' type='text' name='title' id='title' value='{{ old("title")}}' />
                 @error('title')
                     <p>{{$message}}</p>
@@ -38,9 +40,9 @@
                     <p>{{$message}}</p>
                 @enderror
             </div>
-            <div>        
+            <div>
                 <div>
-                    <label for='content'>Page Contents</label>   
+                    <label for='content'>Page Contents</label>
                 </div>
                 @error('content')
                     <p>{{$message}}</p>
@@ -48,7 +50,7 @@
                 <div>
                     <div id="editor"><div>
 
-                    <textarea class='w-full min-h-screen' name='content' id='content' >{{ old("content")}}</textarea>
+                    <textarea class='w-full min-h-screen' >{{ old("content")}}</textarea>
 
                 </div>
             </div>
