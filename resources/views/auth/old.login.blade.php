@@ -1,12 +1,17 @@
-@extends('app')
+<x-guest-layout>
+    <x-auth-card>
+        <x-slot name="logo">
+            <a href="/">
+                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+            </a>
+        </x-slot>
 
-@section('main')
-    <x-auth-session-status class="mb-4" :status="session('status')" />
+        <!-- Session Status -->
+        <x-auth-session-status class="mb-4" :status="session('status')" />
 
-    <!-- Validation Errors -->
-    <x-auth-validation-errors class="mb-4" :errors="$errors" />
+        <!-- Validation Errors -->
+        <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-    <div class='max-w-lg mx-auto'>
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
@@ -47,5 +52,5 @@
                 </x-button>
             </div>
         </form>
-    </div>
-@endsection
+    </x-auth-card>
+</x-guest-layout>
