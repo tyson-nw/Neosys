@@ -1,5 +1,9 @@
 @extends('app')
 
+@section('scripts')
+<script src="{{ mix('js/editor.js') }}" defer></script>
+@endsection
+
 @section('main')
     <h1 class='text-3xl'> Edit Page</h1>
     <form method='POST' action="/page/{{$slug}}/edit">
@@ -47,8 +51,9 @@
                 @error('content')
                     <p>{{$message}}</p>
                 @enderror
+                <textarea class='hidden' name="content" id="content">{{ old("content", $content)}}</textarea>
                 <div>
-                    <textarea class='w-full min-h-screen' name='content' id='content' >{{ old("content", $content)}}</textarea>
+                    <div id="editor"><div>
                 </div>
             </div>
             <div>

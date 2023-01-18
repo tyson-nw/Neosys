@@ -6,10 +6,10 @@
 
 @section('main')
     <h1 class='text-3xl'> Create Page</h1>
-    <form method='POST' action='/pages/create' id="form" onsubmit="event.preventDefault();">
+    <form method='POST' action='/pages/create' id="form" >
         <div class='mx-10 my-3'>
             @csrf
-            <input type="hidden" name="content" id="content">
+
 
             @if($errors->any())
                 <ul class='mx-auto background-yellow-100'>
@@ -43,15 +43,14 @@
             <div>
                 <div>
                     <label for='content'>Page Contents</label>
+                    
                 </div>
                 @error('content')
                     <p>{{$message}}</p>
                 @enderror
+                <textarea class='hidden' name="content" id="content">{{ old("content")}}</textarea>
                 <div>
                     <div id="editor"><div>
-
-                    <textarea class='w-full min-h-screen' >{{ old("content")}}</textarea>
-
                 </div>
             </div>
             <div>

@@ -10,11 +10,7 @@ const editor = new Editor({
 })
 
 addEventListener('DOMContentLoaded', (event) => {
-    console.log('lookup element:');
-    console.log(document.querySelector("input[name=content]")); //check if it can find the element
-    console.log(document.querySelector('#editor')); //check if it can find the element
     submit.addEventListener('click', function(event){
-        document.querySelector('input[name=content]').value = editor.getMarkdown();
-        console.log(document.querySelector('input[name=content]').value)
+        document.querySelector('#content').value = editor.getMarkdown();
     });
 });

@@ -40437,10 +40437,8 @@ var editor = new _toast_ui_editor__WEBPACK_IMPORTED_MODULE_0__["default"]({
   initialValue: document.querySelector('#content').innerHTML
 });
 addEventListener('DOMContentLoaded', function (event) {
-  console.log('lookup element:');
-  console.log(document.querySelector('#content')); //check if it can find the element
   submit.addEventListener('click', function (event) {
-    document.querySelector('#content').innerHTML = editor.getMarkdown();
+    document.querySelector('#content').value = editor.getMarkdown();
   });
 });
 })();
