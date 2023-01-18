@@ -34,9 +34,12 @@ class UpdatePageRequest extends FormRequest
                 'required',
                 'max:255',
                 'min:3',
-                Rule::unique('pages','title')->ignore($this->slug, $old->title),
+                //Rule::unique('pages','title')->ignore($this->slug, $old->title),
             ],
-            'slug' =>[ Rule::unique('pages')->ignore($this->slug, $old->slug)],
+            'slug' =>[ 
+                //Rule::unique('pages')->ignore($this->slug, $old->slug)
+            ],
+            'license' => [],
             'content' => ['required','min:3'],
         ];
     }

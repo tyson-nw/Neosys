@@ -27,6 +27,7 @@ class StorePageRequest extends FormRequest
         return [
             'title' => ['required','max:255','min:3','unique:pages,title'],
             'slug' => [ 'unique:pages,slug'],
+            'license' => [],
             'content' => ['required','min:3'],
         ];
     }

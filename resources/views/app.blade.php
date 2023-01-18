@@ -12,25 +12,27 @@
 		<!-- Scripts -->
 		<script src="{{ mix('js/app.js') }}" defer></script>
 </head>
-<body>
-    <header>
-        <div class='banner'><a href='/'>Neosys</a></div>
-        <nav>
+<body class=''>
+    <header class='p-6 w-full flex flex-row bg-slate-100 fixed top-0 left-0 right-0'>
+        <div class='banner flex-1 text-2xl'><a href='/'>Neosys</a></div>
+        <nav class='flex justify-end items-end'>
             <a href='/sources'>Sources</a>
-            | <a href='/pages'>Pages</a>
-            |
+            &nbsp;|&nbsp; <a href='/pages'>Pages</a>
+            &nbsp;|&nbsp;
             @guest
-                <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a> | >            @endguest
+                <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;
+                <a href="{{ route('register') }}">Register</a>
+            @endguest
             @auth
-                Profile
+                Profile &nbsp;|&nbsp; 
                 <form method="POST" action="/logout"> @csrf <button type='submit'>Logout</button></form>
             @endauth
         </nav>
     </header>
-    <main>
+    <main class='container mx-auto p-6 mt-20'>
         @yield('main')
     </main>
-    <footer>
+    <footer class='w-full flex flex-row px-6 py-1 bg-slate-100 fixed bottom-0'>
         @if(empty($license))
             Copyright Double Crescent
         @else

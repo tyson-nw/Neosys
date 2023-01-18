@@ -7,6 +7,7 @@ use Illuminate\Validation\Rule;
 use App\Models\Page;
 use App\Http\Requests\StorePageRequest;
 use App\Http\Requests\UpdatePageRequest;
+use App\Http\Requests\DeletePageRequest;
 
 class PageController extends Controller
 {
@@ -27,7 +28,7 @@ class PageController extends Controller
      */
     public function create()
     {
-        return view('page.create',['action'=>'/pages/create','act'=>'Create']);
+        return view('page.create');
     }
 
     /**
@@ -65,10 +66,8 @@ class PageController extends Controller
      */
     public function edit(Page $page)
     {
-        session()->put('_old_input', $page);
-        $page->action = "/page/{$page->slug}/edit";
-        $page->act = "Edit";
-        return view('page.create',$page);
+        //session()->put('_old_input', $page);
+        return view('page.edit',$page);
     }
 
     /**
@@ -95,7 +94,7 @@ class PageController extends Controller
      * @param  \App\Models\Page  $page
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Page $page)
+    public function destroy(DeletePageRequest $request, Page $page)
     {
         session()->flash('page_deleted', ['title'=>$page['title'], 'slug'=>$page['slug']]);
         $page->delete();
