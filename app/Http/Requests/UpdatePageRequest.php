@@ -26,18 +26,15 @@ class UpdatePageRequest extends FormRequest
      */
     public function rules()
     {
-
-        $old = Page::findOrFail($this->id);
-
         return [
             'title' => [
                 'required',
                 'max:255',
-                'min:3',
-                Rule::unique('pages','title')->ignore($this->slug, $old->title),
+                'min:3', 
+                Rule::unique('pages')->ignore($this->title, 'title'),
             ],
             'slug' =>[ 
-                Rule::unique('pages')->ignore($this->slug, $old->slug)
+                Rule::unique('pages')->ignore($this->slug, 'slug')
             ],
             'license' => [],
             'content' => ['required','min:3'],
