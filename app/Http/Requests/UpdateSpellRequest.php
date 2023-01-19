@@ -32,10 +32,10 @@ class UpdateSpellRequest extends FormRequest
             'title' => ['required',
                 'max:255',
                 'min:3',
-                Rule::unique('pages','title')->ignore($this->slug, $old->title),
+                Rule::unique('spells')->ignore($this->title, 'title'),
             ],
             'slug' => [ 
-                Rule::unique('pages')->ignore($this->slug, $old->slug)
+                Rule::unique('spells')->ignore($this->slug, 'slug'),
             ],
             'license' => [],
             'tier' => ['required'],

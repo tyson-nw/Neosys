@@ -36,8 +36,9 @@ class SpellController extends Controller
      */
     public function store(StoreSpellRequest $request)
     {
-        
-        Page::create($request);
+        $valid = $request->validated();
+        Spell::create($valid);
+   
         return redirect('/spells')->with('spell_created', ['title'=>$valid['title'], 'slug'=>$valid['slug']]);
     
     }
@@ -61,7 +62,7 @@ class SpellController extends Controller
      */
     public function edit(Spell $spell)
     {
-        return view('spell.edit',$page);
+        return view('spell.edit',$spell);
     }
 
     /**
@@ -86,8 +87,8 @@ class SpellController extends Controller
      */
     public function destroy(Spell $spell)
     {
-        session()->flash('spell_deleted', ['title'=>$page['title'], 'slug'=>$page['slug']]);
-        $page->delete();
+        session()->flash('spell_deleted', ['title'=>$spell['title'], 'slug'=>$spell['slug']]);
+        $spell->delete();
         return redirect('/spells');
     }
 }

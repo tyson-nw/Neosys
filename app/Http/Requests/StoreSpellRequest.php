@@ -27,8 +27,15 @@ class StoreSpellRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => ['required','max:255','min:3','unique:pages,title'],
-            'slug' => [ 'unique:spells,slug'],
+            'title' => [
+                'required',
+                'max:255',
+                'min:3',
+                'unique:spells,title'
+            ],
+            'slug' => [ 
+                'unique:spells,slug'
+            ],
             'license' => [],
             'tier' => ['required'],
             'classes'=> ['json'],
@@ -45,7 +52,6 @@ class StoreSpellRequest extends FormRequest
             'slug' => Str::slug($this->title),
         ]);
 
-        $this->classes = collect(explode(",",$this->classes))->toJson();
-        dd(Str::isJson($this->classes));
+        $this->merge(['classes'=> collect(explode(",",$this->classes))->toJson()]);
     }
 }

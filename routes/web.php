@@ -31,10 +31,10 @@ Route::delete('/page/{page:slug}', [PageController::class, 'destroy']);
 Route::get('/spells', [SpellController::class, 'index']);
 Route::get('/spells/create', [SpellController::class, 'create']);
 Route::post('/spells/create', [SpellController::class, 'store']);
-Route::get('/spell/{page:slug}', [SpellController::class, 'show']);
-Route::get('/spell/{page:slug}/edit', [SpellController::class, 'edit']);
-Route::patch('/spell/{page:slug}/edit', [SpellController::class, 'update']);
-Route::delete('/spell/{page:slug}', [SpellController::class, 'destroy']);
+Route::get('/spell/{spell:slug}', [SpellController::class, 'show']);
+Route::get('/spell/{spell:slug}/edit', [SpellController::class, 'edit']);
+Route::patch('/spell/{spell:slug}/edit', [SpellController::class, 'update']);
+Route::delete('/spell/{spell:slug}', [SpellController::class, 'destroy']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

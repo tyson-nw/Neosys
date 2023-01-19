@@ -23,6 +23,8 @@ class CreateSpellsTable extends Migration
             $table->string('casting_time');
             $table->string('target');
             $table->string('defense')->nullable();
+            $table->string('duration')->nullable();
+            $table->boolean('concentration')->default(FALSE);
             $table->text('details');
             $table->text('higher_cast')->nullable();
             $table->timestamps();

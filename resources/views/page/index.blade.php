@@ -15,7 +15,7 @@
 
 @can('create_page')
 <div>
-    <a href='/pages/create' class='rounded-full bg-blue-300 p-1 px-3 m-1'>Create new page</a>
+    <a href='/pages/create' class='rounded-full bg-blue-300 p-1 px-3 m-1'>Create a new page</a>
 </div>
 @endcan
 
