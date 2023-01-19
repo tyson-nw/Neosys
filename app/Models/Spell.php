@@ -21,4 +21,8 @@ class Spell extends Model
         'details',
         'higher_cast',
     ];
+
+    public function getRouteKeyName(){
+        return 'slug';
+    }
 }
