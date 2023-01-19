@@ -19,6 +19,7 @@
         <nav class='flex justify-end items-end'>
             <a href='/sources'>Sources</a>
             &nbsp;|&nbsp; <a href='/pages'>Pages</a>
+            &nbsp;|&nbsp; <a href='/spells'>Spells</a>
             &nbsp;|&nbsp;
             @guest
                 <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;
