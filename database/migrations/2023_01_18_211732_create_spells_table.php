@@ -17,9 +17,9 @@ class CreateSpellsTable extends Migration
             $table->id();
             $table->string('title')->unique();
             $table->string('slug')->unique();
-            $table->string('license');
+            $table->string('license')->nullable();
             $table->string('tier');
-            $table->json('classes');
+            $table->json('classes')->nullable();
             $table->string('casting_time');
             $table->string('target');
             $table->string('defense')->nullable();
