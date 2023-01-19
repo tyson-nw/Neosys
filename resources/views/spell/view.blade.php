@@ -23,10 +23,10 @@
             </strong> 
             {{ implode(", ",json_decode($classes, TRUE))}} 
         </li>
-        <li><strong>Casting Time</strong> {{$casting_time}}</li>
+        <li><strong>Casting Time</strong> {{implode(", ",json_decode($casting_time, TRUE))}}</li>
         <li>
             <strong>Target</strong>
-            {{$target}}
+            {{implode(", ",json_decode($target, TRUE))}}
             @isset($defense)
                 , {{$defense}}
             @endisset

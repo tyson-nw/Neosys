@@ -53,12 +53,11 @@ You have advantage on [[#Deflect]] rolls.
 * **Tier 1** [[#God Touched]], [[#Paladin]]
 * **Casting Time** [[#Act]]
 * **Target** 30ft [[#Range]]
-* **Duration** Instant
 Grant the target [[die#1d8]]+[[#Spellcasting Modifier]] [[#Temporary HP]]. Ends the [[#Bleeding]] condition. 
 Add an additional die for each [[#Tier]] beyond 1st it is cast at.
 
-## Bond of Ward, [[#Paladin]]
-* **Tier 1** [[#God Touched]]
+## Bond of Ward
+* **Tier 1** [[#God Touched]], [[#Paladin]]
 * **Casting Time** [[#Response]], [[#Ritual]]
 * **Target** 30ft [[#Range]]
 * **Duration** 1 hour
@@ -131,9 +130,8 @@ Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Cure Wounds
 * **Tier 1** [[#Druid]], [[#God Touched]], [[#Paladin]]
-* **Casting Time** 1 minute, Ritual
+* **Casting Time** 1 minute, [[#Ritual]]
 * **Target** [[#Touch]]
-* **Duration** Instant
 Heal the [[die#1d8]]+Spellcasting Modifier [[#Temporary HP]]. 
 Add an additional die for each [[#Tier]] it is cast at beyond 1st.
 
@@ -170,7 +168,7 @@ Add an additional die for each tier it is cast at beyond 1st.
 * **Tier 1** [[#God Touched]]
 * **Casting Time** [[#Act]], [[#Ritual]]
 * **Target** 60ft [[#Range]]
-* **Duration** 8 hour
+* **Duration** 8 hours
 Target adds [[die#1d4]] to [[#Soak]] every time they take damage. 
 Add an additional creature for each tier it is cast at beyond 1st.
 
@@ -246,7 +244,7 @@ Targets that fail their defense are knocked prone. Gasses, mists, and toxic air 
 ## Grease
 * **Tier 1** [[#Wizard]]
 * **Casting Time** [[#Act]]
-* **Target** 15ft [[#Sphere]], 120ft, [[#React]]
+* **Target** 15ft [[#Sphere]], 120ft [[#Range]], [[#React]]
 * **Duration** 1 minute
 Targets within the area that fail their defense they fall prone. The grease is flammable, deals [[die#1d6]] damage to all creatures within area and ends the spell.
 
@@ -343,7 +341,6 @@ You can whisper a message to a creature within [[#Range]]. They can reply to you
 * **Cantrip** [[#God Touched]]
 * **Casting Time** [[#Act]]
 * **Target** 60ft [[#Range]], [[#React]]
-* **Duration** Instant
 The target takes [[die#1d8]] damage. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Primal Strike
@@ -415,7 +412,7 @@ Targets take [[die#1d10]] damage, are pushed 10ft, and knocked prone. If you fai
 ## Thunderstrike
 * **Cantrip** [[#Druid]]
 * **Casting Time** [[#Act]]
-* **Target** [[#Touch]] [[#Body]]
+* **Target** [[#Touch]], [[#Body]]
 Target takes [[die#1d6]] damage and is deafened until the end of their next turn. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Thorn Whip

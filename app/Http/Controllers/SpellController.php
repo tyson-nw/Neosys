@@ -15,7 +15,72 @@ class SpellController extends Controller
      */
     public function index()
     {
-        return view('spell.index', ['spells'=>Spell::all()]);
+        
+        if(request()->tier){
+            if(empty($spells)){
+                $spells = Spell::where('tier',request()->tier);;
+            }else{
+                $spells->where('tier',request()->tier);
+            }
+        }
+        if(request()->classes){
+            if(empty($spells)){
+                $spells = Spell::where('classes', 'LIKE', "%" .request()->classes ."%");
+            }else{
+                $spells->where('classes', 'LIKE', "%" .request()->classes ."%");
+            }
+        }
+        if(request()->casting_time){
+            if(empty($spells)){
+                $spells = Spell::where('casting_time', 'LIKE', "%" .request()->casting_time ."%");
+            }else{
+                $spells->where('casting_time', 'LIKE', "%" .request()->casting_time ."%");
+            }
+        }
+        if(request()->target){
+            if(empty($spells)){
+                $spells = Spell::where('target', 'LIKE', "%" .request()->target ."%");
+            }else{
+                $spells->where('target', 'LIKE', "%" .request()->target ."%");
+            }
+        }
+
+        if(request()->defense){
+            if(empty($spells)){
+                $spells = Spell::where('defense', 'LIKE', "%" .request()->defense ."%");
+            }else{
+                $spells->where('defense', 'LIKE', "%" .request()->defense ."%");
+            }
+        }
+
+        if(request()->duration){
+            if(empty($spells)){
+                $spells = Spell::where('duration', 'LIKE', "%" .request()->duration ."%");
+            }else{
+                $spells->where('duration', 'LIKE', "%" .request()->duration ."%");
+            }
+        }
+
+        if(request()->concentration){
+            if(empty($spells)){
+                $spells = Spell::where('concentration', TRUE);
+            }else{
+                $spells->where('concentration', TRUE);
+            }
+        }
+
+        if(request()->higher_cast){
+            if(empty($spells)){
+                $spells = Spell::whereNotNull ('higher_cast');
+            }else{
+                $spells->whereNotNull ('higher_cast');
+            }
+        }
+
+        if(isset($spells)){
+            return view('spell.index', ['spells'=>$spells->get()]);
+        }
+        return view('spell.index', ['spells'=>Spell::get()]);
     }
 
     /**

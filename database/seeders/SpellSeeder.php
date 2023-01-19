@@ -46,22 +46,24 @@ class SpellSeeder extends Seeder
                 $first = array_shift($exploded);
                 if($first == "**Cantrip**"){
                     $current_spell['tier'] = '[[#Cantrip]]';
-                    $current_spell['classes'] = trim(json_encode($exploded));
+                    $current_spell['classes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
                 }elseif($first == "**Tier"){
                     $current_spell['tier'] = trim(array_shift($exploded),"*");
-                    $current_spell['classes'] = trim(json_encode($exploded));
+                    $current_spell['classes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
                 }
                 elseif($first =="**Casting"){
                     array_shift($exploded);
-                    $current_spell['casting_time'] = trim(implode(" ",$exploded));
+                    $current_spell['casting_time'] = trim(json_encode(explode(",", implode( " ", $exploded))));
                 }
                 elseif($first == "**Target**"){
                     $target = explode(", ", trim(implode(" ",$exploded)));
                     
                     $current_spell['target'] = $target[0];
-                    if(isset($target[1])){
-                        $current_spell['defense'] = $target[1];
+                    $defenses = ["[[#Body]]","[[#Mind]]","[[#React]]","[[#Deflect]]"];
+                    if(in_array($target[count($target)-1],$defenses)){
+                        $current_spell['defense'] = array_pop($target);
                     }
+                    $current_spell['target'] = trim(json_encode(explode(",", implode( " ", $target))));
                 }
                 elseif($first == "**Duration**"){
                     $target = explode(", ", trim(implode(" ",$exploded)));
