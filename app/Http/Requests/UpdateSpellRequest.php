@@ -26,8 +26,6 @@ class UpdateSpellRequest extends FormRequest
      */
     public function rules()
     {
-        $old = Spell::findOrFail($this->id);
-
         return [
             'title' => ['required',
                 'max:255',
@@ -39,9 +37,12 @@ class UpdateSpellRequest extends FormRequest
             ],
             'license' => [],
             'tier' => ['required'],
+            'classes'=> ['json'],
             'casting_time' => ['required'],
             'target' => ['required'],
             'defense' => [],
+            'duration' => [],
+            'concentration' => ['boolean'],
             'details' => ['required'],
             'higher_cast' => [],
         ];
@@ -51,5 +52,11 @@ class UpdateSpellRequest extends FormRequest
         $this->merge([
             'slug' => Str::slug($this->title),
         ]);
+
+        $this->merge(['classes'=> collect(explode(",",$this->classes))->toJson()]);
+
+        if(isset($this->concentration)){
+            $this->merge(['concentration'=>TRUE]);
+        }
     }
 }

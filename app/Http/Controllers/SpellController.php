@@ -38,7 +38,6 @@ class SpellController extends Controller
     {
         $valid = $request->validated();
         Spell::create($valid);
-   
         return redirect('/spells')->with('spell_created', ['title'=>$valid['title'], 'slug'=>$valid['slug']]);
     
     }
@@ -74,7 +73,7 @@ class SpellController extends Controller
      */
     public function update(UpdateSpellRequest $request, Spell $spell)
     {
-        $spell->fill($request)->save();
+        $spell->fill($request->all())->save();
         session()->flash('spell_updated', 'Spell Updated');
         return redirect("/spell/{$spell->slug}"); 
     }

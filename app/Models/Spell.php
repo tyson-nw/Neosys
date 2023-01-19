@@ -18,11 +18,15 @@ class Spell extends Model
         'casting_time',
         'target',
         'defense',
+        'duration',
+        'concentration',
         'details',
         'higher_cast',
     ];
 
-    public function getRouteKeyName(){
+    public function getRouteKeyName()
+    {
         return 'slug';
     }
+    
 }

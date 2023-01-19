@@ -90,7 +90,7 @@
             </div>
             <div>
                 <div>
-                    <label for='concentration'>Duration</label>
+                    <label for='concentration'>Concentration</label>
                 </div>
                 <input type='checkbox' name='concentration' id='concentration'  @if(old("concentration")) checked @endif ' />
                 @error('duration')

@@ -66,7 +66,6 @@ class PageController extends Controller
      */
     public function edit(Page $page)
     {
-        //session()->put('_old_input', $page);
         return view('page.edit',$page);
     }
 

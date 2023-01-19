@@ -21,11 +21,12 @@
                     Tier {{$tier}}
                 @endif
             </strong> 
-            {{implode(", ", json_decode($classes))}} 
+            {{ implode(", ",json_decode($classes, TRUE))}} 
         </li>
         <li><strong>Casting Time</strong> {{$casting_time}}</li>
         <li>
             <strong>Target</strong>
+            {{$target}}
             @isset($defense)
                 , {{$defense}}
             @endisset
@@ -34,6 +35,7 @@
             <li>
                 <strong>Duration</strong>
                 {{$duration}}
+                
                 @if($concentration)
                     , Concetration
                 @endif

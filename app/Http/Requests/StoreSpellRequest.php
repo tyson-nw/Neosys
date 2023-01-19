@@ -42,6 +42,8 @@ class StoreSpellRequest extends FormRequest
             'casting_time' => ['required'],
             'target' => ['required'],
             'defense' => [],
+            'duration' => [],
+            'concentration' => ['boolean'],
             'details' => ['required'],
             'higher_cast' => [],
         ];
@@ -53,5 +55,9 @@ class StoreSpellRequest extends FormRequest
         ]);
 
         $this->merge(['classes'=> collect(explode(",",$this->classes))->toJson()]);
+
+        if(isset($this->concentration)){
+            $this->merge(['concentration'=>TRUE]);
+        }
     }
 }
