@@ -21,6 +21,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/roll/{roll}',function($roll){
+    $ezd = new ezdice\EZDice();
+    $out = ['roll'=>$ezd->roll($roll), 'dice'=>$ezd->getDiceStates(), 'modifier'=>$ezd->getModifier()];
+    return json_encode($out);
+});
+
 Route::get('/pages', [PageController::class, 'index']);
 Route::get('/pages/create', [PageController::class, 'create']);
 Route::post('/pages/create', [PageController::class, 'store']);

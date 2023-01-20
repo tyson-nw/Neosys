@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1ae190cb8ebb1914c8ceb947b486a19",
+    "content-hash": "0a52aec60504230af41ad95b7762934f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1010,6 +1010,57 @@
                 }
             ],
             "time": "2022-10-26T14:07:24+00:00"
+        },
+        {
+            "name": "jifish/ezdice",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JiFish/ezdice.git",
+                "reference": "3a0437b75b133d5dedf63f2be5f2a04bd903510e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JiFish/ezdice/zipball/3a0437b75b133d5dedf63f2be5f2a04bd903510e",
+                "reference": "3a0437b75b133d5dedf63f2be5f2a04bd903510e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ezdice.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Fowler",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A really simple PHP library for parsing dice notation and rolling.",
+            "homepage": "https://github.com/JiFish/ezdice",
+            "keywords": [
+                "dice",
+                "dice-notation",
+                "dice-roller",
+                "die",
+                "random",
+                "roll",
+                "roller",
+                "rpg"
+            ],
+            "support": {
+                "issues": "https://github.com/JiFish/ezdice/issues",
+                "source": "https://github.com/JiFish/ezdice/tree/1.0.0"
+            },
+            "time": "2022-09-25T13:45:56+00:00"
         },
         {
             "name": "laravel/framework",

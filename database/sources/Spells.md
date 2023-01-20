@@ -4,7 +4,7 @@
 * **Cantrip** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target**  30ft [[#Range]], [[#Deflect]]
-The target takes [[die/1d8|1d8]] damage.  
+The target takes [[roll/1d8|1d8]] damage.  
 Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Arcane Step
@@ -19,7 +19,7 @@ You can target an additional willing creature for each [[#Tier]] it is cast at b
 * **Casting Tine** [[#Act]], [[#Ritual]]
 * **Target** [[#Self]]
 * **Duration** 1 hour
-You change your form to appear as a humanoid with your clothing and features of your choice. If you are masquerading as another creature you have advantage on rolls against your disguise. You can adapt yourself for an aquatic environment or add natural weapons that deal [[die/1d6|1d6]] damage.
+You change your form to appear as a humanoid with your clothing and features of your choice. If you are masquerading as another creature you have advantage on rolls against your disguise. You can adapt yourself for an aquatic environment or add natural weapons that deal [[roll/1d6|1d6]] damage.
 
 ## Animal Friendship
 * **Tier 1** [[#Druid]]
@@ -39,7 +39,7 @@ Attackers have advantage against all the target's defenses, and advantage on def
 * **Casting Time**  [[#Act]], [[#Ritual]]
 * **Target** 30ft [[#Range]]
 * **Duration** 1 hour
-Creature gains a [[die/1d4|1d4]] to all d12 rolls. 
+Creature gains a [[roll/1d4|1d4]] to all d12 rolls. 
 You can target an additional creature for each [[#Tier]] it is cast at beyond 1st.
 
 ## Blur
@@ -53,7 +53,7 @@ You have advantage on [[#Deflect]] rolls.
 * **Tier 1** [[#God Touched]], [[#Paladin]]
 * **Casting Time** [[#Act]]
 * **Target** 30ft [[#Range]]
-Grant the target [[die/1d8|1d8]]+[[#Spellcasting Modifier]] [[#Temporary HP]]. Ends the [[#Bleeding]] condition. 
+Grant the target [[roll/1d8|1d8]]+[[#Spellcasting Modifier]] [[#Temporary HP]]. Ends the [[#Bleeding]] condition. 
 Add an additional die for each [[#Tier]] beyond 1st it is cast at.
 
 ## Bond of Ward
@@ -69,7 +69,7 @@ Add an additional creature for each [[#Tier]] it is cast at beyond 1st.
 * **Casting Time** [[#Act]]
 * **Target** 5ft [[#Sphere]], 30ft [[#Range]], [[#React]]
 * **Duration** 1 minute
-Creatures within the bonfire or that move through it that fail their [[#React]] take [[die/1d6|1d6]] damage. As a [[#Bonus Action]] you can move the bonfire 30ft. 
+Creatures within the bonfire or that move through it that fail their [[#React]] take [[roll/1d6|1d6]] damage. As a [[#Bonus Action]] you can move the bonfire 30ft. 
 Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Charming
@@ -97,8 +97,8 @@ You can target an additional creature for each [[#Tier]] it is cast at beyond 1s
 * **Tier 1** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target** 15ft [[#Cone]], [[#Body]]
-You deal [[die/1d6|1d6]] damage to each creature in [[#Range]] and they are blinded for [[die/1d6|1d6]] rounds. 
-When cast at a higher [[#Tier]], add an additional [[die/1d6|1d6]] for each [[#Tier]] it is cast at beyond 1st. 
+You deal [[roll/1d6|1d6]] damage to each creature in [[#Range]] and they are blinded for [[roll/1d6|1d6]] rounds. 
+When cast at a higher [[#Tier]], add an additional [[roll/1d6|1d6]] for each [[#Tier]] it is cast at beyond 1st. 
 
 ## Command
 * **Tier 1** [[#God Touched]], [[#Paladin]]
@@ -118,21 +118,21 @@ You can understand any language you hear or read. You cannot speak the language 
 * **Casting Time** [[#Act]]
 * **Target** [[#Self]]
 * **Duration** 1 minute
-A torch sized flame appears in the casters hand that can be used it to light fires. As a [[#Bonus Action]] you can fling a flame that deals [[die/1d6|1d6]] damage. 
+A torch sized flame appears in the casters hand that can be used it to light fires. As a [[#Bonus Action]] you can fling a flame that deals [[roll/1d6|1d6]] damage. 
 Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Corpse Grasp
 * **Cantrip** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target** [[#Touch]], [[#Deflect]]
-You deal [[die/1d10|1d10]] damage to the target. 
+You deal [[roll/1d10|1d10]] damage to the target. 
 Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Cure Wounds
 * **Tier 1** [[#Druid]], [[#God Touched]], [[#Paladin]]
 * **Casting Time** 1 minute, [[#Ritual]]
 * **Target** [[#Touch]]
-Heal the [[die/1d8|1d8]]+Spellcasting Modifier [[#Temporary HP]]. 
+Heal the [[roll/1d8|1d8]]+Spellcasting Modifier [[#Temporary HP]]. 
 Add an additional die for each [[#Tier]] it is cast at beyond 1st.
 
 ## Dancing Light
@@ -161,7 +161,7 @@ You can see magical aura's of ongoing spells, know what spell is being cast by a
 * **Casting Time**  [[#Act]]
 * **Target** [[#Self]]
 * **Duration** 1 minute, Concentration
-Your weapon bursts into flame and deals an additional [[die/1d8|1d8]] damage. You can make a [[#Ranged]] attack to throw fire 60ft dealing [[die/1d8|1d8]] damage. 
+Your weapon bursts into flame and deals an additional [[roll/1d8|1d8]] damage. You can make a [[#Ranged]] attack to throw fire 60ft dealing [[roll/1d8|1d8]] damage. 
 Add an additional die for each tier it is cast at beyond 1st.
 
 ## Divine Interpose
@@ -169,7 +169,7 @@ Add an additional die for each tier it is cast at beyond 1st.
 * **Casting Time** [[#Act]], [[#Ritual]]
 * **Target** 60ft [[#Range]]
 * **Duration** 8 hours
-Target adds [[die/1d4|1d4]] to [[#Soak]] every time they take damage. 
+Target adds [[roll/1d4|1d4]] to [[#Soak]] every time they take damage. 
 Add an additional creature for each tier it is cast at beyond 1st.
 
 ## Enhance
@@ -198,7 +198,7 @@ Add an additional [[die#2d6]] for each tier beyond 1st it is cast at.
 * **Tier 1** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target** [[#Range]] 60ft, [[#Body]]
-Target is blinded for [[die/1d6|1d6]] rounds. Add an additional creature for each tier it is cast at beyond 1st.
+Target is blinded for [[roll/1d6|1d6]] rounds. Add an additional creature for each tier it is cast at beyond 1st.
 
 ## Flameblade
 * **Tier 1** [[#Druid]]
@@ -206,7 +206,7 @@ Target is blinded for [[die/1d6|1d6]] rounds. Add an additional creature for eac
 * **Target** [[#Self]]
 * **Duration** 1 hour, [[#Concentration]]
 You summon a flaming weapon that deals 2d6 damage and has the bladed, finesse, and simple tags. It can be used to start fires. 
-Add an additional [[die/1d6|1d6]] for each tier it is cast at beyond 1st.
+Add an additional [[roll/1d6|1d6]] for each tier it is cast at beyond 1st.
 
 ## Foxfire
 * **Tier 1** [[#Druid]]
@@ -246,7 +246,7 @@ Targets that fail their defense are knocked prone. Gasses, mists, and toxic air 
 * **Casting Time** [[#Act]]
 * **Target** 15ft [[#Sphere]], 120ft [[#Range]], [[#React]]
 * **Duration** 1 minute
-Targets within the area that fail their defense they fall prone. The grease is flammable, deals [[die/1d6|1d6]] damage to all creatures within area and ends the spell.
+Targets within the area that fail their defense they fall prone. The grease is flammable, deals [[roll/1d6|1d6]] damage to all creatures within area and ends the spell.
 
 ## Heal
 * **Tier 1** [[#God Touched]], [[#Druid]]
@@ -310,13 +310,13 @@ You can lift or manipulate an item less than 5lbs within [[#Range]]. The weight 
 * **Casting Time** [[#Act]]
 * **Target** 30ft [[#Range]], [[#Body]]
 * **Duration** 1 minute, [[#Concentration]]
-Target takes [[die/1d8|1d8]] damage. During each of your turns you can continue the spell with an [[#Act]]. Subsequent rounds automatically hit. On the target's next round they must make a [[#Concentration]] roll to cast any spell. Add an additional [[die/1d8|1d8]] for each tier it is cast at beyond 1st.
+Target takes [[roll/1d8|1d8]] damage. During each of your turns you can continue the spell with an [[#Act]]. Subsequent rounds automatically hit. On the target's next round they must make a [[#Concentration]] roll to cast any spell. Add an additional [[roll/1d8|1d8]] for each tier it is cast at beyond 1st.
 
 ## Magic Missile
 * **Tier 1** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target**  60ft [[#Range]]
-Fire three separate bolts of energy, each deals [[die/1d4|1d4]] damage and automatically hits. Add an additional two bolts of energy for each tier it is cast at beyond 1st.
+Fire three separate bolts of energy, each deals [[roll/1d4|1d4]] damage and automatically hits. Add an additional two bolts of energy for each tier it is cast at beyond 1st.
 
 ## Mold Earth
 * **Cantrip** [[#Druid]], [[#Wizard]]
@@ -341,13 +341,13 @@ You can whisper a message to a creature within [[#Range]]. They can reply to you
 * **Cantrip** [[#God Touched]]
 * **Casting Time** [[#Act]]
 * **Target** 60ft [[#Range]], [[#React]]
-The target takes [[die/1d8|1d8]] damage. Increase the die for every [[#Tier]] the caster is beyond 1st.
+The target takes [[roll/1d8|1d8]] damage. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Primal Strike
 * **Cantrip** [[#Druid]]
 * **Casting Time** [[#Act]]
 * **Target** [[#Touch]], [[#Deflect]]
-You target takes [[die/1d8|1d8]] damage. Increase the die for every [[#Tier]] the caster is beyond 1st.
+You target takes [[roll/1d8|1d8]] damage. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Sanctuary
 * **Tier 1** [[#God Touched]]
@@ -388,44 +388,44 @@ You can speak with animals as if they have an [[#Aptitude]] of -1. You have adva
 * **Tier 1** [[#Druid]]
 * **Casting Time** [[#Act]], [[#Ritual]]
 * **Target** 10ft [[#Circle]], 60ft
-Area becomes hazardous terrain that deals [[die/1d6|1d6]] damage. Add an additional die for each tier beyond 1st it is cast at.
+Area becomes hazardous terrain that deals [[roll/1d6|1d6]] damage. Add an additional die for each tier beyond 1st it is cast at.
 
 ## Spiritual Weapon
 * **Tier 1** [[#God Touched]]
 * **Casting Time** [[#Act]]
 * **Target** 60ft [[#Range]], [[#Deflect]]
 * **Duration** 1 minute
-Conjure flying weapon that deals [[die/1d6|1d6]] damage that can be directed to move up to 60 feet and attack as a bonus action. Add an additional die for each tier beyond 1st it is cast at.
+Conjure flying weapon that deals [[roll/1d6|1d6]] damage that can be directed to move up to 60 feet and attack as a bonus action. Add an additional die for each tier beyond 1st it is cast at.
 
 ## Spoken Wound
 * **Cantrip** [[#God Touched]]
 * **Casting Time** [[#Act]]
 * **Target** 60ft [[#Range]], [[#Body]]
-Target takes [[die/1d6|1d6]] damage. If they are already wounded the target takes [[die/1d10|1d10]] instead. Increase the die for every [[#Tier]] the caster is beyond 1st.
+Target takes [[roll/1d6|1d6]] damage. If they are already wounded the target takes [[roll/1d10|1d10]] instead. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Thunderblast
 * **Tier 1** [[#Druid]], [[#Paladin]], [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target** 15ft [[#Cone]], [[#Body]]
-Targets take [[die/1d10|1d10]] damage, are pushed 10ft, and knocked prone. If you fail on overcoming the defense of your targets, the targets only take half damage. Add an additional die for each tier beyond 1st it is cast at.
+Targets take [[roll/1d10|1d10]] damage, are pushed 10ft, and knocked prone. If you fail on overcoming the defense of your targets, the targets only take half damage. Add an additional die for each tier beyond 1st it is cast at.
 
 ## Thunderstrike
 * **Cantrip** [[#Druid]]
 * **Casting Time** [[#Act]]
 * **Target** [[#Touch]], [[#Body]]
-Target takes [[die/1d6|1d6]] damage and is deafened until the end of their next turn. Increase the die for every [[#Tier]] the caster is beyond 1st.
+Target takes [[roll/1d6|1d6]] damage and is deafened until the end of their next turn. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Thorn Whip
 * **Cantrip** [[#Druid]]
 * **Casting Time** [[#Act]]
 * **Target** [[#Touch]], [[#Deflect]]
-You conjure a whip that has a 15ft reach that deals [[die/1d6|1d6]] damage. If the attack roll exceeds the target's [[#Body]] defense, the target is pulled up to 10ft closer to you. Increase the die for every [[#Tier]] the caster is beyond 1st.
+You conjure a whip that has a 15ft reach that deals [[roll/1d6|1d6]] damage. If the attack roll exceeds the target's [[#Body]] defense, the target is pulled up to 10ft closer to you. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ## Tremor
 * **Tier 1** [[#Druid]]
 * **Casting Time** [[#Bonus Action]]
 * **Target** 10ft [[#Circle]], 120ft [[#Range]], [[#Body]]
-Targets within [[#Range]] fall prone and take [[die/1d6|1d6]] damage. Add an additional die for each tier beyond 1st it is cast at.
+Targets within [[#Range]] fall prone and take [[roll/1d6|1d6]] damage. Add an additional die for each tier beyond 1st it is cast at.
 
 ## Whisper of Life
 * **Cantrip** [[#God Touched]]
