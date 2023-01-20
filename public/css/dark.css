@@ -1,0 +1,21 @@
+body{
+    background-color: #111111;
+    color: #EEEEEE;
+}
+
+header{
+    background-color: #333333;
+}
+
+footer{
+    background-color: #333333;
+}
+
+.border{
+    border-color: #333333 !important; 
+}
+
+select{
+    background-color: #111111;
+}
+

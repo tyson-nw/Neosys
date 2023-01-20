@@ -933,16 +933,8 @@ select{
 .relative{
   position: relative;
 }
-.inset-y-5{
-  top: 1.25rem;
-  bottom: 1.25rem;
-}
-.inset-y-56{
-  top: 14rem;
-  bottom: 14rem;
-}
-.top-0{
-  top: 0px;
+.bottom-0{
+  bottom: 0px;
 }
 .left-0{
   left: 0px;
@@ -950,11 +942,8 @@ select{
 .right-0{
   right: 0px;
 }
-.bottom-0{
-  bottom: 0px;
-}
-.top-20{
-  top: 5rem;
+.top-0{
+  top: 0px;
 }
 .z-0{
   z-index: 0;
@@ -990,18 +979,14 @@ select{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
 .ml-3{
   margin-left: 0.75rem;
 }
 .-ml-px{
   margin-left: -1px;
 }
-.mt-20{
-  margin-top: 5rem;
+.mt-2{
+  margin-top: 0.5rem;
 }
 .ml-1{
   margin-left: 0.25rem;
@@ -1020,9 +1005,6 @@ select{
 }
 .mt-4{
   margin-top: 1rem;
-}
-.mt-2{
-  margin-top: 0.5rem;
 }
 .mr-2{
   margin-right: 0.5rem;
@@ -1378,10 +1360,6 @@ select{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
 .pt-1{
   padding-top: 0.25rem;
 }
@@ -1439,21 +1417,13 @@ select{
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
+}
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-medium{
   font-weight: 500;

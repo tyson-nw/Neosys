@@ -47,6 +47,18 @@ Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
 Route::get('/sources', [SourceController::class, 'index']);
 Route::get('/source/{source}', [SourceController::class, 'show']);
 
+Route::get('/mode', function(){
+    if(empty(session('mode'))){
+        session(['mode'=>'dark']);
+    
+    }elseif(session('mode') == 'dark'){
+        session(['mode'=>'paper']);
+    }elseif(session('mode') == 'paper'){
+        session()->forget('mode');
+    }
+    return redirect(url()->previous());
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
