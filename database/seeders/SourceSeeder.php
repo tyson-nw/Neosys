@@ -6,7 +6,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 use App\Models\Spell;
 
-class SpellSeeder extends Seeder
+class SourceSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,9 +15,23 @@ class SpellSeeder extends Seeder
      */
     public function run()
     {
-        $file = fopen(database_path().'/sources/Spells.md', 'r');
-   
+
+        $sources = scandir(database_path().'/sources/');
+        array_shift($sources);
+        array_shift($sources);
         
+        foreach($sources as $source){
+
+            $license = file_get_contents(database_path()."/sources/{$source}/License");
+            $this->spells($source, $license);
+        }
+    }
+
+    private function spells($source, $license){
+        
+        $file = fopen(database_path()."/sources/{$source}/Spells.md", 'r');
+    
+            
         $spells = [];
         $current_spell = [];
         while (($line = fgets($file)) !== FALSE){
@@ -38,7 +52,8 @@ class SpellSeeder extends Seeder
                 $current_spell = [];
                 $current_spell['title'] = trim(implode(" ",$exploded));
                 $current_spell['slug'] = Str::slug($current_spell['title']);
-                $current_spell['license'] = "Copyright Double Crescent";
+                $current_spell['license'] = $license;
+                $current_spell['source'] = $source;
             }elseif($element == "*"){
 
             
@@ -87,6 +102,5 @@ class SpellSeeder extends Seeder
         }
         $current_spell['details'] = implode("\n", $current_spell['details']);
         Spell::create($current_spell);
-        
     }
 }

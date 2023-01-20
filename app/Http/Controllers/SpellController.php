@@ -144,14 +144,8 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
         $spell->details = $converter->convert($spell->details);
-        $ctp = new CardTagParser();
-        $spell->tier = $ctp($spell->tier);
-        $spell->classes = $ctp($spell->classes);
-        $spell->casting_time = $ctp($spell->casting_time);
-        $spell->target = $ctp($spell->target);
-        $spell->defense = $ctp($spell->defense);
-        $spell->details = $ctp($spell->details);
-        $spell->higher_cast = $ctp($spell->higher_cast);
+        $spell->ctp = new CardTagParser();
+        
         return view('spell.view',$spell);
     }
 

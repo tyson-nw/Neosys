@@ -13,6 +13,7 @@ class Spell extends Model
         'title',
         'slug',
         'license',
+        'source',
         'tier',
         'classes',
         'casting_time',

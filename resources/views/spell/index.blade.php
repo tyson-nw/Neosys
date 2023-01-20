@@ -153,7 +153,7 @@
                     @isset($spell->higher_cast)
                         <li>{!!$ctp( $spell->higher_cast)!!}</li>
                     @endisset
-                
+                    <li><div>{{$spell->license}}</div><div>{{$spell->source}}</div></li>
                 </ul>
             </details>
         </form>

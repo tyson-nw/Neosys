@@ -16,36 +16,36 @@
         <li>
             <strong>
                 @if($tier=="Cantrip")
-                    {{$tier}}
+                    <a href='#' card="{{$tier}}">{{$tier}}</a>
                 @else
                     Tier {{$tier}}
                 @endif
             </strong> 
-            {{ implode(", ",json_decode($classes, TRUE))}} 
+            {!! $ctp( implode(", ",json_decode($classes, TRUE)))!!} 
         </li>
-        <li><strong>Casting Time</strong> {{implode(", ",json_decode($casting_time, TRUE))}}</li>
+        <li><strong>Casting Time</strong> {!! $ctp(implode(", ",json_decode($casting_time, TRUE)))!!}</li>
         <li>
             <strong>Target</strong>
-            {{implode(", ",json_decode($target, TRUE))}}
+            {!! $ctp(implode(", ",json_decode($target, TRUE)))!!}
             @isset($defense)
-                , {{$defense}}
+                , {!! $ctp($defense)!!}
             @endisset
         </li>
         @isset($duration)
             <li>
                 <strong>Duration</strong>
-                {{$duration}}
+                {!! $ctp($duration)!!}
                 
                 @if($concentration)
-                    , Concetration
+                    , <a href="#" card="Concentration">Concetration</a>
                 @endif
             </li>
         @endisset
-            <li>{!!$details!!}</li>
+            <li>{!! $ctp($details)!!}</li>
         @isset($higher_cast)
-            <li>{{$higher_cast}}</li>
+            <li>{!! $ctp($higher_cast)!!}</li>
         @endisset
-    
+            <li class='text-xs container'><div class='m-3'>{{$license}}</div> <div class='m-3'>Source: <a href="sources/{{Str::slug($source)}}" >{{$source}} </a></div></li>
     </ul>
     
 @endsection
