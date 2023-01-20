@@ -49,7 +49,7 @@
                 <div>
                     <label for='classes'>Classes</label>
                 </div>
-                <input class='w-full' type='text' name='classes' id='classes' value='{{ old("classes", implode(", ",json_decode($classes, TRUE)))}}' />
+                <input class='w-full' type='text' name='classes' id='classes' value='{{ old("classes", $classes)}}' />
                 @error('classes')
                     <p>{{$message}}</p>
                 @enderror
@@ -67,7 +67,7 @@
                 <div>
                     <label for='target'>Target</label>
                 </div>
-                <input class='w-full' type='text' name='target' id='target' value='{{ old("target", $title)}}' />
+                <input class='w-full' type='text' name='target' id='target' value='{{ old("target", $target)}}' />
                 @error('target')
                     <p>{{$message}}</p>
                 @enderror

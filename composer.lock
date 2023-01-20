@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d7878e57f062d7472566aefcf10f61e",
+    "content-hash": "d1ae190cb8ebb1914c8ceb947b486a19",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -492,6 +492,52 @@
                 }
             ],
             "time": "2020-12-29T14:50:06+00:00"
+        },
+        {
+            "name": "elazar/league-commonmark-obsidian",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elazar/league-commonmark-obsidian.git",
+                "reference": "2f1ca12d46dbbdbdb262d135ab00e3c88e4dc721"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elazar/league-commonmark-obsidian/zipball/2f1ca12d46dbbdbdb262d135ab00e3c88e4dc721",
+                "reference": "2f1ca12d46dbbdbdb262d135ab00e3c88e4dc721",
+                "shasum": ""
+            },
+            "require": {
+                "league/commonmark": "^2.3"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.22"
+            },
+            "bin": [
+                "bin/obsidian-to-html"
+            ],
+            "type": "commonmark-extension",
+            "autoload": {
+                "psr-4": {
+                    "Elazar\\LeagueCommonMarkObsidian\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Turland",
+                    "email": "me@matthewturland.com"
+                }
+            ],
+            "description": "Parser for use with league/commonmark to parse Obsidian Markdown",
+            "support": {
+                "issues": "https://github.com/elazar/league-commonmark-obsidian/issues",
+                "source": "https://github.com/elazar/league-commonmark-obsidian/tree/2.0.0"
+            },
+            "time": "2023-01-15T22:08:49+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",

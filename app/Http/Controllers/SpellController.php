@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreSpellRequest;
 use App\Http\Requests\UpdateSpellRequest;
 use App\Models\Spell;
+use App\Tools\AbsoluteUrlResolver;
+use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
 class SpellController extends Controller
 {
@@ -14,8 +16,19 @@ class SpellController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        
+    {   
+        $resolver = new AbsoluteUrlResolver(url('/'));
+        $extension = new LeagueCommonMarkObsidianExtension(
+          attachmentLinkResolver: $resolver,
+          internalLinkResolver: $resolver,
+        );
+
+        $environment = new \League\CommonMark\Environment\Environment;
+        $environment->addExtension(new \League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension);
+        $environment->addExtension($extension);
+
+        $converter = new \League\CommonMark\MarkdownConverter($environment);
+
         if(request()->tier){
             if(empty($spells)){
                 $spells = Spell::where('tier',request()->tier);;
@@ -78,9 +91,9 @@ class SpellController extends Controller
         }
 
         if(isset($spells)){
-            return view('spell.index', ['spells'=>$spells->get()]);
+            return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter]);
         }
-        return view('spell.index', ['spells'=>Spell::get()]);
+        return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter]);
     }
 
     /**
@@ -115,6 +128,18 @@ class SpellController extends Controller
      */
     public function show(Spell $spell)
     {
+        $resolver = new AbsoluteUrlResolver(url('/'));
+        $extension = new LeagueCommonMarkObsidianExtension(
+          attachmentLinkResolver: $resolver,
+          internalLinkResolver: $resolver,
+        );
+
+        $environment = new \League\CommonMark\Environment\Environment;
+        $environment->addExtension(new \League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension);
+        $environment->addExtension($extension);
+
+        $converter = new \League\CommonMark\MarkdownConverter($environment);
+        $spell->details = $converter->convert($spell->details);
         return view('spell.view',$spell);
     }
 
@@ -126,6 +151,20 @@ class SpellController extends Controller
      */
     public function edit(Spell $spell)
     {
+
+/*
+        $spell->classes = implode(", ", array_map(function($value){
+            $m = [];
+            preg_match('/\[\[\#(.*)\]\]/', $value,$m);
+            return array_pop($m);
+        }, explode(",",$spell->classes)));
+
+        $spell->casting_time = implode(", ", array_map(function($value){
+            $m = [];
+            preg_match('/\[\[\#(.*)\]\]/', $value,$m);
+            return array_pop($m);
+        }, explode(",",$spell->casting_time)));
+*/
         return view('spell.edit',$spell);
     }
 

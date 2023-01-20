@@ -32,7 +32,6 @@ class SpellSeeder extends Seeder
                     }
                     $current_spell['details'] = implode("\n", $current_spell['details']);
 
-                    var_dump($current_spell); echo "\n";
                     Spell::create($current_spell);
                 }
                 

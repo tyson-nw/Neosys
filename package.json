@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "@toast-ui/editor": "^3.2.1",
-        "normalize.css": "^8.0.1"
+        "normalize.css": "^8.0.1",
+        "tw-elements": "^1.0.0-alpha13"
     }
 }

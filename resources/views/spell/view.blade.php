@@ -41,7 +41,7 @@
                 @endif
             </li>
         @endisset
-            <li>{{$details}}</li>
+            <li>{!!$details!!}</li>
         @isset($higher_cast)
             <li>{{$higher_cast}}</li>
         @endisset
