@@ -24,6 +24,54 @@ class MonsterController extends Controller
      */
     public function index()
     {
+        if(request()->size){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%".request()->size."%");;
+            }else{
+                $monsters->where('content','LIKE',"%".request()->size."%");
+            }
+        }
+        if(request()->type){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%".request()->type."%");;
+            }else{
+                $monsters->where('content','LIKE',"%".request()->type."%");
+            }
+        }
+
+        if(request()->challenge){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%".request()->challenge."%");;
+            }else{
+                $monsters->where('content','LIKE',"%".request()->challenge."%");
+            }
+        }
+
+        if(request()->bonus_action){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%*Bonus Action*%");;
+            }else{
+                $monsters->where('content','LIKE',"%*Bonus Action*%");
+            }
+        }
+
+        if(request()->responses){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%".request()->responses."%");;
+            }else{
+                $monsters->where('content','LIKE',"%".request()->responses."%");
+            }
+        }
+
+        if(request()->lair_act){
+            if(empty($monsters)){
+                $monsters = Monster::where('content','LIKE',"%**Lair Act%");;
+            }else{
+                $monsters->where('content','LIKE',"%**Lair Act%");
+            }
+        }
+
+
         $config = [
             'heading_permalink' => [
                 'html_class' => 'heading-permalink',
@@ -38,7 +86,6 @@ class MonsterController extends Controller
             ],
         ];
 
-        $monsters = Monster::get();
         $environment = new Environment($config);
         $environment->addExtension(new CommonMarkCoreExtension);
         $environment->addExtension(new TableExtension);
@@ -49,6 +96,9 @@ class MonsterController extends Controller
 
         $atp = new AnchorTagParser();
 
+        if(isset($monsters)){
+            return view('monster.index', ['monsters'=>$monsters->get(),'converter'=>$converter, 'atp'=>$atp]);
+        }
         return view('monster.index', ['monsters'=>Monster::get(),'converter'=>$converter, 'atp'=>$atp]);
     }
 
