@@ -3,7 +3,8 @@
 namespace App\Tools;
 
 class CardTagParser{
-    public function __invoke(string|null $string) : string|null{
+
+    public function __invoke(string|null $string, string|null $source = NULL) : string|null{
         if(empty($string)){
             return $string;
         }
@@ -12,7 +13,7 @@ class CardTagParser{
 
         preg_match_all("/\[\[\#([A-z \d]*)\]\]/", $string,$out);
         for($n=0 ; isset($out[1][$n]) ; $n++){
-            $string = str_replace($out[0][$n], "<a href='#' card='{$out[1][$n]}'>{$out[1][$n]}</a>",$string);
+            $string = str_replace($out[0][$n], "<a href='#' card='" . $source ."/". $out[1][$n]. "'>" . $out[1][$n] . "</a>",$string);
         }
         return $string;
     }

@@ -90,7 +90,9 @@ class SourceController extends Controller
         $converter = new MarkdownConverter($environment);
         $source->content = $converter->convert($source->content);
 
-        $atp = new AnchorTagParser();
+        
+        $atp = new AnchorTagParser($source->slug);
+        
         $source->content = $atp($source->content);
         return view('source.view',$source);
     }

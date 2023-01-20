@@ -5,6 +5,7 @@ namespace App\Tools;
 use Illuminate\Support\Str;
 use App\Models\Spell;
 use App\Models\Source;
+use App\Models\Card;
 
 class SourceParser {
     public $license;
@@ -115,6 +116,44 @@ class SourceParser {
         }
         $current_spell['details'] = implode("\n", $current_spell['details']);
         Spell::create($current_spell);
+        return TRUE;
+    }
+
+    public function parseCards(){
+        if(!file_exists($this->directory. "/Cards.md")){
+            return FALSE;
+        }
+
+        $file = fopen($this->directory . "/Cards.md", 'r');
+        $line= fgets($file);
+        $current_card = [];
+        do{
+            if(str_contains($line[0], "#")){
+                
+                if(empty($current_card)){
+                    $current_card['title'] = $line;
+                }else{
+                    $current_card['title'] = trim($current_card['title']);
+                    $current_card['content'] = trim($current_card['content']);
+                    Card::create($current_card);
+
+                    $current_card = [];
+                }
+                $current_card['license'] = $this->license;
+                $current_card['source'] = $this->source;
+                $current_card['source_slug'] = STR::slug($this->source);
+                $current_card['title'] = trim($line,"# ");
+                $current_card['slug'] = STR::slug($current_card['title']);
+                $current_card['content'] = $line;
+            }else{
+                $current_card['content'] .= $line . "\n";
+            }
+        }while(($line = fgets($file)) !== FALSE);
+
+        $current_card['title'] = trim($current_card['title']);
+        $current_card['content'] = trim($current_card['content']);
+        Card::create($current_card);
+
         return TRUE;
     }
 }

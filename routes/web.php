@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SpellController;
 use App\Http\Controllers\SourceController;
+use App\Http\Controllers\CardController;
 use App\Models\Spell;
+use App\Models\Card;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +29,9 @@ Route::get('/roll/{roll}',function($roll){
     $out = ['roll'=>$ezd->roll($roll), 'dice'=>$ezd->getDiceStates(), 'modifier'=>$ezd->getModifier()];
     return json_encode($out);
 });
+
+Route::get('/card/{source}/{card}', [CardController::class, 'show']);
+Route::get('/card/{card}', [CardController::class, 'lookup']);
 
 Route::get('/pages', [PageController::class, 'index']);
 Route::get('/pages/create', [PageController::class, 'create']);
