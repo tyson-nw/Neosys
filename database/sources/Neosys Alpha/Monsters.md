@@ -1,7 +1,7 @@
 ### Bandit
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+1|+0|-1|-1|
 
@@ -16,7 +16,7 @@
 ### Bandit Captain
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+2|+3|+1|+0|+1|
 
@@ -41,7 +41,7 @@
 ### Bear
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+0|+1|-4|+1|
 
@@ -60,7 +60,7 @@
 ### Berserker
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+4|+2|+1|+0|-1|-1|
 
@@ -77,7 +77,7 @@
 ### Blink Dog
 [[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+2|-4|-1|
 
@@ -97,7 +97,7 @@
 ### Bugbear
 [[#Medium]] [[#Humanoid]](Goblinoid), Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|-1|-1|
 
@@ -117,7 +117,7 @@
 ### Cultist
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+1|+0|+0|-1|
 
@@ -133,7 +133,7 @@
 ### Darkmantle
 [[#Small]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+1|+1|-2|-2|
 
@@ -154,7 +154,7 @@
 ### Disciple
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), Tier 1, [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+0|+0|+1|+2|
 
@@ -174,7 +174,7 @@
 ### Dire Wolf
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+3|+1|-4|-2|
 
@@ -193,7 +193,7 @@
 ### Donkey
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+2|+0|+0|-4|0|
 
@@ -208,7 +208,7 @@
 ### Dragon, Black wyrmling
 [[#Medium]] [[#Dragon]], Tier , [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+1|+2|
 
@@ -231,7 +231,7 @@
 ### Dragon, Green wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+2|+0|+1|
 
@@ -254,7 +254,7 @@
 ### Dragon, Red wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+1|+3|
 
@@ -276,7 +276,7 @@
 ### Dragon, White wyrmling
 [[#Medium]] [[#Dragon]], Tier 1 , [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+0|+1|
 
@@ -299,7 +299,7 @@
 ### Fanatic
 [[#Medium]] [[#Humanoid]](any Ancestry), Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+2|+0|+1|+3|
 
@@ -326,7 +326,7 @@
 ### Gargoyle
 [[#Medium]] [[#Elemental]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+3|+0|+3|-1|+0|
 
@@ -349,7 +349,7 @@
 ### Gelatinous Cube
 [[#Large]] [[#Monstrosity]], Tier 1 , [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+5 |-4 |-2|-4|-1|
 
@@ -368,7 +368,7 @@
 ### Ghoul
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+0|+2|+0|-2|-2|
 
@@ -387,7 +387,7 @@
 ### Giant Constrictor Snake
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+1|+2|+0|-4|-2|
 
@@ -406,7 +406,7 @@
 ### Giant Spider
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+3|+1|-4|-3|
 
@@ -427,7 +427,7 @@
 ### Giant Venomous Snake
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+0|-4|-2|
 
@@ -442,7 +442,7 @@
 ### Gnoll
 [[#Medium]] [[#Humanoid]] (Gnoll), Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+0|+1|+0|-1|+1|
 
@@ -460,7 +460,7 @@
 ### Goblin
 [[#Small]] [[#Humanoid]], [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-1|+1|+2|+1|-1|0|
 
@@ -481,7 +481,7 @@
 ### Guard
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+0|+0|
 
@@ -496,7 +496,7 @@
 ### Hobgoblin
 [[#Medium]] [[#Humanoid]] ([[#Goblinoid]]), Tier 1 , [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+0|-1|
 
@@ -515,7 +515,7 @@
 ### Horse
 [[#Large]] [[#Beast]], [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+1|+1|-4|-2|
 
@@ -529,7 +529,7 @@
 ### Hunting Hawk
 [[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+1|+2|+2|-4|-1|
 
@@ -548,7 +548,7 @@
 ### Knight
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+0|+1|+0|+2|
 
@@ -574,7 +574,7 @@
 ### Mastiff
 [[#Medium]] [[#Beast]], [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+1|-4|-1|
 
@@ -592,7 +592,7 @@
 ### Mummy
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|-1|+0|-2|+3|
 
@@ -615,7 +615,7 @@
 ### Ogre
 [[#Large]] [[#Giant]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+4|+3|-1|-2|-2|-2|
 
@@ -633,7 +633,7 @@
 ###  Ooze
 [[#Medium]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+3|-2|-2|-4|+0|
 
@@ -654,7 +654,7 @@
 ###  Orc
 [[#Medium]] [[#Humanoid]], Tier , [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+3|+1|+1|-1|+2|
 
@@ -673,7 +673,7 @@
 ### Priest
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+3|+3|
 
@@ -700,7 +700,7 @@
 ### Twigling
 [[#Small]] [[#Plant]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+1|+1|-2|-1|
 
@@ -719,7 +719,7 @@
 ### Scout
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier , [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+2|+2|+0|+0|
 
@@ -738,7 +738,7 @@
 ### Shadow
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+2|+1|+0|-2|-1|
 
@@ -759,7 +759,7 @@
 ### Skeleton
 [[#Medium]] [[#Undead]], Tier 1 [[#Challenge]] 1
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+2|+2|-1|-2|-3|
 
@@ -775,7 +775,7 @@
 ### Spy
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+3|+3|+0|+2|
 
@@ -799,7 +799,7 @@
 ### Steam Wisp
 [[#Small]] [[#Outsider]] (Elemental), [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+0|+2|+0|-1|+2|
 
@@ -817,7 +817,7 @@
 ### Swarm of Rats
 [[#Medium]] [[#Beast]], Tier , [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-1|-1|+0|+0|-4|+0|
 
@@ -836,7 +836,7 @@
 ### Tiger
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+3|+2|-4|-1|
 
@@ -856,7 +856,7 @@
 ### Wolf
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+2|-4|-1|
 
@@ -874,7 +874,7 @@
 ### Worg
 [[#Large]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+1|+2|-4|-1|
 
@@ -891,7 +891,7 @@
 ### Zombie
 [[#Medium]] [[#Undead]] (Any Ancestry), Tier 1, [[#Challenge]] 2
 
-| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+3|-1|-2|-4|+2|
 
