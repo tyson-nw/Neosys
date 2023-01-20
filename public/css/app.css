@@ -933,6 +933,14 @@ select{
 .relative{
   position: relative;
 }
+.inset-y-5{
+  top: 1.25rem;
+  bottom: 1.25rem;
+}
+.inset-y-56{
+  top: 14rem;
+  bottom: 14rem;
+}
 .top-0{
   top: 0px;
 }
@@ -944,6 +952,9 @@ select{
 }
 .bottom-0{
   bottom: 0px;
+}
+.top-20{
+  top: 5rem;
 }
 .z-0{
   z-index: 0;
@@ -1432,6 +1443,18 @@ select{
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
 .font-medium{
   font-weight: 500;
 }
@@ -1817,4 +1840,5 @@ select{
     padding-right: 2rem;
   }
 }
+
 

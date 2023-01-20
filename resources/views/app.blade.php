@@ -8,13 +8,14 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
 		<link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/override.css') }}">
 
 		<!-- Scripts -->
 		<script src="{{ mix('js/app.js') }}" defer></script>
         @yield('scripts')
 </head>
 <body class=''>
-    <header class='p-6 md:flex md:justify-between md:items-center bg-slate-100 fixed top-0 left-0 right-0'>
+    <header class='p-6 md:flex md:justify-between md:items-center bg-slate-100 '>
         <div class='banner flex-1 text-2xl'><a href='/'>Neosys</a></div>
         <nav class='flex justify-end items-end'>
             <a href='/sources'>Sources</a>
@@ -31,7 +32,8 @@
             @endauth
         </nav>
     </header>
-    <main class='max-w-3xl mx-auto p-6 mt-20'>
+    <main class='max-w-3xl mx-auto p-6 mt-2'>
+        
         @yield('main')
     </main>
     <footer class='w-full flex flex-row px-6 py-1 bg-slate-100 fixed bottom-0'>

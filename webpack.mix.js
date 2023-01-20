@@ -19,3 +19,7 @@ mix.js('resources/js/editor.js', 'public/js')
     .postCss('resources/css/editor.css', 'public/css', [
         //
     ]);
+    mix.js('resources/js/override.js', 'public/js')
+    .postCss('resources/css/override.css', 'public/css', [
+        //
+    ]);

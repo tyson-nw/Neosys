@@ -2,9 +2,9 @@
 
 @section('main')
 
-    <div class='title text-3xl m-2'>{{$title}}</div>
+    <div class='title text-6xl'>{{$title}}</div>
     
-    <div class='mx-10 my-10 py-10'>
+    <div class=''>
         {!! $content !!}
     </div>
     

@@ -1,0 +1,43 @@
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+h5{
+    font-size: 1.3rem;
+}
+
+h6{
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.heading-permalink{
+    visibility: hidden;
+}
+
+main p{
+    padding-left: 2rem;
+}
+main ul{
+    padding-left: 3rem;
+}
+
+main table{
+    margin:auto;
+}
+
