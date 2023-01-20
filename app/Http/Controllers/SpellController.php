@@ -19,17 +19,7 @@ class SpellController extends Controller
      */
     public function index()
     {   
-        $resolver = new AbsoluteUrlResolver(url('/'));
-        $extension = new LeagueCommonMarkObsidianExtension(
-          attachmentLinkResolver: $resolver,
-          internalLinkResolver: $resolver,
-        );
-
-        $environment = new \League\CommonMark\Environment\Environment;
-        $environment->addExtension(new \League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension);
-        $environment->addExtension($extension);
-
-        $converter = new \League\CommonMark\MarkdownConverter($environment);
+        
 
         if(request()->tier){
             if(empty($spells)){
@@ -91,6 +81,18 @@ class SpellController extends Controller
                 $spells->whereNotNull ('higher_cast');
             }
         }
+
+        $resolver = new AbsoluteUrlResolver(url('/'));
+        $extension = new LeagueCommonMarkObsidianExtension(
+            attachmentLinkResolver: $resolver,
+            internalLinkResolver: $resolver,
+        );
+
+        $environment = new \League\CommonMark\Environment\Environment;
+        $environment->addExtension(new \League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension);
+        $environment->addExtension($extension);
+
+        $converter = new \League\CommonMark\MarkdownConverter($environment);
 
         $ctp = new CardTagParser();
 

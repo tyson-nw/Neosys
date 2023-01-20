@@ -2,6 +2,7 @@
 
 @section('main')
 
+<div class='spell'>
     <h1 class='text-3xl m-2'>{{$title}}</h1>
     @if( session()->has('spell_updated'))
         <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>{{session('spell_updated')}}</div>
@@ -47,5 +48,5 @@
         @endisset
             <li class='text-xs container'><div class='m-3'>{{$license}}</div> <div class='m-3'>Source: <a href="sources/{{Str::slug($source)}}" >{{$source}} </a></div></li>
     </ul>
-    
+</div>
 @endsection

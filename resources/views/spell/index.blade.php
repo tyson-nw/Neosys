@@ -113,7 +113,7 @@
 <ul class='m-5 mx-8' >
     @foreach($spells as $spell)
         <li>
-            <details class='mb-2'>
+            <details class='mb-2 spell'>
                 <summary class='border flex flex-row p-2  items-center'>
                     <div class='basis-4/5'><a href='/spell/{{$spell->slug}}' class='underline text-xl'>{{$spell->title}}</a> </div>
                 @can('delete_page')

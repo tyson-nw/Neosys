@@ -6,6 +6,7 @@ use Illuminate\Support\Str;
 use App\Models\Spell;
 use App\Models\Source;
 use App\Models\Card;
+use App\Models\Monster;
 
 class SourceParser {
     public $license;
@@ -153,6 +154,40 @@ class SourceParser {
         $current_card['title'] = trim($current_card['title']);
         $current_card['content'] = trim($current_card['content']);
         Card::create($current_card);
+
+        return TRUE;
+    }
+
+    public function parseMonsters(){
+        if(!file_exists($this->directory. "/Monsters.md")){
+            return FALSE;
+        }
+
+        $file = fopen($this->directory . "/Monsters.md", 'r');
+        $line= fgets($file);
+        $current_monster = [];
+        do{
+            if(str_contains($line[0], "#")){
+                if(empty($current_monster)){
+                    $current_monster['title'] = trim($line, "# ");
+                }else{
+                    $current_monster['title'] = trim($current_monster['title'], "# ");
+                    $current_monster['content'] = trim($current_monster['content']);
+                    Monster::create($current_monster);
+
+                    $current_monster = [];
+                }
+                $current_monster['license'] = $this->license;
+                $current_monster['source'] = $this->source;
+                $current_monster['source_slug'] = STR::slug($this->source);
+                $current_monster['title'] = trim($line,"# ");
+                $current_monster['slug'] = STR::slug($current_monster['title']);
+                $current_monster['content'] = "";
+            }else{
+                $current_monster['content'] .= $line;
+            }
+        }while(($line = fgets($file)) !== FALSE);
+        Monster::create($current_monster);
 
         return TRUE;
     }

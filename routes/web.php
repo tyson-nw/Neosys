@@ -6,6 +6,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\SpellController;
 use App\Http\Controllers\SourceController;
 use App\Http\Controllers\CardController;
+use App\Http\Controllers\MonsterController;
 use App\Models\Spell;
 use App\Models\Card;
 
@@ -51,6 +52,9 @@ Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
 
 Route::get('/sources', [SourceController::class, 'index']);
 Route::get('/source/{source}', [SourceController::class, 'show']);
+
+Route::get('/monsters', [MonsterController::class, 'index']);
+Route::get('/monster/{monster}', [MonsterController::class, 'show']);
 
 Route::get('/mode', function(){
     if(empty(session('mode'))){

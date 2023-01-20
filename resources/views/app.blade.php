@@ -29,6 +29,7 @@
             <a href='/sources'>Sources</a>
             &nbsp;|&nbsp; <a href='/pages'>Pages</a>
             &nbsp;|&nbsp; <a href='/spells'>Spells</a>
+            &nbsp;|&nbsp; <a href='/monsters'>Monsters</a>
             &nbsp;|&nbsp;
             @guest
                 <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;

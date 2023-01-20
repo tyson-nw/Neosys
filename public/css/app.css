@@ -954,22 +954,18 @@ select{
 .m-2{
   margin: 0.5rem;
 }
+.m-3{
+  margin: 0.75rem;
+}
 .m-1{
   margin: 0.25rem;
 }
 .m-5{
   margin: 1.25rem;
 }
-.m-3{
-  margin: 0.75rem;
-}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
-}
-.mx-8{
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 .mx-10{
   margin-left: 2.5rem;
@@ -979,6 +975,10 @@ select{
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+.mx-8{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 .ml-3{
   margin-left: 0.75rem;
 }
@@ -987,6 +987,9 @@ select{
 }
 .mt-2{
   margin-top: 0.5rem;
+}
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 .ml-1{
   margin-left: 0.25rem;
@@ -1026,9 +1029,6 @@ select{
 }
 .mt-6{
   margin-top: 1.5rem;
-}
-.mb-2{
-  margin-bottom: 0.5rem;
 }
 .block{
   display: block;
@@ -1123,11 +1123,11 @@ select{
 .basis-3\/5{
   flex-basis: 60%;
 }
-.basis-2\/5{
-  flex-basis: 40%;
-}
 .basis-4\/5{
   flex-basis: 80%;
+}
+.basis-2\/5{
+  flex-basis: 40%;
 }
 .basis-1\/5{
   flex-basis: 20%;
@@ -1278,10 +1278,6 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-slate-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
 .bg-indigo-50{
   --tw-bg-opacity: 1;
   background-color: rgb(238 242 255 / var(--tw-bg-opacity));
@@ -1401,13 +1397,17 @@ select{
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .text-xl{
   font-size: 1.25rem;
@@ -1420,10 +1420,6 @@ select{
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
-}
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 .font-medium{
   font-weight: 500;

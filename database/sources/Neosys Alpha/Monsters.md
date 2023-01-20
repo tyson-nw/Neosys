@@ -1,4 +1,4 @@
-### Bandit
+# Bandit
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -13,7 +13,7 @@
 	* **_Shortsword_** 9 [[#Deflect]], 3 damage.
 	* ***Light Crossbow*** 10 [[#Deflect]], Ranged 60ft, 4 damage.
 
-### Bandit Captain
+# Bandit Captain
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -38,7 +38,7 @@
 	* ***To Arms*** Another [[#Bandit]] is arrives on the battlefield as long as there are allies of the captain alive.0
 	* ***Get Them*** A [[#Bandit]] within 30ft of the captain can move half their speed and [[#Deflect]].
 
-### Bear
+# Bear
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -57,7 +57,7 @@
 * **Bonus Action**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
 
-### Berserker
+# Berserker
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -74,7 +74,7 @@
 * **Acts**
 	* ***Greataxe*** 12 [[#Deflect]], 9 damage.
 
-### Blink Dog
+# Blink Dog
 [[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -94,7 +94,7 @@
 * **Bonus Action**
 	* ***Blink*** Teleports to an unoccupied space it can see within 40ft.
 
-### Bugbear
+# Bugbear
 [[#Medium]] [[#Humanoid]](Goblinoid), Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -114,7 +114,7 @@
 	* ***Morningstar*** 10 [[#Deflect]], [[#Reach]], 5 damage.
 	* ***Javelin*** 10 [[#Deflect]], [[#Ranged]] 60ft 5 damage.
 
-### Cultist
+# Cultist
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -130,7 +130,7 @@
 * **Acts**
 	* ***Scimitar*** 8 [[#Deflect]], 4 damage.
 
-### Darkmantle
+# Darkmantle
 [[#Small]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -151,7 +151,7 @@
 * ***Bonus Action***
 	* **Darkness** 15ft [[#Aura]], [[#Concentration]], The area is filled with magical darkness blocking all light sources within it, including those from magical sources. It can do this once before a long rest.
 
-### Disciple
+# Disciple
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), Tier 1, [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -171,7 +171,7 @@
 		* **[[#Bane]]** [[#Concentration]]
 		* **[[#Fortify Spirit]]** 
 
-### Dire Wolf
+# Dire Wolf
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -190,7 +190,7 @@
 	* ***Bite*** 10 [[#Deflect]], 8 Damage, Targets must make a 11 [[#Body]] defense or become [[#Prone]].
 
 
-### Donkey
+# Donkey
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -205,7 +205,7 @@
 * **Acts**
 	* ***Hooves*** 9 [[#Deflect]] 5 damage.
 
-### Dragon, Black wyrmling
+# Dragon, Black wyrmling
 [[#Medium]] [[#Dragon]], Tier , [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -228,7 +228,7 @@
 	* ***Grasping Muck*** 10 [[#Body]], 30ft [[#Range]]. Target is [[#Restrained]] until the end of their next round.
 	* ***Noxious Gas*** 10 [[#Body]], 10ft [[#Sphere]], 30ft [[#Range]]. Target is [[#Sickened]] for 1 minute. Target can re-roll the [[#Body]] defense at the end of their turn to end the condition early.
 
-### Dragon, Green wyrmling
+# Dragon, Green wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -251,7 +251,7 @@
 	* ***Grasping Vines*** 10 [[#React]] 60ft [[#Range]]. Target is [[#Restrained]] until the next Lair Act. Or unless they [[#Act]] to break free against a 10 [[#Strength]]+[[#Athletics]] roll. Or the vines take 5 damage.
 	* ***Charming Scent*** 10 [[#Mind]], 30ft [[#Aura]]. Target is [[#Charmed]] by the dragon until the next Lair Act.
 
-### Dragon, Red wyrmling
+# Dragon, Red wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -273,7 +273,7 @@
 	* ***Noxious Smoke*** 10 [[#Body]], 10ft [[#Sphere]], 60ft [[#Range]]. Targets are [[#Blinded]], [[#Sickened]], and have [[#Full Cover]] until the next Lair Act.
 	* **Booming Acoustics** 10 [[#Mind]], 60ft [[#Aura]]. Targets are [[#Frightened]] until the next Lair Act.
 
-### Dragon, White wyrmling
+# Dragon, White wyrmling
 [[#Medium]] [[#Dragon]], Tier 1 , [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -296,7 +296,7 @@
 	* ***Winter Wind*** 10 [[#Body]], 10ft [[#Cube]], 30ft [[#Range]], 4 damage. Target is knocked [[#Prone]].
 
 
-### Fanatic
+# Fanatic
 [[#Medium]] [[#Humanoid]](any Ancestry), Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -323,7 +323,7 @@
 	* ***Warped Reality*** 11 [[#Mind]], 60ft [[#Range]]. Target has [[#Disadvantage]] on rolls using [[#Wits]], [[#Aptitude]], or [[#Will]] until the end of their next round.
 	* ***Bolster the Faithful*** Allies of the fanatic gain 1d4 [[#Temporary HP]].
 
-### Gargoyle
+# Gargoyle
 [[#Medium]] [[#Elemental]], Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -346,7 +346,7 @@
 	* **Bite** 11 [[#Deflect]], 6 damage. Target has disadvantage on their [[#Deflect]] roll if [[#Grappled]].
 
 
-### Gelatinous Cube
+# Gelatinous Cube
 [[#Large]] [[#Monstrosity]], Tier 1 , [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -365,7 +365,7 @@
 	* ***Engulf*** When a cube moves into a creatures space they make a 10 [[#React]] defense or be Engulfed. On a successful defense the creature moves 5ft away from the Cube
 	* ***Engulfed*** Target is within the cube. The target is [[#Restrained]] and [[#Suffocating]]. At the beginning of their turn the target takes 12 damage. The [[#Target Number]] to escape is 10.
 
-### Ghoul
+# Ghoul
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -384,7 +384,7 @@
 * **Bonus Action**
 	* **Bite** 8 [[#Deflect]], 6 damage. Target must make a 9 [[#Body]] roll or be [[#Paralyzed]] for 1 minute. The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition. Ghoul has [[#Advantage]] on bite against a [[#Grappled]] target.
 
-### Giant Constrictor Snake
+# Giant Constrictor Snake
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -403,7 +403,7 @@
 	* ***Bite*** 10 [[#Deflect]], 7 damage. Creatures who are grappled have [[#Disadvantage]] on their [[#Deflect]] roll.
 	* ***Grab*** 10 [[#Deflect]], 7 damage. On a hit the target is [[#Grappled]]. The [[#Target Number]] to escape is 11.
 
-### Giant Spider
+# Giant Spider
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -424,7 +424,7 @@
 	* ***Bite*** 9 [[#Deflect]], damage 6 damage. Target must make a 10 [[#Body]] roll or be [[#Paralyzed]] and [[#Sickened]] for 1 minute.  The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition.
 	* ***Web*** 10 [[#React]], [[#Recharge]] 5-6, [[#Ranged]] 30ft. Target is [[#Restrained]] by webbing. It can be escaped with a 11 [[#Strength]]+[[#Athletics]] roll. Webbing has 3 [[#HP]], if lit on fire [[#Restrained]] creature takes 3 damage and is freed.
 
-### Giant Venomous Snake
+# Giant Venomous Snake
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -439,7 +439,7 @@
 * **Acts**
 	* ***Bite*** 9 [[#Deflect]], 6 damage, target must make a 10 [[#Body]] defense or take 6 damage and be [[#Sickened]] for 1 minute. At the beginning of the target's turn they can make a new [[#Body]] defense to end the [[#Sickened]] condition.
 
-### Gnoll
+# Gnoll
 [[#Medium]] [[#Humanoid]] (Gnoll), Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -457,7 +457,7 @@
 	* ***Bite*** 10 [[#Deflect]], 4 damage.
 	* ***Spear*** 10 [[#Deflect]], 5 damage. Target must make a 10 [[#Body]] roll or begin [[#Bleeding]]
 
-### Goblin
+# Goblin
 [[#Small]] [[#Humanoid]], [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -478,7 +478,7 @@
 	* ***[[#Hide]]***
 
 
-### Guard
+# Guard
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -493,7 +493,7 @@
 * **Acts**
 	* ***Spear*** 8 [[#Deflect]], [[#Thrown]] 30ft, 4 damage
 
-### Hobgoblin
+# Hobgoblin
 [[#Medium]] [[#Humanoid]] ([[#Goblinoid]]), Tier 1 , [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -512,7 +512,7 @@
 * **Bonus Action**
 	* ***Formation Fighting*** If the longsword [[#Act]] hits its target and another hobgoblin is adjacent, deal an additional 6 damage to target.
 
-### Horse
+# Horse
 [[#Large]] [[#Beast]], [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -526,7 +526,7 @@
 * **Acts**
 	* ***Hooves*** 10 [[#Deflect]], 6 damage
 
-### Hunting Hawk
+# Hunting Hawk
 [[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -545,7 +545,7 @@
 * **Bonus Action**
 	* ***Flyby***  [[#Withdraw]] as a [[#Bonus Action]]
 
-### Knight
+# Knight
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -571,7 +571,7 @@
 * **Responses** 1
 	* ***Parry***  When an adjacent attacker the knight can see hits with a melee attack, they must re-roll the attack against 16 [[#Deflect]].
 
-### Mastiff
+# Mastiff
 [[#Medium]] [[#Beast]], [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -589,7 +589,7 @@
 * **Acts**
 	* ***Bite*** 9 [[#Deflect]] 3 damage.  
 
-### Mummy
+# Mummy
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 6
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -612,7 +612,7 @@
 	* ***Blinding Dust*** 11 [[#Body]], targets [[#Blinded]] until next Lair Act.
 	* ***Sandwalker*** Mummy teleports to unoccupied square within 60ft.
 
-### Ogre
+# Ogre
 [[#Large]] [[#Giant]], Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -630,7 +630,7 @@
 	* ***Greatclub*** 12 [[#Deflect]], 16 damage
 	* **Javelin** 12 [[#Deflect]], [[#Thrown]] 90ft, 14 damage.
 
-###  Ooze
+#  Ooze
 [[#Medium]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -651,7 +651,7 @@
 * **Acts**
 	* ***Pseudopod*** 6 [[#Deflect]], 10 damage. If the target has metal armor it is corroded. While corroded the target has [[#Disadvantage]] on [[#Deflect]] rolls. If a 1 is rolled the armor breaks. If the target has a shield the shield is corroded first.
 
-###  Orc
+#  Orc
 [[#Medium]] [[#Humanoid]], Tier , [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -670,7 +670,7 @@
 	* ***Greataxe*** 11 [[#Deflect]], 8 damage.
 	* ***Javelin*** 10 [[#Deflect]], 6 damage
 
-### Priest
+# Priest
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -697,7 +697,7 @@
 	* ***Divine Grace*** One of the Priest's followers gain 1d8 [[#HP]].
 	* ***Overwhelming Oratory*** Creatures within lair must make a 11 [[#Mind]] defense or be [[#Frightened]] of the priest until the end of their next turn.
 
-### Twigling
+# Twigling
 [[#Small]] [[#Plant]], Tier 1, [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -716,7 +716,7 @@
 * **Acts**
 	* ***Claw*** 9 [[#Deflect]] 3 Damage.
 
-### Scout
+# Scout
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier , [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -735,7 +735,7 @@
 	* ***Longbow*** 10 [[#Deflect]], [[#Ranged]] 120ft, 7 damage.
 	* ***Shortsword*** 10 [[#Deflect]], 5 damage.
 
-### Shadow
+# Shadow
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -756,7 +756,7 @@
 * **Bonus Action**
 	* ***Hide***
 
-### Skeleton
+# Skeleton
 [[#Medium]] [[#Undead]], Tier 1 [[#Challenge]] 1
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -772,7 +772,7 @@
 	* ***Shortsword*** 10 [[#Deflect]], 5 damage.
 	* ***Shortbow*** 10 [[#Deflect]], [[#Ranged]] 80ft, 5 damage.
 
-### Spy
+# Spy
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -796,7 +796,7 @@
 	* ***[[#Hide]]***
 	* ***[[#Withdraw]]***
 
-### Steam Wisp
+# Steam Wisp
 [[#Small]] [[#Outsider]] (Elemental), [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -814,7 +814,7 @@
 	* ***Claws*** 10 [[#Deflect]], 4 damage.
 	* ***Steam Breath*** 10 [[#React]], [[#Recharge]] 6, 15ft [[#Cone]], 4 damage.
 
-### Swarm of Rats
+# Swarm of Rats
 [[#Medium]] [[#Beast]], Tier , [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -833,7 +833,7 @@
 * **Acts**
 	* ***Bite*** 6 [[#Deflect]],  6 damage
 
-### Tiger
+# Tiger
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -853,7 +853,7 @@
 	* ***Bite*** 11 [[#Deflect]], 6 damage.
 	* ***Claw*** 11 [[#Deflect]], 7 damage. 
 
-### Wolf
+# Wolf
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -871,7 +871,7 @@
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 4 Damage, Targets must make a 10 [[#Body]] defense or become [[#Prone]].
 
-### Worg
+# Worg
 [[#Large]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
@@ -888,7 +888,7 @@
 * **Acts**
 	* ***Bite*** 11 [[#Deflect]], 8 Damage 
 
-### Zombie
+# Zombie
 [[#Medium]] [[#Undead]] (Any Ancestry), Tier 1, [[#Challenge]] 2
 
 | [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
