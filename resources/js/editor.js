@@ -3,7 +3,7 @@ import '@toast-ui/editor/dist/toastui-editor.css';
 
 const editor = new Editor({
     el: document.querySelector('#editor'),
-    height: '200px',
+    height: '300px',
     initialEditType: 'markdown',
     placeholder: '',
     initialValue: document.querySelector('#content').innerHTML,

@@ -41,3 +41,6 @@ main ul{
     margin:auto;
 }
 
+div.page p{
+    margin-top: 1rem;
+}

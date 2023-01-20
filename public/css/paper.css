@@ -10,3 +10,11 @@ header{
 footer{
     background-color: #faedcd;
 }
+
+input{
+    color: #222222;
+}
+
+div#editor {
+    background-color: white;
+}

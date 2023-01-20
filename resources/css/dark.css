@@ -18,3 +18,11 @@ footer{
 select{
     background-color: #111111;
 }
+
+input{
+    color: #222222;
+}
+
+div#editor {
+    background-color: white;
+}

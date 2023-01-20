@@ -9,6 +9,14 @@ use App\Http\Requests\StorePageRequest;
 use App\Http\Requests\UpdatePageRequest;
 use App\Http\Requests\DeletePageRequest;
 
+use League\CommonMark\Environment\Environment;
+use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
+use League\CommonMark\Extension\Autolink\AutolinkExtension;
+use League\CommonMark\Extension\HeadingPermalink\HeadingPermalinkExtension;
+use League\CommonMark\Extension\HeadingPermalink\HeadingPermalinkRenderer;
+use League\CommonMark\Extension\Table\TableExtension;
+use League\CommonMark\MarkdownConverter;
+
 class PageController extends Controller
 {
     /**
@@ -55,6 +63,28 @@ class PageController extends Controller
      */
     public function show(Page $page)
     {
+        $config = [
+            'heading_permalink' => [
+                'html_class' => 'heading-permalink',
+                'id_prefix' => 'content',
+                'fragment_prefix' => 'content',
+                'insert' => 'before',
+                'min_heading_level' => 1,
+                'max_heading_level' => 6,
+                'title' => 'Permalink',
+                'symbol' => HeadingPermalinkRenderer::DEFAULT_SYMBOL,
+                'aria_hidden' => true,
+            ],
+        ];
+
+        $environment = new Environment($config);
+        $environment->addExtension(new CommonMarkCoreExtension);
+        $environment->addExtension(new TableExtension);
+        $environment->addExtension(new AutolinkExtension);
+        $environment->addExtension(new HeadingPermalinkExtension());
+        $converter = new MarkdownConverter($environment);
+        $page->content = $converter->convert($page->content);
+
         return view('page.view',$page);
     }
 

@@ -7,6 +7,7 @@ use App\Http\Controllers\SpellController;
 use App\Http\Controllers\SourceController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\MonsterController;
+use App\Models\Page;
 use App\Models\Spell;
 use App\Models\Card;
 
@@ -22,7 +23,8 @@ use App\Models\Card;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $pc = new PageController();
+    return $pc->show(Page::where('slug','welcome')->get()->first());
 });
 
 Route::get('/roll/{roll}',function($roll){

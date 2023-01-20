@@ -40431,7 +40431,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var editor = new _toast_ui_editor__WEBPACK_IMPORTED_MODULE_0__["default"]({
   el: document.querySelector('#editor'),
-  height: '200px',
+  height: '300px',
   initialEditType: 'markdown',
   placeholder: '',
   initialValue: document.querySelector('#content').innerHTML

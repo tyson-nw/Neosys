@@ -8,9 +8,11 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
 		<link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        
+        @yield('css')
+
         <link rel="stylesheet" href="{{ mix('css/override.css') }}">
 
-        
         @if( session('mode') == 'dark')
             <link rel="stylesheet" href="{{ mix('css/dark.css') }}">
         @elseif( session('mode')== 'paper')
@@ -27,7 +29,9 @@
         <div class='banner flex-1 text-2xl'><a href='/'>Neosys</a></div>
         <nav class='flex justify-end items-end'>
             <a href='/sources'>Sources</a>
-            &nbsp;|&nbsp; <a href='/pages'>Pages</a>
+            @can('edit_pages')
+                &nbsp;|&nbsp; <a href='/pages'>Pages</a>
+            @endcan
             &nbsp;|&nbsp; <a href='/spells'>Spells</a>
             &nbsp;|&nbsp; <a href='/monsters'>Monsters</a>
             &nbsp;|&nbsp;
@@ -49,7 +53,7 @@
     </main>
     <footer class='w-full flex flex-row px-6 py-1 fixed bottom-0'>
         @if(empty($license))
-            Copyright Double Crescent
+            Copyright 2023 Double Crescent Productions
         @else
             {{ $license }}
         @endif

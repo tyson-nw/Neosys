@@ -1,5 +1,9 @@
 @extends('app')
 
+@section('css')
+<link rel="stylesheet" href="{{ mix('css/editor.css') }}">
+@endsection
+
 @section('scripts')
 <script src="{{ mix('js/editor.js') }}" defer></script>
 @endsection
