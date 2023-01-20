@@ -123,35 +123,35 @@
                 <ul class='mx-10 my-3'>
                     <li>
                         <strong>
-                            @if($spell->tier=="Cantrip")
-                                {{$spell->tier}}
+                            @if($spell->tier=="[[#Cantrip]]")
+                                {!!$ctp($spell->tier)!!}
                             @else
                                 Tier {{$spell->tier}}
                             @endif
                         </strong> 
-                        {{ implode(", ",json_decode($spell->classes, TRUE))}} 
+                        {!!$ctp( implode(", ",json_decode($spell->classes, TRUE)))!!}
                     </li>
-                    <li><strong>Casting Time</strong> {{implode(", ",json_decode($spell->casting_time, TRUE))}}</li>
+                    <li><strong>Casting Time</strong> {!!$ctp( implode(", ",json_decode($spell->casting_time, TRUE)))!!}</li>
                     <li>
                         <strong>Target</strong>
-                        {{implode(", ",json_decode($spell->target, TRUE))}}
+                        {!!$ctp( implode(", ",json_decode($spell->target, TRUE)))!!}
                         @isset($spell->defense)
-                            , {{$spell->defense}}
+                            , {!!$ctp( $spell->defense)!!}
                         @endisset
                     </li>
                     @isset($spell->duration)
                         <li>
                             <strong>Duration</strong>
-                            {{$spell->duration}}
+                            {!!$ctp( $spell->duration)!!}
                             
                             @if($spell->concentration)
-                                , Concetration
+                                , <a href=#Concetration>Concetration</a>
                             @endif
                         </li>
                     @endisset
-                        <li>{!!$converter->convert($spell->details)!!}</li>
-                    @isset($higher_cast)
-                        <li>{{$spell->higher_cast}}</li>
+                        <li>{!!$ctp( $converter->convert($spell->details))!!}</li>
+                    @isset($spell->higher_cast)
+                        <li>{!!$ctp( $spell->higher_cast)!!}</li>
                     @endisset
                 
                 </ul>

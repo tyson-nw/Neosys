@@ -6,6 +6,8 @@ use App\Http\Requests\StoreSpellRequest;
 use App\Http\Requests\UpdateSpellRequest;
 use App\Models\Spell;
 use App\Tools\AbsoluteUrlResolver;
+use App\Tools\CardTagParser;
+
 use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
 class SpellController extends Controller
@@ -90,10 +92,12 @@ class SpellController extends Controller
             }
         }
 
+        $ctp = new CardTagParser();
+
         if(isset($spells)){
-            return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter]);
+            return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter, 'ctp'=>$ctp]);
         }
-        return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter]);
+        return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter, 'ctp'=>$ctp]);
     }
 
     /**
@@ -140,6 +144,14 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
         $spell->details = $converter->convert($spell->details);
+        $ctp = new CardTagParser();
+        $spell->tier = $ctp($spell->tier);
+        $spell->classes = $ctp($spell->classes);
+        $spell->casting_time = $ctp($spell->casting_time);
+        $spell->target = $ctp($spell->target);
+        $spell->defense = $ctp($spell->defense);
+        $spell->details = $ctp($spell->details);
+        $spell->higher_cast = $ctp($spell->higher_cast);
         return view('spell.view',$spell);
     }
 
@@ -151,20 +163,6 @@ class SpellController extends Controller
      */
     public function edit(Spell $spell)
     {
-
-/*
-        $spell->classes = implode(", ", array_map(function($value){
-            $m = [];
-            preg_match('/\[\[\#(.*)\]\]/', $value,$m);
-            return array_pop($m);
-        }, explode(",",$spell->classes)));
-
-        $spell->casting_time = implode(", ", array_map(function($value){
-            $m = [];
-            preg_match('/\[\[\#(.*)\]\]/', $value,$m);
-            return array_pop($m);
-        }, explode(",",$spell->casting_time)));
-*/
         return view('spell.edit',$spell);
     }
 
