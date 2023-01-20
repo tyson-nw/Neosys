@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SpellController;
+use App\Http\Controllers\SourceController;
 use App\Models\Spell;
 
 /*
@@ -42,6 +43,9 @@ Route::get('/spell/{spell}', [SpellController::class, 'show']);
 Route::get('/spell/{spell}/edit', [SpellController::class, 'edit']);
 Route::patch('/spell/{spell}/edit', [SpellController::class, 'update']);
 Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
+
+Route::get('/sources', [SourceController::class, 'index']);
+Route::get('/source/{source}', [SourceController::class, 'show']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

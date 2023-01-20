@@ -153,7 +153,7 @@
                     @isset($spell->higher_cast)
                         <li>{!!$ctp( $spell->higher_cast)!!}</li>
                     @endisset
-                    <li><div>{{$spell->license}}</div><div>{{$spell->source}}</div></li>
+                    <li class='text-xs container'><div class='m-3'>{{$spell->license}}</div> <div class='m-3'>Source: <a href="sources/{{Str::slug($spell->source)}}" >{{$spell->source}} </a></div></li>
                 </ul>
             </details>
         </form>
