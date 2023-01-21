@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('main')
-<h1 class="text-3xl m-2" >Pages</h1>
+<h1 class="text-6xl m-2" >Pages</h1>
 @if( session()->has('page_created'))
     <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>
         <a href="/page/{{session('page_created')['slug'] }}">{{session('page_created')['title'] }}</a> has been created.

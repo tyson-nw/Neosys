@@ -16,13 +16,13 @@ class SourceParser {
     public function  __construct(string $directory){
         $this->directory = database_path()."/sources/{$directory}";
         if(!file_exists($this->directory."/{$directory}.md")){
-            dd($this->directory."{$directory}.md");
+            dd("File does not exist",$this->directory."{$directory}.md");
         }
         if(is_dir($this->directory)){
             $this->source = $directory;
             $this->license = file_get_contents($this->directory ."/License");
         }else{
-            dd($this->directory);
+            dd("File not a directory",$this->directory);
         }
         
     }

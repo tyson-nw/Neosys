@@ -2,7 +2,7 @@
 
 @section('main')
 <div class='page'>
-    <h1 class='text-3xl m-2'>{{$title}}</h1>
+    <h1 class='text-6xl m-2'>{{$title}}</h1>
     @if( session()->has('page_updated'))
         <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>{{session('page_updated')}}</div>
     @endif

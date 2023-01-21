@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('main')
-    <h1 class='text-3xl'> Edit Spell</h1>
+    <h1 class='text-6xl'> Edit Spell</h1>
     <form method='POST' action='/spell/{{$slug}}/edit' id="form">
         <div class='mx-10 my-3'>
             @csrf

@@ -3,7 +3,7 @@
 @section('main')
 
 <div class='spell'>
-    <h1 class='text-3xl m-2'>{{$title}}</h1>
+    <h1 class='text-6xl m-2'>{{$title}}</h1>
     @if( session()->has('spell_updated'))
         <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>{{session('spell_updated')}}</div>
     @endif

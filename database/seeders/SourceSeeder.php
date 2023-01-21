@@ -22,21 +22,22 @@ class SourceSeeder extends Seeder
         array_shift($sources);
         
         foreach($sources as $source){
-            $sp = new SourceParser($source);
-            $sp->parseSource();
-            if(file_exists(database_path().'/sources/'.$source."/Spells.md")){
-                $sp->parseSpells();
-                echo "Spells Parsed \n";
+            if(is_dir(database_path().'/sources/'.$source)){
+                $sp = new SourceParser($source);
+                $sp->parseSource();
+                if(file_exists(database_path().'/sources/'.$source."/Spells.md")){
+                    $sp->parseSpells();
+                    echo "Spells Parsed \n";
+                }
+                if(file_exists(database_path().'/sources/'.$source."/Cards.md")){
+                    $sp->parseCards();
+                    echo "Cards Parsed \n";
+                }
+                if(file_exists(database_path().'/sources/'.$source."/Monsters.md")){
+                    $sp->parseMonsters();
+                    echo "Monsters Parsed \n";
+                }
             }
-            if(file_exists(database_path().'/sources/'.$source."/Cards.md")){
-                $sp->parseCards();
-                echo "Cards Parsed \n";
-            }
-            if(file_exists(database_path().'/sources/'.$source."/Monsters.md")){
-                $sp->parseMonsters();
-                echo "Monsters Parsed \n";
-            }
-
         }
     }
 }

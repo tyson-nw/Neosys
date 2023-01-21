@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('main')
-    <h1 class='text-3xl'> Create Spell</h1>
+    <h1 class='text-6xl'> Create Spell</h1>
     <form method='POST' action='/spells/create' id="form">
         <div class='mx-10 my-3'>
             @csrf

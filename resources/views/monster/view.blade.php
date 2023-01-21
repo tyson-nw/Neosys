@@ -2,7 +2,7 @@
 
 @section('main')
 <div class='mb-2 monster'>
-    <h1 class='text-3xl m-2'>{{$title}}</h1>
+    <h1 class='text-6xl m-2'>{{$title}}</h1>
     <div class='mx-10 my-3'>
         {!! $html !!}   
     </div>

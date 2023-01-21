@@ -9,7 +9,7 @@
 @endsection
 
 @section('main')
-    <h1 class='text-3xl'> Edit Page</h1>
+    <h1 class='text-6xl'> Edit Page</h1>
     <form method='POST' action="/page/{{$slug}}/edit">
         <div class='mx-10 my-3'>
             @csrf

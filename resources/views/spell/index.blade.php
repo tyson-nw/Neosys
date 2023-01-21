@@ -3,7 +3,7 @@
 @section('main')
 
 <div class='border flex flex-row items-center'>
-    <h1 class="text-3xl m-2 basis-3/5" >Spells</h1>
+    <h1 class="text-6xl m-2 basis-3/5" >Spells</h1>
     @if( session()->has('spell_created'))
         <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>
             <a href="/page/{{session('spell_created')['slug'] }}">{{session('spell_created')['title'] }}</a> has been created.
