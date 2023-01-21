@@ -21,7 +21,7 @@ class AnchorTagParser{
         if(isset($this->source)){
             $placeholder = $this->source."/";
         }
-        preg_match_all("/\[\[\#([A-z \d|]*)\]\]/", $string,$out);
+        preg_match_all("/\[\[\#([A-z \d\'|]*)\]\]/", $string,$out);
         for($n=0 ; isset($out[1][$n]) ; $n++){
             if(str_contains($out[1][$n], "|" )){
                 $text = explode ("|", $out[1][$n]);
