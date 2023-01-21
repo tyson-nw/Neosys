@@ -13,7 +13,7 @@
     @endcan
 
     <div class='mx-10 my-3'>
-        {!! $content !!}
+        {!! $html !!}
     </div>
 </div>
 @endsection

@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
             BouncerSeeder::class,
             UserSeeder::class,
             PageSeeder::class,
-            SourceSeeder::class,
+            //SourceSeeder::class,
         ]);
 
     }

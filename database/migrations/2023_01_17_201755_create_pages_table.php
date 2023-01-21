@@ -19,6 +19,7 @@ class CreatePagesTable extends Migration
             $table->string('slug')->unique();
             $table->string('license')->nullable();
             $table->text('content');
+            $table->text('html');
             $table->timestamps();
             $table->softDeletes();
         });
