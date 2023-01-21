@@ -78,31 +78,6 @@ class MonsterController extends Controller
      */
     public function show(Monster $monster)
     {
-        $config = [
-            'heading_permalink' => [
-                'html_class' => 'heading-permalink',
-                'id_prefix' => 'content',
-                'fragment_prefix' => 'content',
-                'insert' => 'before',
-                'min_heading_level' => 1,
-                'max_heading_level' => 6,
-                'title' => 'Permalink',
-                'symbol' => HeadingPermalinkRenderer::DEFAULT_SYMBOL,
-                'aria_hidden' => true,
-            ],
-        ];
-        
-        $environment = new Environment($config);
-        $environment->addExtension(new CommonMarkCoreExtension);
-        $environment->addExtension(new TableExtension);
-        $environment->addExtension(new AutolinkExtension);
-        $environment->addExtension(new HeadingPermalinkExtension());
-
-        $converter = new MarkdownConverter($environment);
-
-        $atp = new AnchorTagParser($monster->source_slug);
-        
-        $monster->content = $atp($converter->convert($monster->content));
 
         return view('monster.view',$monster);
     }
