@@ -15,3 +15,18 @@ footer{
 div.toastui-editor {
     background: white;
 }
+table{
+    margin:.2rem;
+}
+
+table thead{
+    color: #CCCCCC;
+    background-color: #222222;
+}
+
+table th, table td{
+    padding-left: .7rem;
+    padding-right: .7rem;
+    border-width: 2px;
+    border-color: #777777;
+}

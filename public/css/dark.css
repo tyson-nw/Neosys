@@ -1,14 +1,14 @@
 body{
-    background-color: #111111;
+    background-color: #222222;
     color: #EEEEEE;
 }
 
 header{
-    background-color: #333333;
+    background-color: #444444;
 }
 
 footer{
-    background-color: #333333;
+    background-color: #444444;
 }
 
 .border{
@@ -16,7 +16,7 @@ footer{
 }
 
 select{
-    background-color: #111111;
+    background-color: #222222;
 }
 
 input{
@@ -24,5 +24,21 @@ input{
 }
 
 div#editor {
-    background-color: white;
+    background-color: #EEEEEE;
+}
+
+table{
+    margin:.2rem;
+}
+
+table thead{
+    color: #222222;
+    background-color: #EEEEEE;
+}
+
+table th, table td{
+    padding-left: .7rem;
+    padding-right: .7rem;
+    border-width: 2px;
+    border-color: #777777;
 }

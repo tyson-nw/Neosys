@@ -30,11 +30,8 @@ a{
     visibility: hidden;
 }
 
-main p{
-    padding-left: 2rem;
-}
-main ul{
-    padding-left: 3rem;
+main li{
+    padding-left: .4rem;
 }
 
 .source table{
