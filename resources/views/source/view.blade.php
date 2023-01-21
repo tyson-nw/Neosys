@@ -5,7 +5,7 @@
     <div class='title text-6xl'>{{$title}}</div>
     
     <div class=''>
-        {!! $content !!}
+        {!! $html !!}
     </div>
 </div>
 @endsection

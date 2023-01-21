@@ -44,3 +44,10 @@ main ul{
 div.page p{
     margin-top: 1rem;
 }
+.table-of-contents{
+    padding-left: .2rem;
+}
+
+.table-of-contents ul{
+    padding-left: .6rem;
+}

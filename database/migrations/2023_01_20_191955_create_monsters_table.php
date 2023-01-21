@@ -21,6 +21,7 @@ class CreateMonstersTable extends Migration
             $table->string('source');
             $table->string('source_slug');
             $table->text('content');
+            $table->text('html');
             $table->timestamps();
         });
     }

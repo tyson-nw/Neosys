@@ -19,6 +19,7 @@ class CreateSourcesTable extends Migration
             $table->string('slug');
             $table->string('license');
             $table->text('content');
+            $table->text('html');
             $table->timestamps();
         });
     }

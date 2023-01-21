@@ -23,9 +23,4 @@ class Page extends Model
     public function getRouteKeyName(){
         return 'slug';
     }
-
-    public function setContentAttribute($content){
-        $this->attributes['content']  = $content;
-        $this->attributes['html']  = self::convertMDtoHTML($content); 
-    }
 }

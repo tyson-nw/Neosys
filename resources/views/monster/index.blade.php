@@ -80,7 +80,7 @@
                     <div class='basis-4/5'><a href='/monster/{{$monster->slug}}' class='underline text-xl'>{{$monster->title}}</a> </div>
                 </summary>
                 <div class='mx-10 my-3'>
-                    {!! $atp($converter->convert($monster->content)) !!}
+                    {!! monster->html !!}
                     <div class='text-xs container'><div class='m-3'>{{$monster->license}}</div> <div class='m-3'>Source: <a href="sources/{{$monster->source_slug}}" >{{$monster->source}} </a></div></div>
                 </div>
             </details>

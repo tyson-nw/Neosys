@@ -5,9 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use App\Traits\MDtoHTML;
+
 class Source extends Model
 {
-    use HasFactory;
+    use HasFactory, MDtoHTML;
 
     protected $fillable =[
         'title',
@@ -16,6 +18,9 @@ class Source extends Model
         'content',
     ];
 
+    protected $tableofcontents = TRUE;
+    protected $tableofcontentslevel = 1;
+    
     public function getRouteKeyName()
     {
         return 'slug';

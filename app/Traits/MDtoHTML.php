@@ -16,8 +16,13 @@ use App\Tools\AbsoluteUrlResolver;
 use App\Tools\AnchorTagParser;
 
 trait MDtoHTML{
-    static function convertMDtoHTML($content, $tableofcontents = FALSE){
+    function convertMDtoHTML($content){
 
+        if(isset($this->tableofcontentslevel)){
+            $tableofcontentslevel = $this->tableofcontentslevel;
+        }else{
+            $tableofcontentslevel = 6;
+        }
         $config = [
             'heading_permalink' => [
                 'html_class' => 'heading-permalink',
@@ -34,7 +39,7 @@ trait MDtoHTML{
                 'position' => 'top',
                 'style' => 'bullet',
                 'min_heading_level' => 1,
-                'max_heading_level' => 6,
+                'max_heading_level' => $tableofcontentslevel,
                 'normalize' => 'relative',
                 'placeholder' => null,
             ],
@@ -46,7 +51,7 @@ trait MDtoHTML{
         $environment->addExtension(new AutolinkExtension);
         $environment->addExtension(new HeadingPermalinkExtension());
 
-        if($tableofcontents){
+        if(isset($this->tableofcontents)){
             $environment->addExtension(new TableOfContentsExtension());
         }
         $resolver = new AbsoluteUrlResolver(url(' '));
@@ -61,5 +66,10 @@ trait MDtoHTML{
         $converter = new \League\CommonMark\MarkdownConverter($environment);
 
         return $atp($converter->convert($content));
+    }
+
+    public function setContentAttribute($content){
+        $this->attributes['content']  = $content;
+        $this->attributes['html']  = $this->convertMDtoHTML($content); 
     }
 }
