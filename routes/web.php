@@ -7,6 +7,7 @@ use App\Http\Controllers\SpellController;
 use App\Http\Controllers\SourceController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\MonsterController;
+use App\Http\Controllers\ArchetypeController;
 use App\Models\Page;
 use App\Models\Spell;
 use App\Models\Card;
@@ -57,6 +58,10 @@ Route::get('/source/{source}', [SourceController::class, 'show']);
 
 Route::get('/monsters', [MonsterController::class, 'index']);
 Route::get('/monster/{monster}', [MonsterController::class, 'show']);
+
+
+Route::get('/archetypes', [ArchetypeController::class, 'index']);
+Route::get('/archetype/{archetype}', [ArchetypeController::class, 'show']);
 
 Route::get('/mode', function(){
     if(empty(session('mode'))){

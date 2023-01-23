@@ -32,6 +32,7 @@
             @can('edit_pages')
                 &nbsp;|&nbsp; <a href='/pages'>Pages</a>
             @endcan
+            &nbsp;|&nbsp; <a href='/archetypes'>Archetypes</a>
             &nbsp;|&nbsp; <a href='/spells'>Spells</a>
             &nbsp;|&nbsp; <a href='/monsters'>Monsters</a>
             &nbsp;|&nbsp;

@@ -6,6 +6,7 @@ use Illuminate\Support\Str;
 use App\Models\Spell;
 use App\Models\Source;
 use App\Models\Card;
+use App\Models\Archetype;
 use App\Models\Monster;
 
 class SourceParser {
@@ -190,5 +191,31 @@ class SourceParser {
         Monster::create($current_monster);
 
         return TRUE;
+    }
+
+    public function parseArchetypes(){
+        if(!file_exists($this->directory. "/Archetypes.md")){
+            return FALSE;
+        }
+        $file = fopen($this->directory . "/Archetypes.md", 'r');
+
+        $line = fgets($file);
+        do{
+            if(substr($line,0,2) == "# "){
+                if(isset($current_archetype)){
+                    Archetype::create($current_archetype);
+                }
+                $current_archetype = [];
+                $current_archetype['title'] = substr($line,2);
+                $current_archetype['slug'] = STR::slug($current_archetype['title']);
+                $current_archetype['content'] = '';
+                $current_archetype['license'] = $this->license;
+                $current_archetype['source'] = $this->source;
+                $current_archetype['source_slug'] = STR::slug($current_archetype['source']);
+            }else{
+                $current_archetype['content'].= $line;
+            }
+
+        }while(($line = fgets($file)) !== FALSE);
     }
 }
