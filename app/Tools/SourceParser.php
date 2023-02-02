@@ -54,7 +54,7 @@ class SourceParser {
             $exploded = explode(" ",$line);
 
             $element = array_shift($exploded);
-            if($element =="##"){
+            if($element =="#"){
                 if(!empty($current_spell)){
                     if(str_contains($current_spell['details'][count($current_spell['details'])-1], "[[#Tier]]")){
                         $current_spell['higher_cast'] = array_pop($current_spell['details']);
@@ -70,16 +70,16 @@ class SourceParser {
                 $current_spell['slug'] = Str::slug($current_spell['title']);
                 $current_spell['license'] = $this->license;
                 $current_spell['source'] = $this->source;
-            }elseif($element == "*"){
+            }elseif($element == "-"){
 
             
                 $first = array_shift($exploded);
                 if($first == "**Cantrip**"){
                     $current_spell['tier'] = '[[#Cantrip]]';
-                    $current_spell['classes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
+                    $current_spell['archetypes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
                 }elseif($first == "**Tier"){
                     $current_spell['tier'] = trim(array_shift($exploded),"*");
-                    $current_spell['classes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
+                    $current_spell['archetypes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
                 }
                 elseif($first =="**Casting"){
                     array_shift($exploded);
@@ -194,28 +194,31 @@ class SourceParser {
     }
 
     public function parseArchetypes(){
-        if(!file_exists($this->directory. "/Archetypes.md")){
+
+        if(!is_dir($this->directory. "/Archetypes")){
             return FALSE;
         }
-        $file = fopen($this->directory . "/Archetypes.md", 'r');
 
-        $line = fgets($file);
-        do{
-            if(substr($line,0,2) == "# "){
-                if(isset($current_archetype)){
-                    Archetype::create($current_archetype);
-                }
-                $current_archetype = [];
-                $current_archetype['title'] = substr($line,2);
-                $current_archetype['slug'] = STR::slug($current_archetype['title']);
-                $current_archetype['content'] = '';
-                $current_archetype['license'] = $this->license;
-                $current_archetype['source'] = $this->source;
-                $current_archetype['source_slug'] = STR::slug($current_archetype['source']);
-            }else{
+        $files = glob($this->directory . "/Archetypes/*.md");
+ 
+        foreach($files as $filename){
+            $file = fopen($filename, 'r');
+            $line = fgets($file);
+            $current_archetype = [];
+            $current_archetype['content'] = '';
+            $current_archetype['title'] = basename($filename, ".md");
+            $current_archetype['slug'] = STR::slug($current_archetype['title']);
+            $current_archetype['license'] = $this->license;
+            $current_archetype['source'] = $this->source;
+            $current_archetype['source_slug'] = STR::slug($current_archetype['source']);
+
+            do{
                 $current_archetype['content'].= $line;
-            }
+            }while(($line = fgets($file)) !== FALSE);
+            Archetype::create($current_archetype);
+        }
+        
 
-        }while(($line = fgets($file)) !== FALSE);
+        
     }
 }

@@ -1,3 +1,10 @@
+# Character
+The character is how the player expresses their will and agency in the game. Blank character sheets are available at [https://drive.google.com/file/d/10aTlE9hAZtmhwTteEyUx-46Uy69LCkR-/view?usp=sharing]
+
+# Game Master
+The Game Master facilitates the game, describes the world, controls all other creatures, and is the final arbiter the rules.
+
+This game uses dice to add randomness to the outcome of choices.
 # D4
 This is commonly used for [[#Fine]] weapons and bonus die added to rolls.
 # D6
@@ -23,10 +30,10 @@ The target number is what the player needs to roll for success. Here are some sa
 | Deadly | 16 |
 |Impossible|24|
 
-# Advantage
+# Edge
 When a character has Advantage they roll the [[#d12]] twice and use the highest roll. If a creature has disadvantage on a defense the attacking character has Advantage on all rolls against that defense.
 
-# Disadvantage
+# Hinderance
 When a character has disadvantage they roll the [[#d12]] twice and use the lowest roll. If a creature has advantage on an attack or skill the target creature has Disadvantage when rolling their defense against it.
 
 # Automatic Success
@@ -71,11 +78,11 @@ Will is a creature's  strength of will. How well it can express it and maintain 
 
 # Athletics
 Athletics is the character's physical prowess. Their ability to focus their strength, their ability to perform feats of acrobatics, and their ability to endure exertion. There are some specific ways these skills are used.
-* Acrobatics [[#Dexterity]]+[[#Athletics]]
-* Climbing [[#Strength]]+[[#Athletics]] to move half speed up a vertical surface.
-* Jumping [[#Strength]]+[[#Athletics]] to running leap 5ft times their [[#Strength]] bonus.
-* Swimming [[#Strength]]+[[#Athletics]] to move half your speed
-* Throwing [[#Strength]]+[[#Athletics]]
+* Acrobatics, roll [[#Dexterity]]+[[#Athletics]] to tumble, or otherwise move acrobatically.
+* Climbing, roll [[#Strength]]+[[#Athletics]] to move half speed up a vertical surface.
+* Jumping, roll [[#Strength]]+[[#Athletics]] to make a running running leap of a set [[#Difficulty]].
+* Swimming, roll [[#Strength]]+[[#Athletics]] to move half your speed while swimming.
+* Throwing, roll [[#Strength]]+[[#Athletics]] to throw an object.
 
 # Craft
 Craft is your understanding of how to make things and how to break things.
@@ -445,8 +452,8 @@ Long rests are an 8 hour period of rest and relaxation where creatures don't tak
 # Short Rest
 Some classes have abilities that reset on a Short Rest.
 
-# Specialty
-Specialties are additional training that your character has received. They are not tied to a specific [[#Skills|Skill]] or [[#Stats|Stat]]. You can apply a specialty to rolls within their field of expertise, adding your proficiency a second time to the roll. You can only add once specialty to any one roll. You do not need to be proficient in a skill to use a specialty.
+# Expertise
+Expertises are additional training that your character has received. They are not tied to a specific [[#Skills|Skill]] or [[#Stats|Stat]]. You can apply an Expertise to rolls by adding your proficiency modifier to the roll. You can only add once Expertise to any one roll. You do not need to be proficient in a skill to use an Expertise.
 
 * **Animal Handling** - Manipulating and controlling animals.
 * **Arcana** - Knowledge of the arcane.

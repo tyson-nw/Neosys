@@ -22,7 +22,7 @@
                     Tier {{$tier}}
                 @endif
             </strong> 
-            {!! $ctp( implode(", ",json_decode($classes, TRUE)))!!} 
+            {!! $ctp( implode(", ",json_decode($archetypes, TRUE)))!!} 
         </li>
         <li><strong>Casting Time</strong> {!! $ctp(implode(", ",json_decode($casting_time, TRUE)))!!}</li>
         <li>

@@ -129,7 +129,7 @@
                                 Tier {{$spell->tier}}
                             @endif
                         </strong> 
-                        {!!$ctp( implode(", ",json_decode($spell->classes, TRUE)))!!}
+                        {!!$ctp( implode(", ",json_decode($spell->archetypes, TRUE)))!!}
                     </li>
                     <li><strong>Casting Time</strong> {!!$ctp( implode(", ",json_decode($spell->casting_time, TRUE)))!!}</li>
                     <li>

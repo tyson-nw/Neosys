@@ -20,7 +20,7 @@ class CreateSpellsTable extends Migration
             $table->string('license');
             $table->string('source');
             $table->string('tier');
-            $table->json('classes')->nullable();
+            $table->json('archetypes')->nullable();
             $table->string('casting_time');
             $table->string('target');
             $table->string('defense')->nullable();

@@ -15,7 +15,7 @@ class Spell extends Model
         'license',
         'source',
         'tier',
-        'classes',
+        'archetypes',
         'casting_time',
         'target',
         'defense',

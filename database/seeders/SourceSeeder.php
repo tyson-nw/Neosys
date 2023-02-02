@@ -37,6 +37,10 @@ class SourceSeeder extends Seeder
                     $sp->parseMonsters();
                     echo "Monsters Parsed \n";
                 }
+                if(file_exists(database_path().'/sources/'.$source."/Archetypes")){
+                    $sp->parseArchetypes();
+                    echo "Archetypes Parsed \n";
+                }
             }
         }
     }

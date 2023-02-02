@@ -1,7 +1,27 @@
-# Bandit
+### Ambushtite
+[[#Small]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
+
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|+2|+1|+1|+1|-2|-2|
+
+| [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] | [[#Speed]] | [[#HP]] |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|9|8|2|9 natural |3 natural |10, [[#Fly]] 30 | 12 |
+
+* **Skills** [[#Stealth]], [[#Athletics]] 
+* **Abilities**
+	* ***Echolocation*** Can sense creatures within 60ft without sight by hearing them.
+	* ***False Appearance*** While motionless it is indistinguishable from a cave formation. 
+* **Acts**
+	* ***Crush*** 9 [[#Deflect]], 5 damage. The target is [[#Grappled]] and if [[#Medium]] or smaller is [[#Blinded]]. The grapple can be broken with a 10 [[#Strength]]+[[#Athletics]] [[#Act]]. Grappled creatures are [[#Suffocating]]
+* ***Bonus Action***
+	* ***Darkness*** 15ft [[#Aura]], [[#Concentration]], The area is filled with magical darkness blocking all light sources within it, including those from magical sources. It can do this once before a long rest.
+
+### Bandit
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+1|+0|-1|-1|
 
@@ -13,35 +33,35 @@
 	* **_Shortsword_** 9 [[#Deflect]], 3 damage.
 	* ***Light Crossbow*** 10 [[#Deflect]], Ranged 60ft, 4 damage.
 
-# Bandit Captain
+### Bandit Captain
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|+1|+2|+3|+1|+0|+1|
+|+1|+1|+2|+1|+0|+1|
 
 | [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] | [[#Speed]] | [[#HP]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|9|10|7|12 chain shirt |5|30|28|
+|7|8|6|9 chain shirt |3|30|12|
 
 * **Skills** [[#Athletics]], [[#Social]]
 * **Abilities**
-	* ***Silver Tongue*** [[#Specialty]] in deceiving and leading people.
+	* ***Silver Tongue*** [[#Expertise]] in deceiving and leading people.
 * **Acts**
-	* ***Dagger*** 11 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
-	* ***Scimitar*** 11 [[#Deflect]], 6 damage
+	* ***Dagger*** 10 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
+	* ***Scimitar*** 10 [[#Deflect]], 6 damage
 * **Bonus Action**
-	* ***Dagger*** 11 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
+	* ***Dagger*** 10 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
 * **Responses** 1
 	* ***Parry*** When an adjacent attacker the captain can see hits with a melee attack, they must re-roll the attack against 15 [[#Deflect]].
 * ***Lair Act***
-	* ***To Arms*** Another [[#Bandit]] is arrives on the battlefield as long as there are allies of the captain alive.0
-	* ***Get Them*** A [[#Bandit]] within 30ft of the captain can move half their speed and [[#Deflect]].
+	* ***To Arms*** Another [[#Bandit]] is arrives on the battlefield as long as there are allies of the captain alive.
+	* ***Get Them*** A [[#Bandit]] within 30ft of the captain can move half their speed and [[#Act]].
 
-# Bear
+### Bear
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+0|+1|-4|+1|
 
@@ -51,16 +71,16 @@
 
 * **Skills** [[#Senses]]
 * **Abilities**
-	* ***Keen Smell*** [[#Specialty]] with scent.
+	* ***Keen Smell*** [[#Expertise]] with scent.
 * **Acts**
 	* ***Claw*** 10 [[#Deflect]], 7 damage.
 * **Bonus Action**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
 
-# Berserker
+### Berserker
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+4|+2|+1|+0|-1|-1|
 
@@ -70,34 +90,14 @@
 
 * **Skills**
 * **Abilities**
-	* ***Wild Strikes*** Enemies have disadvantage on their [[#Deflect]] defense roll from berserker's attacks. Enemies have advantage against the berserker's [[#Deflect]] and [[#React]] defenses.
+	* ***Wild Strikes*** Enemies have Hinderance on their [[#Deflect]] defense roll from berserker's attacks. Enemies have Edge against the berserker's [[#Deflect]] and [[#React]] defenses.
 * **Acts**
 	* ***Greataxe*** 12 [[#Deflect]], 9 damage.
 
-# Blink Dog
-[[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 2
-
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|+1|+1|+2|+2|-4|-1|
-
-| [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] |[[#Speed]] | [[#HP]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|7|9|1|9|1|40|8|
-
-* **Skills** [[#Senses]] +2
-* **Abilities**
-	* ***Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
-	* ***Pack Tactics*** Attacks on exposed enemies have [[#Advantage]].
-* **Acts**
-	* ***Bite*** 8 [[#Deflect]] 3 damage. 
-* **Bonus Action**
-	* ***Blink*** Teleports to an unoccupied space it can see within 40ft.
-
-# Bugbear
+### Bugbear
 [[#Medium]] [[#Humanoid]](Goblinoid), Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|-1|-1|
 
@@ -107,17 +107,17 @@
 
 * **Skills** [[#Stealth]]
 * **Abilities**
-	* ***Darkvision***  Can see in low light as if it were bright light.
+	* ***Low Light Vision***  Can see in low light as if it were bright light.
 	* ***[[#Outlands]]***
 	* ***Unexpected Fury*** The first attack the bugbear does in combat deals an additional 5 damage. 
 * **Acts**
 	* ***Morningstar*** 10 [[#Deflect]], [[#Reach]], 5 damage.
 	* ***Javelin*** 10 [[#Deflect]], [[#Ranged]] 60ft 5 damage.
 
-# Cultist
+### Cultist
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+1|+0|+0|-1|
 
@@ -126,35 +126,14 @@
 |6|7|5|7|1|30|4|
 
 * **Abilities**
-	* ***Fierce Devotion*** Attacks against cultist's [[#Mind]] have [[#Disadvantage]].
+	* ***Fierce Devotion*** Attacks against cultist's [[#Mind]] have [[#Hinderance]].
 * **Acts**
 	* ***Scimitar*** 8 [[#Deflect]], 4 damage.
 
-# Darkmantle
-[[#Small]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
-
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|+2|+1|+1|+1|-2|-2|
-
-| [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] | [[#Speed]] | [[#HP]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|9|8|2|9 natural |3 natural |10, [[#Fly]] 30 | 12 |
-
-* **Skills** [[#Stealth]], [[#Athletics]] 
-* **Abilities**
-	* ***False Appearance*** 
-	* **Echolocation*** Can sense creatures within 60ft without sight by hearing them.
-	* ***False Appearance*** While motionless it is indistinguishable from a cave formation. 
-* **Acts**
-	* ***Crush*** 8 [[#Deflect]], 5 damage. The target is [[#Grappled]] and if [[#Medium]] or smaller is [[#Blinded]]. The grapple can be broken with a 10 [[#Strength]]+[[#Athletics]] [[#Act]].
-* ***Bonus Action***
-	* **Darkness** 15ft [[#Aura]], [[#Concentration]], The area is filled with magical darkness blocking all light sources within it, including those from magical sources. It can do this once before a long rest.
-
-# Disciple
+### Disciple
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), Tier 1, [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+0|+0|+1|+2|
 
@@ -171,10 +150,10 @@
 		* **[[#Bane]]** [[#Concentration]]
 		* **[[#Fortify Spirit]]** 
 
-# Dire Wolf
+### Dire Wolf
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+3|+1|-4|-2|
 
@@ -184,16 +163,16 @@
 
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
-	* **Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
-	* ***Pack Tactics*** Attacks on [[#Expose|Exposed]] enemies have [[#Advantage]].
+	* **Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
+	* ***Pack Tactics*** Attacks on [[#Expose|Exposed]] enemies have [[#Edge]].
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 8 Damage, Targets must make a 11 [[#Body]] defense or become [[#Prone]].
 
 
-# Donkey
+### Donkey
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+2|+0|+0|-4|0|
 
@@ -205,10 +184,10 @@
 * **Acts**
 	* ***Hooves*** 9 [[#Deflect]] 5 damage.
 
-# Dragon, Black wyrmling
+### Dragon, Black wyrmling
 [[#Medium]] [[#Dragon]], Tier , [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+1|+2|
 
@@ -219,7 +198,7 @@
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
 	* ***Blindsight*** Can sense creatures within 10ft without sight or sound.
-	* **Darkvision** Can see in low light as if it were bright light.
+	* **Low Light Vision** Can see in low light as if it were bright light.
 	* ***Amphibious*** Can breath air and water.
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
@@ -228,10 +207,10 @@
 	* ***Grasping Muck*** 10 [[#Body]], 30ft [[#Range]]. Target is [[#Restrained]] until the end of their next round.
 	* ***Noxious Gas*** 10 [[#Body]], 10ft [[#Sphere]], 30ft [[#Range]]. Target is [[#Sickened]] for 1 minute. Target can re-roll the [[#Body]] defense at the end of their turn to end the condition early.
 
-# Dragon, Green wyrmling
+### Dragon, Green wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+2|+0|+1|
 
@@ -242,7 +221,7 @@
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
 	* ***Blindsight*** Can sense creatures within 10ft without sight or sound.
-	* **Darkvision** Can see in low light as if it were bright light.
+	* **Low Light Vision** Can see in low light as if it were bright light.
 	* ***Amphibious*** Can breathe air and water
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
@@ -251,10 +230,10 @@
 	* ***Grasping Vines*** 10 [[#React]] 60ft [[#Range]]. Target is [[#Restrained]] until the next Lair Act. Or unless they [[#Act]] to break free against a 10 [[#Strength]]+[[#Athletics]] roll. Or the vines take 5 damage.
 	* ***Charming Scent*** 10 [[#Mind]], 30ft [[#Aura]]. Target is [[#Charmed]] by the dragon until the next Lair Act.
 
-# Dragon, Red wyrmling
+### Dragon, Red wyrmling
 [[#Medium]] [[#Dragon]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+1|+3|
 
@@ -265,7 +244,7 @@
 * **Skills** [[#Senses]], [[#Social]], [[#Stealth]]
 * **Abilities**
 	* ***Blindsight*** Can sense creatures within 10ft without sight or sound.
-	* **Darkvision** Can see in low light as if it were bright light.
+	* **Low Light Vision** Can see in low light as if it were bright light.
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
 	* ***Fire Breath*** 12 [[#React]], [[#Recharge]] 5-6, 15ft [[#Cone]], 10 damage. Half as much on a successful roll.
@@ -273,10 +252,10 @@
 	* ***Noxious Smoke*** 10 [[#Body]], 10ft [[#Sphere]], 60ft [[#Range]]. Targets are [[#Blinded]], [[#Sickened]], and have [[#Full Cover]] until the next Lair Act.
 	* **Booming Acoustics** 10 [[#Mind]], 60ft [[#Aura]]. Targets are [[#Frightened]] until the next Lair Act.
 
-# Dragon, White wyrmling
+### Dragon, White wyrmling
 [[#Medium]] [[#Dragon]], Tier 1 , [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+2|+0|+0|+1|
 
@@ -287,7 +266,7 @@
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
 	*  ***Blindsight*** - Can sense creatures within 10 ft without sight or sound.
-	* **Darkvision** - Can see in low light as if it were bright light.
+	* **Low Light Vision** - Can see in low light as if it were bright light.
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
 	* ***Cold Breath*** 12 [[#React]], [[#Recharge]] 5-6, 15ft [[#Cone]], 10 damage. Half as much on a successful roll.
@@ -296,10 +275,10 @@
 	* ***Winter Wind*** 10 [[#Body]], 10ft [[#Cube]], 30ft [[#Range]], 4 damage. Target is knocked [[#Prone]].
 
 
-# Fanatic
+### Fanatic
 [[#Medium]] [[#Humanoid]](any Ancestry), Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+2|+0|+1|+3|
 
@@ -309,8 +288,8 @@
 
 * **Skills** [[#Knowledge]], [[#Social]]
 * **Abilities**
-	* ***Fervent Devotion*** Enemies have [[#Disadvantage]] rolling against the fanatic's [[#Mind]] defense
-	* ***Forbidden Knowledge*** [[#Specialty]] in rites and rituals.
+	* ***Fervent Devotion*** Enemies have [[#Hinderance]] rolling against the fanatic's [[#Mind]] defense
+	* ***Forbidden Knowledge*** [[#Expertise]] in rites and rituals.
 * **Acts**
 	* ***Dagger*** 9 [[#Deflect]], [[#Thrown]] 20ft, 4 damage
 	* ***[[#Spoken Wound]]*** 11 [[#Body]], 60ft [[#Range]], 3 damage. If the target is wounded, deals 5 damage instead.
@@ -320,13 +299,33 @@
 		* **[[#Shield of Faith]]**
 		* **[[#Spiritual Weapon]]**
 * **Lair Acts**
-	* ***Warped Reality*** 11 [[#Mind]], 60ft [[#Range]]. Target has [[#Disadvantage]] on rolls using [[#Wits]], [[#Aptitude]], or [[#Will]] until the end of their next round.
+	* ***Warped Reality*** 11 [[#Mind]], 60ft [[#Range]]. Target has [[#Hinderance]] on rolls using [[#Wits]], [[#Aptitude]], or [[#Will]] until the end of their next round.
 	* ***Bolster the Faithful*** Allies of the fanatic gain 1d4 [[#Temporary HP]].
 
-# Gargoyle
+### Flicker Hound
+[[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 2
+
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|+1|+1|+2|+2|-4|-1|
+
+| [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] |[[#Speed]] | [[#HP]] |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|7|9|1|9|1|40|8|
+
+* **Skills** [[#Senses]] +2
+* **Abilities**
+	* ***Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
+	* ***Pack Tactics*** Attacks on exposed enemies have [[#Edge]].
+* **Acts**
+	* ***Bite*** 8 [[#Deflect]] 3 damage. 
+* **Bonus Action**
+	* ***Flicker*** Teleports to an unoccupied space it can see within 40ft.
+
+### Gargoyle
 [[#Medium]] [[#Elemental]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+3|+0|+3|-1|+0|
 
@@ -343,32 +342,12 @@
 * **Acts**
 	* ***Claw*** 11 [[#Deflect]], 8 damage. Target is [[#Grappled]]. The [[#Target Number]] break the grapple is 11.
 * **Bonus Action**
-	* **Bite** 11 [[#Deflect]], 6 damage. Target has disadvantage on their [[#Deflect]] roll if [[#Grappled]].
+	* **Bite** 11 [[#Deflect]], 6 damage. Target has Hinderance on their [[#Deflect]] roll if [[#Grappled]].
 
-
-# Gelatinous Cube
-[[#Large]] [[#Monstrosity]], Tier 1 , [[#Challenge]] 5
-
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|+0|+5 |-4 |-2|-4|-1|
-
-| [[#Body]] | [[#React]] | [[#Mind]] | [[#Deflect]] | [[#Soak]] | [[#Speed]] | [[#HP]] |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|11|1|1|3 natural |5| 15 |  30 |
-
- * **Condition Immunities** [[#Blinded]], [[#Charmed]], [[#Deafened]],[[#Frightened]], [[#Sickened]], [[#Prone]] 
-* **Abilities**
-	* ***Blindsight*** - Can sense creatures within 60ft without sight or sound.
-	* ***Filling Space*** Creatures that [[#Move Through]] the cube's space are Engulfed.
-	* ***Transparent*** A 10 [[#Wits]]+[[#Senses]] roll is required to see the cube. Observers have [[#Advantage]] if something is Engulfed in the cube.
-	* ***Engulf*** When a cube moves into a creatures space they make a 10 [[#React]] defense or be Engulfed. On a successful defense the creature moves 5ft away from the Cube
-	* ***Engulfed*** Target is within the cube. The target is [[#Restrained]] and [[#Suffocating]]. At the beginning of their turn the target takes 12 damage. The [[#Target Number]] to escape is 10.
-
-# Ghoul
+### Ghoul
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+0|+2|+0|-2|-2|
 
@@ -378,16 +357,16 @@
 
 * **Condition Immunities** [[#Charmed]], [[#Sickened]]
 * **Abilities**
-	* ***Darkvision***  Can see in low light as if it were bright light.
+	* ***Low Light Vision***  Can see in low light as if it were bright light.
 * **Acts**
 	*  ***Claws*** 8 [[#Deflect]], 8 damage. Target is [[#Grappled]].
 * **Bonus Action**
-	* **Bite** 8 [[#Deflect]], 6 damage. Target must make a 9 [[#Body]] roll or be [[#Paralyzed]] for 1 minute. The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition. Ghoul has [[#Advantage]] on bite against a [[#Grappled]] target.
+	* **Bite** 8 [[#Deflect]], 6 damage. Target must make a 9 [[#Body]] roll or be [[#Paralyzed]] for 1 minute. The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition. Ghoul has [[#Edge]] on bite against a [[#Grappled]] target.
 
-# Giant Constrictor Snake
+### Giant Constrictor Snake
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+1|+2|+0|-4|-2|
 
@@ -400,13 +379,13 @@
 * **Abilities**
 	* ***Constrict*** At the beginning of the snake's turn deal 7 damage to [[#Grappled]] creature.
 * **Acts**
-	* ***Bite*** 10 [[#Deflect]], 7 damage. Creatures who are grappled have [[#Disadvantage]] on their [[#Deflect]] roll.
+	* ***Bite*** 10 [[#Deflect]], 7 damage. Creatures who are grappled have [[#Hinderance]] on their [[#Deflect]] roll.
 	* ***Grab*** 10 [[#Deflect]], 7 damage. On a hit the target is [[#Grappled]]. The [[#Target Number]] to escape is 11.
 
-# Giant Spider
+### Giant Spider
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+3|+1|-4|-3|
 
@@ -416,7 +395,7 @@
 
 * **Skills** [[#Stealth]]
 * **Abilities**
-	* ***Darkvision***  Can see in low light as if it were bright light.
+	* ***Low Light Vision***  Can see in low light as if it were bright light.
 	* ***Spider Climb*** Can climb across ceilings.
 	* ***Web Sense*** Can sense creatures in contact with web without sight or sound.
 	* ***Web Walker*** Can move through webs, both natural and magical, freely.
@@ -424,10 +403,10 @@
 	* ***Bite*** 9 [[#Deflect]], damage 6 damage. Target must make a 10 [[#Body]] roll or be [[#Paralyzed]] and [[#Sickened]] for 1 minute.  The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition.
 	* ***Web*** 10 [[#React]], [[#Recharge]] 5-6, [[#Ranged]] 30ft. Target is [[#Restrained]] by webbing. It can be escaped with a 11 [[#Strength]]+[[#Athletics]] roll. Webbing has 3 [[#HP]], if lit on fire [[#Restrained]] creature takes 3 damage and is freed.
 
-# Giant Venomous Snake
+### Giant Venomous Snake
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+0|-4|-2|
 
@@ -439,10 +418,10 @@
 * **Acts**
 	* ***Bite*** 9 [[#Deflect]], 6 damage, target must make a 10 [[#Body]] defense or take 6 damage and be [[#Sickened]] for 1 minute. At the beginning of the target's turn they can make a new [[#Body]] defense to end the [[#Sickened]] condition.
 
-# Gnoll
+### Gnoll
 [[#Medium]] [[#Humanoid]] (Gnoll), Tier 1, [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+0|+1|+0|-1|+1|
 
@@ -457,10 +436,10 @@
 	* ***Bite*** 10 [[#Deflect]], 4 damage.
 	* ***Spear*** 10 [[#Deflect]], 5 damage. Target must make a 10 [[#Body]] roll or begin [[#Bleeding]]
 
-# Goblin
+### Goblin
 [[#Small]] [[#Humanoid]], [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-1|+1|+2|+1|-1|0|
 
@@ -470,7 +449,7 @@
 
 * **Skills** [[#Stealth]]
 * **Abilities**
-	* ***Darkvision***  Can see in low light as if it were bright light.
+	* ***Low Light Vision***  Can see in low light as if it were bright light.
 * **Acts**
 	* ***Scimitar*** 8 [[#Deflect]], 5 damage.  
 * **Bonus Action**
@@ -478,10 +457,10 @@
 	* ***[[#Hide]]***
 
 
-# Guard
+### Guard
 [[#Medium]] [[#Humanoid]] (Any [[#Ancestry]]), [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+0|+0|
 
@@ -493,10 +472,10 @@
 * **Acts**
 	* ***Spear*** 8 [[#Deflect]], [[#Thrown]] 30ft, 4 damage
 
-# Hobgoblin
+### Hobgoblin
 [[#Medium]] [[#Humanoid]] ([[#Goblinoid]]), Tier 1 , [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+0|-1|
 
@@ -505,17 +484,17 @@
 |8|7|5|10 Chain Shirt|3|30|18|
 
 * **Abilities**
-	* ***Darkvision*** Can see in low light as if it were bright light.
+	* ***Low Light Vision*** Can see in low light as if it were bright light.
 * **Acts**
 	* ***Longsword*** 9 [[#Deflect]], 6 damage.
 	* ***Longbow*** 9 [[#Deflect]], [[#Ranged]] 120ft, 6 damage.
 * **Bonus Action**
 	* ***Formation Fighting*** If the longsword [[#Act]] hits its target and another hobgoblin is adjacent, deal an additional 6 damage to target.
 
-# Horse
+### Horse
 [[#Large]] [[#Beast]], [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+1|+1|-4|-2|
 
@@ -526,10 +505,10 @@
 * **Acts**
 	* ***Hooves*** 10 [[#Deflect]], 6 damage
 
-# Hunting Hawk
+### Hunting Hawk
 [[#Small]] [[#Beast]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+1|+2|+2|-4|-1|
 
@@ -539,16 +518,16 @@
 
 * **Skills** [[#Senses]] +2
 * **Abilities**
-	* ***Keen Sight*** [[#Specialty]] with sight.
+	* ***Keen Sight*** [[#Expertise]] with sight.
 * **Acts**
 	* ***Beak*** 11 [[#Deflect]], 1 damage.
 * **Bonus Action**
 	* ***Flyby***  [[#Withdraw]] as a [[#Bonus Action]]
 
-# Knight
+### Knight
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+0|+1|+0|+2|
 
@@ -559,8 +538,8 @@
 * **Skills** [[#Social]]
 * **Abilities**
 	* ***Mount*** A knight is riding a [[#Horse]]
-	* ***Erudite*** [[#Specialty]] in history, nobility, and the knightly arts.
-	* ***Brave*** [[#Advantage]] on [[#Mind]] defense against [[#Frightened]].
+	* ***Erudite*** [[#Expertise]] in history, nobility, and the knightly arts.
+	* ***Brave*** [[#Edge]] on [[#Mind]] defense against [[#Frightened]].
 * **Acts**
 	* ***Longsword*** 11 [[#Deflect]], 7 damage.
 	* ***Lance*** 11 [[#Deflect]], 8 damage
@@ -571,10 +550,10 @@
 * **Responses** 1
 	* ***Parry***  When an adjacent attacker the knight can see hits with a melee attack, they must re-roll the attack against 16 [[#Deflect]].
 
-# Mastiff
+### Mastiff
 [[#Medium]] [[#Beast]], [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+1|-4|-1|
 
@@ -584,15 +563,15 @@
 
 * **Skills** [[#Senses]] +2
 * **Abilities**
-	* ***Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
-	* ***Pack Tactics*** Attacks on exposed enemies have [[#Advantage]].
+	* ***Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
+	* ***Pack Tactics*** Attacks on exposed enemies have [[#Edge]].
 * **Acts**
 	* ***Bite*** 9 [[#Deflect]] 3 damage.  
 
-# Mummy
+### Mummy
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 6
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|-1|+0|-2|+3|
 
@@ -612,10 +591,10 @@
 	* ***Blinding Dust*** 11 [[#Body]], targets [[#Blinded]] until next Lair Act.
 	* ***Sandwalker*** Mummy teleports to unoccupied square within 60ft.
 
-# Ogre
+### Ogre
 [[#Large]] [[#Giant]], Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+4|+3|-1|-2|-2|-2|
 
@@ -625,15 +604,15 @@
 
 * **Skills**
 * **Abilities**
-	* **Darkvision** Can see in low light as if it were bright light.
+	* **Low Light Vision** Can see in low light as if it were bright light.
 * **Acts**
 	* ***Greatclub*** 12 [[#Deflect]], 16 damage
 	* **Javelin** 12 [[#Deflect]], [[#Thrown]] 90ft, 14 damage.
 
-#  Ooze
+###  Ooze
 [[#Medium]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+3|-2|-2|-4|+0|
 
@@ -649,12 +628,12 @@
 	* ***False Appearance*** While motionless it is indistinguishable from a oily pool or wet rock
 	* ***Corrode Metal*** Any nonmagical weapon made of metal that hits corrodes. After dealing damage the weapon is corroded. While corroded damage is rolled twice and the lower number is dealt. If a 1 is rolled the weapon is destroyed. 
 * **Acts**
-	* ***Pseudopod*** 6 [[#Deflect]], 10 damage. If the target has metal armor it is corroded. While corroded the target has [[#Disadvantage]] on [[#Deflect]] rolls. If a 1 is rolled the armor breaks. If the target has a shield the shield is corroded first.
+	* ***Pseudopod*** 6 [[#Deflect]], 10 damage. If the target has metal armor it is corroded. While corroded the target has [[#Hinderance]] on [[#Deflect]] rolls. If a 1 is rolled the armor breaks. If the target has a shield the shield is corroded first.
 
-#  Orc
+###  Orc
 [[#Medium]] [[#Humanoid]], Tier , [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+3|+1|+1|-1|+2|
 
@@ -663,17 +642,17 @@
 |12|8|7|9 brigantine|6 brigantine|30|16|
 
 * **Abilities**
-	* ***Darkvision*** Can see in low light as if it were bright light.
-	* ***Intimidating*** [[#Specialty]] in Intimidation.
+	* ***Low Light Vision*** Can see in low light as if it were bright light.
+	* ***Intimidating*** [[#Expertise]] in Intimidation.
 	* ***Relentless*** When reduced to 0 hit points the orc is reduced to 1 hit point instead. This ability can be used once per long rest.
 * **Acts**
 	* ***Greataxe*** 11 [[#Deflect]], 8 damage.
 	* ***Javelin*** 10 [[#Deflect]], 6 damage
 
-# Priest
+### Priest
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+1|+0|+3|+3|
 
@@ -683,7 +662,7 @@
 
 * **Skills** [[#Knowledge]], [[#Social]]
 * **Abilities**
-	* ***Religious*** [[#Specialty]] in religion.
+	* ***Religious*** [[#Expertise]] in religion.
 * **Acts**
 	* ***Mace*** 
 	* ***[[#Purifying Flame]]***
@@ -697,10 +676,10 @@
 	* ***Divine Grace*** One of the Priest's followers gain 1d8 [[#HP]].
 	* ***Overwhelming Oratory*** Creatures within lair must make a 11 [[#Mind]] defense or be [[#Frightened]] of the priest until the end of their next turn.
 
-# Twigling
+### Twigling
 [[#Small]] [[#Plant]], Tier 1, [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+2|+1|+1|+1|-2|-1|
 
@@ -716,10 +695,10 @@
 * **Acts**
 	* ***Claw*** 9 [[#Deflect]] 3 Damage.
 
-# Scout
+### Scout
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier , [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+1|+2|+2|+0|+0|
 
@@ -729,16 +708,16 @@
 
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
-	* ***Outlander*** [[#Specialty]] in surviving and moving through terrain.
-	* ***Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
+	* ***Outlander*** [[#Expertise]] in surviving and moving through terrain.
+	* ***Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
 * **Acts**
 	* ***Longbow*** 10 [[#Deflect]], [[#Ranged]] 120ft, 7 damage.
 	* ***Shortsword*** 10 [[#Deflect]], 5 damage.
 
-# Shadow
+### Shadow
 [[#Medium]] [[#Undead]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+2|+1|+0|-2|-1|
 
@@ -750,16 +729,16 @@
 * **Abilities**
 	* ***Incorporeal*** The shadow can move through solid objects but cannot end its move within them.
 	* ***Shadow Form*** Dim light is treated as darkness when perceiving the shadow,
-	* ***Daylight Weakness*** When in daylight the shadow has disadvantage on all rolls.
+	* ***Daylight Weakness*** When in daylight the shadow has Hinderance on all rolls.
 * **Acts**
 	* ***Vitality Drain*** 10 [[#Body]], 3 damage, [[#Body]] defense reduces by 1. If [[#Body]] reduced to 0 target dies. [[#Body]] defense is restored with a [[#Short Rest]]. Creatures that die become a Shadow 1d4 hours later.
 * **Bonus Action**
 	* ***Hide***
 
-# Skeleton
+### Skeleton
 [[#Medium]] [[#Undead]], Tier 1 [[#Challenge]] 1
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+2|+2|-1|-2|-3|
 
@@ -772,10 +751,10 @@
 	* ***Shortsword*** 10 [[#Deflect]], 5 damage.
 	* ***Shortbow*** 10 [[#Deflect]], [[#Ranged]] 80ft, 5 damage.
 
-# Spy
+### Spy
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+0|+0|+3|+3|+0|+2|
 
@@ -785,7 +764,7 @@
 
 * **Skills** [[#Senses]], [[#Social]]
 * **Abilities**
-	* ***Seamless Persona*** [[#Specialty]] in disguising identity and infiltration.
+	* ***Seamless Persona*** [[#Expertise]] in disguising identity and infiltration.
 	* ***Sneak Attack*** Attacks deal an extra 2d6 damage to an [[#Expose|Exposed]] target.
 * **Acts**
 	* ***Hand Crossbow*** 11 [[#Deflect]], 6 damage.
@@ -796,10 +775,10 @@
 	* ***[[#Hide]]***
 	* ***[[#Withdraw]]***
 
-# Steam Wisp
+### Steam Wisp
 [[#Small]] [[#Outsider]] (Elemental), [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-3|+0|+2|+0|-1|+2|
 
@@ -814,10 +793,10 @@
 	* ***Claws*** 10 [[#Deflect]], 4 damage.
 	* ***Steam Breath*** 10 [[#React]], [[#Recharge]] 6, 15ft [[#Cone]], 4 damage.
 
-# Swarm of Rats
+### Swarm of Rats
 [[#Medium]] [[#Beast]], Tier , [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |-1|-1|+0|+0|-4|+0|
 
@@ -828,15 +807,15 @@
 * **Skills**
 * **Condition Immunities** [[#Sickened]], [[#Prone]] 
 * **Abilities**
-	* ***Keen Smell*** [[#Specialty]] with scent.
-	* ***Swarm*** The attacks against the [[#Body]] defense are reduced to 1 damage. The swarm has [[#Damage Resistance]] to [[#Melee]], [[#Ranged]], and [[#Touch]] attacks. Swarms have to [[#Share a Space]] to attack. They don't have [[#Disadvantage]] on rolls or are [[#Exposed]]. Swarms deal half damage when reduced to half [[#HP]].
+	* ***Keen Smell*** [[#Expertise]] with scent.
+	* ***Swarm*** The attacks against the [[#Body]] defense are reduced to 1 damage. The swarm has [[#Damage Resistance]] to [[#Melee]], [[#Ranged]], and [[#Touch]] attacks. Swarms have to [[#Share a Space]] to attack. They don't have [[#Hinderance]] on rolls or are [[#Exposed]]. Swarms deal half damage when reduced to half [[#HP]].
 * **Acts**
 	* ***Bite*** 6 [[#Deflect]],  6 damage
 
-# Tiger
+### Tiger
 [[#Large]] [[#Beast]], Tier 1, [[#Challenge]] 4
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+3|+2|-4|-1|
 
@@ -846,17 +825,17 @@
 
 * **Skills** [[#Senses]], [[#Stealth]]
 * **Abilities**
-	* ***Keen Smell*** [[#Specialty]] with scent.
+	* ***Keen Smell*** [[#Expertise]] with scent.
 	* ***Pounce*** If the tiger moves half their movement before making a Claw attack the target needs to make a 9 [[#Body]] roll or be knocked [[#Prone]].
 	* ***Vicious Opportunist*** The tiger can make a [[#Bite]] attack as a [[#Bonus Action]] against an [[#Expose|Exposed]] target.
 * **Acts**
 	* ***Bite*** 11 [[#Deflect]], 6 damage.
 	* ***Claw*** 11 [[#Deflect]], 7 damage. 
 
-# Wolf
+### Wolf
 [[#Medium]] [[#Beast]], Tier 1, [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+1|+2|+2|-4|-1|
 
@@ -866,15 +845,15 @@
 
 * **Skills** [[#Senses]],[[#Stealth]]
 * **Abilities**
-	* ***Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
-	* ***Pack Tactics*** Attacks on [[#Expose|Exposed]] enemies have [[#Advantage]].
+	* ***Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
+	* ***Pack Tactics*** Attacks on [[#Expose|Exposed]] enemies have [[#Edge]].
 * **Acts**
 	* ***Bite*** 10 [[#Deflect]], 4 Damage, Targets must make a 10 [[#Body]] defense or become [[#Prone]].
 
-# Worg
+### Worg
 [[#Large]] [[#Monstrosity]], Tier 1, [[#Challenge]] 3
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+3|+2|+1|+2|-4|-1|
 
@@ -884,14 +863,14 @@
 
 * **Skills** [[#Senses]]
 * **Abilities**
-	* ***Keen Hearing and Smell*** [[#Specialty]] with hearing and scent.
+	* ***Keen Hearing and Smell*** [[#Expertise]] with hearing and scent.
 * **Acts**
 	* ***Bite*** 11 [[#Deflect]], 8 Damage 
 
-# Zombie
+### Zombie
 [[#Medium]] [[#Undead]] (Any Ancestry), Tier 1, [[#Challenge]] 2
 
-| [[#Strength]] | [[#Fortitude]] | [[#Dexterity]] | [[#Wits]] | [[#Aptitude]] | [[#Will]] |
+| [[#Strength\|Str]] | [[#Fortitude\|Fort]] | [[#Dexterity\|Dex]] | [[#Wits\|Wit]] | [[#Aptitude\|Apt]] | [[#Will]] |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 |+1|+3|-1|-2|-4|+2|
 
