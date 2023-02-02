@@ -46,12 +46,12 @@ Route::patch('/page/{page:slug}/edit', [PageController::class, 'update']);
 Route::delete('/page/{page:slug}', [PageController::class, 'destroy']);
 
 Route::get('/spells', [SpellController::class, 'index']);
-Route::get('/spells/create', [SpellController::class, 'create']);
-Route::post('/spells/create', [SpellController::class, 'store']);
+//Route::get('/spells/create', [SpellController::class, 'create']);
+//Route::post('/spells/create', [SpellController::class, 'store']);
 Route::get('/spell/{spell}', [SpellController::class, 'show']);
 Route::get('/spell/{spell}/edit', [SpellController::class, 'edit']);
-Route::patch('/spell/{spell}/edit', [SpellController::class, 'update']);
-Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
+//Route::patch('/spell/{spell}/edit', [SpellController::class, 'update']);
+//Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
 
 Route::get('/sources', [SourceController::class, 'index']);
 Route::get('/source/{source}', [SourceController::class, 'show']);
