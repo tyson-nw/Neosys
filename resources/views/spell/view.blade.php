@@ -16,8 +16,8 @@
     <ul class='mx-10 my-3'>
         <li>
             <strong>
-                @if($tier=="Cantrip")
-                    <a href='#' card="{{$tier}}">{{$tier}}</a>
+                @if($tier=="[[#Cantrip]]")
+                    <a href='#cantrip' card="Cantrip">Cantrip</a>
                 @else
                     Tier {{$tier}}
                 @endif
@@ -46,7 +46,7 @@
         @isset($higher_cast)
             <li>{!! $ctp($higher_cast)!!}</li>
         @endisset
-            <li class='text-xs container'><div class='m-3'>{{$license}}</div> <div class='m-3'>Source: <a href="sources/{{Str::slug($source)}}" >{{$source}} </a></div></li>
+            <li class='text-xs container'><div class='m-3'>Source: <a href="/source/{{Str::slug($source)}}" >{{$source}} </a></div></li>
     </ul>
 </div>
 @endsection

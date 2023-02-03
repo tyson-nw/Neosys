@@ -38,18 +38,18 @@ Route::get('/card/{source}/{card}', [CardController::class, 'show']);
 Route::get('/card/{card}', [CardController::class, 'lookup']);
 
 Route::get('/pages', [PageController::class, 'index']);
-Route::get('/pages/create', [PageController::class, 'create']);
-Route::post('/pages/create', [PageController::class, 'store']);
+Route::get('/pages/create', [PageController::class, 'create'])->can('create-page');
+Route::post('/pages/create', [PageController::class, 'store'])->can('create-page');
 Route::get('/page/{page:slug}', [PageController::class, 'show']);
-Route::get('/page/{page:slug}/edit', [PageController::class, 'edit']);
-Route::patch('/page/{page:slug}/edit', [PageController::class, 'update']);
-Route::delete('/page/{page:slug}', [PageController::class, 'destroy']);
+Route::get('/page/{page:slug}/edit', [PageController::class, 'edit'])->can('update-spell');
+Route::patch('/page/{page:slug}/edit', [PageController::class, 'update'])->can('update-spell');
+Route::delete('/page/{page:slug}', [PageController::class, 'destroy'])->can('delete-spell');
 
 Route::get('/spells', [SpellController::class, 'index']);
-//Route::get('/spells/create', [SpellController::class, 'create']);
-//Route::post('/spells/create', [SpellController::class, 'store']);
+Route::get('/spells/create', [SpellController::class, 'create'])->can('create-spell');
+Route::post('/spells/create', [SpellController::class, 'store'])->can('create-spell');
 Route::get('/spell/{spell}', [SpellController::class, 'show']);
-Route::get('/spell/{spell}/edit', [SpellController::class, 'edit']);
+Route::get('/spell/{spell}/edit', [SpellController::class, 'edit'])->can('edit-spell');
 //Route::patch('/spell/{spell}/edit', [SpellController::class, 'update']);
 //Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
 
