@@ -45,6 +45,7 @@
             &nbsp;|&nbsp; <a href='/spells'>Spells</a>
             &nbsp;|&nbsp; <a href='/monsters'>Monsters</a>
             &nbsp;|&nbsp;
+            <!--
             @guest
                 <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;
                 <a href="{{ route('register') }}">Register</a>
@@ -54,6 +55,7 @@
                 <form method="POST" action="/logout"> @csrf <button type='submit'>Logout</button></form>
             @endauth
             |
+-->
             <a href="/mode">Mode</a>
         </nav>
     </header>

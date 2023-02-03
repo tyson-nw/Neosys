@@ -23,16 +23,16 @@ class SpellController extends Controller
 
         if(request()->tier){
             if(empty($spells)){
-                $spells = Spell::where('tier',request()->tier);;
+                $spells = Spell::where('tier','LIKE',"%" .request()->tier."%");
             }else{
-                $spells->where('tier',request()->tier);
+                $spells->where('tier','LIKE',"%" .request()->tier."%");
             }
         }
-        if(request()->classes){
+        if(request()->archetypes){
             if(empty($spells)){
-                $spells = Spell::where('classes', 'LIKE', "%" .request()->classes ."%");
+                $spells = Spell::where('archetypes', 'LIKE', "%" .request()->archetypes ."%");
             }else{
-                $spells->where('classes', 'LIKE', "%" .request()->classes ."%");
+                $spells->where('archetypes', 'LIKE', "%" .request()->archetypes ."%");
             }
         }
         if(request()->casting_time){

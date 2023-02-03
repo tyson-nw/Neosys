@@ -33,7 +33,7 @@
                 <label>Tier</label>
                 <select name='tier' id='tier'>
                     <option value='' @empty( request()->tier =='') selected @endempty></option>
-                    <option value='[[#Cantrip]]' @if(request()->tier=='[[#Cantrip]]') selected @endif>Cantrip</option>
+                    <option value='Cantrip' @if(request()->tier=='Cantrip') selected @endif>Cantrip</option>
                     <option value='1' @if(request()->tier=='1') selected @endif>1</option>
                     <option value='2' @if(request()->tier=='2') selected @endif>2</option>
                     <option value='3' @if(request()->tier=='3') selected @endif>3</option>
@@ -42,12 +42,13 @@
             </div>
             <div>
                 <label>Class</label>
-                <select name='classes' id='classes'>
-                    <option value='' @empty( request()->classes =='') selected @endempty></option>
-                    <option value='[[#Druid]]' @if(request()->classes=='[[#Druid]]') selected @endif>Druid</option>
-                    <option value='[[#God Touched]]' @if(request()->classes=='[[#God Touched]]') selected @endif>God Touched</option>
-                    <option value='[[#Paladin]]' @if(request()->classes=='[[#Paladin]]') selected @endif>Paladin</option>
-                    <option value='[[#Wizard]]' @if(request()->classes=='[[#Wizard]]') selected @endif>Wizard</option>
+                <select name='archetypes' id='archetypes'>
+                    <option value='' @empty( request()->archetypes =='') selected @endempty></option>
+                    <option value='Druid' @if(request()->archetypes=='Druid') selected @endif>Druid</option>
+                    <option value='Dedicant' @if(request()->archetypes=='Dedicant') selected @endif>Dedicant</option>
+                    <option value='God Touched' @if(request()->archetypes=='God-Touched') selected @endif>God Touched</option>
+                    <option value='Paladin' @if(request()->archetypes=='Dedicant') selected @endif>Dedicant</option>
+                    <option value='Wizard' @if(request()->archetypes=='Wizard') selected @endif>Wizard</option>
                 </select>
             </div>
             <div>
