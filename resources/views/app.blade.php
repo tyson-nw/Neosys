@@ -24,6 +24,15 @@
 		<script src="{{ mix('js/app.js') }}" defer></script>
         @yield('scripts')
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TR972CG0VY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TR972CG0VY');
+</script>
 <body class=''>
     <header class='p-6 md:flex md:justify-between md:items-center'>
         <div class='banner flex-1 text-2xl'><a href='/'>Neosys</a></div>
