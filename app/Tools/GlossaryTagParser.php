@@ -13,9 +13,9 @@ class GlossaryTagParser{
 
         $out = [];
 
-        preg_match_all("/\[\[\#([A-z \d]*)\]\]/", $string,$out);
+        preg_match_all("/\[\[\#([A-z \-\d\'|]*)\]\]/", $string,$out);
         for($n=0 ; isset($out[1][$n]) ; $n++){
-            $string = str_replace($out[0][$n], "<a href='/glossary/" . STR::slug($out[1][$n]) ."' card='" . $source ."/". STR::slug($out[1][$n]) . "'>" . $out[1][$n] . "</a>",$string);
+            $string = str_replace($out[0][$n], "<a href='/glossary/#content-" . STR::slug($out[1][$n]) ."' card='" . $source ."/". STR::slug($out[1][$n]) . "'>" . $out[1][$n] . "</a>",$string);
         }
         return $string;
     }

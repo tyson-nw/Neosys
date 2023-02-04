@@ -14,6 +14,7 @@ use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
 use App\Tools\AbsoluteUrlResolver;
 use App\Tools\AnchorTagParser;
+use App\Tools\GlossaryTagParser;
 
 trait MDtoHTML{
     function convertMDtoHTML($content){
@@ -69,7 +70,12 @@ trait MDtoHTML{
         );
         $environment->addExtension($extension);
 
-        $atp = new AnchorTagParser();
+        if(isset($this->anchorToGlossary)){
+            $atp = new AnchorTagParser("/glossary");
+        }else{
+            $atp = new AnchorTagParser();
+        }
+        
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
 

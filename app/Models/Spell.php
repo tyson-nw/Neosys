@@ -25,6 +25,8 @@ class Spell extends Model
         'higher_cast',
     ];
 
+    protected $anchorToGlossary = TRUE;
+    
     public function getRouteKeyName()
     {
         return 'slug';

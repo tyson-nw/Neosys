@@ -19,6 +19,8 @@ class Glossary extends Model
         'content'
     ];
 
+    protected $anchorToGlossary = TRUE;
+
     public function getRouteKeyName(){
         return 'slug';
     }
