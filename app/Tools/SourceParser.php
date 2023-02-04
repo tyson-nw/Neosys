@@ -121,7 +121,7 @@ class SourceParser {
         return TRUE;
     }
 
-    public function parseCards(){
+    public function parseGlossary(){
         if(!file_exists($this->directory. "/Cards.md")){
             return FALSE;
         }

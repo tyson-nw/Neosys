@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreCardRequest;
 use App\Http\Requests\UpdateCardRequest;
-use App\Models\Card;
+use App\Models\Glossary;
 use League\CommonMark\CommonMarkConverter;
 use App\Tools\AnchorTagParser;
 
-class CardController extends Controller
+class GlossaryController extends Controller
 {
     public function show($source, $card)
     {

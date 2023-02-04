@@ -2,7 +2,7 @@
 
 namespace App\Tools;
 
-class CardTagParser{
+class GlossaryTagParser{
 
     public function __invoke(string|null $string, string|null $source = NULL) : string|null{
         if(empty($string)){

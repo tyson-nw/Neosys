@@ -29,9 +29,9 @@ class SourceSeeder extends Seeder
                     $sp->parseSpells();
                     echo "Spells Parsed \n";
                 }
-                if(file_exists(database_path().'/sources/'.$source."/Cards.md")){
-                    $sp->parseCards();
-                    echo "Cards Parsed \n";
+                if(file_exists(database_path().'/sources/'.$source."/Glossary.md")){
+                    $sp->parseGlossary();
+                    echo "Glossary Parsed \n";
                 }
                 if(file_exists(database_path().'/sources/'.$source."/Monsters.md")){
                     $sp->parseMonsters();

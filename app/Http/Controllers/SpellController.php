@@ -6,7 +6,7 @@ use App\Http\Requests\StoreSpellRequest;
 use App\Http\Requests\UpdateSpellRequest;
 use App\Models\Spell;
 use App\Tools\AbsoluteUrlResolver;
-use App\Tools\CardTagParser;
+use App\Tools\GlossaryTagParser;
 
 use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
@@ -94,12 +94,12 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
 
-        $ctp = new CardTagParser();
+        $gtp = new GlossaryTagParser();
 
         if(isset($spells)){
-            return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter, 'ctp'=>$ctp]);
+            return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter, 'ctp'=>$gtp]);
         }
-        return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter, 'ctp'=>$ctp]);
+        return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter, 'ctp'=>$gtp]);
     }
 
     /**
@@ -146,7 +146,7 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
         $spell->details = $converter->convert($spell->details);
-        $spell->ctp = new CardTagParser();
+        $spell->ctp = new GlossaryTagParser();
         
         return view('spell.view',$spell);
     }

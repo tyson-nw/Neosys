@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 use App\Traits\MDtoHTML;
 
-class Card extends Model
+class Glossary extends Model
 {
     use HasFactory, MDtoHTML;
     protected $fillable =[
