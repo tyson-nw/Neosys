@@ -150,13 +150,14 @@ class SourceParser {
                 //$current_card['content'] = $line;
                 $current_card['content'] = "";
             }else{
-                $current_card['content'] .= $line . "\n";
+                $current_card['content'] .= $line ;
             }
         }while(($line = fgets($file)) !== FALSE);
 
         $current_card['title'] = trim($current_card['title']);
         $current_card['content'] = trim($current_card['content']);
-        Glossary::create($current_card);
+
+        $curr = Glossary::create($current_card);
 
         return TRUE;
     }

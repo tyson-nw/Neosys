@@ -2,7 +2,7 @@
 namespace App\Traits;
 
 use League\HTMLToMarkdown\HtmlConverter;
-
+/*
 trait HTMLtoMD{
     static function convertHTMLtoMD($content){
         //needs to trim out the toc if exists.
@@ -11,3 +11,4 @@ trait HTMLtoMD{
         return $converter->convert($content);
     }
 }
+*/

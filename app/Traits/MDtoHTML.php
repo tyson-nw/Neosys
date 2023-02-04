@@ -43,13 +43,21 @@ trait MDtoHTML{
                 'normalize' => 'relative',
                 'placeholder' => null,
             ],
+            'table' => [
+                'wrap' => [
+                    'enabled' => true,
+                    'tag' => 'div',
+                    'attributes' => ['class' => 'table-responsive float-left'],
+                ],
+            ],
         ];
 
         $environment = new Environment($config);
         $environment->addExtension(new CommonMarkCoreExtension);
-        $environment->addExtension(new TableExtension);
-        $environment->addExtension(new AutolinkExtension);
         $environment->addExtension(new HeadingPermalinkExtension());
+        $environment->addExtension(new AutolinkExtension); 
+        $environment->addExtension(new TableExtension);
+        
 
         if(isset($this->tableofcontents)){
             $environment->addExtension(new TableOfContentsExtension());
