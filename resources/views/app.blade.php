@@ -44,7 +44,7 @@
             <div class=' px-2'><a href='/archetypes'>Archetypes</a></div>
             <div class=' px-2'><a href='/spells'>Spells</a></div>
             <div class='px-2'><a href='/monsters'>Monsters</a></div>
-           
+            <div class='px-2'><a href='/glossary'>Glossary</a></div>
             <!--
             @guest
                 <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;

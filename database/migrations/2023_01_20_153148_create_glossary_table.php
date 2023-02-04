@@ -13,7 +13,7 @@ class CreateGlossaryTable extends Migration
      */
     public function up()
     {
-        Schema::create('glossarys', function (Blueprint $table) {
+        Schema::create('glossaries', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->string('slug');
@@ -33,6 +33,6 @@ class CreateGlossaryTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('glossarys');
+        Schema::dropIfExists('glossaries');
     }
 }

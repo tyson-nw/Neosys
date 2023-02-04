@@ -5,14 +5,12 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreCardRequest;
 use App\Http\Requests\UpdateCardRequest;
 use App\Models\Glossary;
-use League\CommonMark\CommonMarkConverter;
-use App\Tools\AnchorTagParser;
 
 class GlossaryController extends Controller
 {
-    public function show($source, $card)
+    public function show($source, $term)
     {
-        $card = Card::where('source_slug', $source)->where('slug',$card)->first();
+        $card = Glossary::where('source_slug', $source)->where('slug',$card)->first();
         if(empty($card)){
             $card = Card::where('slug',$card)->first();
         }
@@ -24,17 +22,26 @@ class GlossaryController extends Controller
         return $atp($converter->convert($card->content));
     }
 
-    public function lookup($card)
+    public function lookup($term)
     {
-        $card = Card::where('slug',$card)->first();
-        if(empty($card)){
+        $cards = Glossary::where('slug',$term)->orderBy('source_slug')->get();
+        if(empty($cards)){
             abort(404);
         }
-        $converter = new CommonMarkConverter();
-        $atp = new AnchorTagParser();
-        return $atp($converter->convert($card->content));
+
+        $out = "<h1>".$cards->first()->title ."</h1>";
+
+        foreach ($cards as $card){
+            $out .= view('glossary.view', $card);
+        }
+
+        return $out;
     }
 
+    public function index(){
+        $cards = Glossary::orderBy('title')->get();
+        return view('glossary.index', ['cards'=>$cards]);
+    }
     /**
      * Show the form for editing the specified resource.
      *

@@ -5,7 +5,7 @@ namespace App\Tools;
 use Illuminate\Support\Str;
 use App\Models\Spell;
 use App\Models\Source;
-use App\Models\Card;
+use App\Models\Glossary;
 use App\Models\Archetype;
 use App\Models\Monster;
 
@@ -122,11 +122,12 @@ class SourceParser {
     }
 
     public function parseGlossary(){
-        if(!file_exists($this->directory. "/Cards.md")){
+        
+        if(!file_exists($this->directory. "/Glossary.md")){
             return FALSE;
         }
 
-        $file = fopen($this->directory . "/Cards.md", 'r');
+        $file = fopen($this->directory . "/Glossary.md", 'r');
         $line= fgets($file);
         $current_card = [];
         do{
@@ -137,7 +138,7 @@ class SourceParser {
                 }else{
                     $current_card['title'] = trim($current_card['title']);
                     $current_card['content'] = trim($current_card['content']);
-                    Card::create($current_card);
+                    Glossary::create($current_card);
 
                     $current_card = [];
                 }
@@ -146,7 +147,8 @@ class SourceParser {
                 $current_card['source_slug'] = STR::slug($this->source);
                 $current_card['title'] = trim($line,"# ");
                 $current_card['slug'] = STR::slug($current_card['title']);
-                $current_card['content'] = $line;
+                //$current_card['content'] = $line;
+                $current_card['content'] = "";
             }else{
                 $current_card['content'] .= $line . "\n";
             }
@@ -154,7 +156,7 @@ class SourceParser {
 
         $current_card['title'] = trim($current_card['title']);
         $current_card['content'] = trim($current_card['content']);
-        Card::create($current_card);
+        Glossary::create($current_card);
 
         return TRUE;
     }
