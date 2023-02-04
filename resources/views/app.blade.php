@@ -36,15 +36,15 @@
 <body class=''>
     <header class='p-6 md:flex md:justify-between md:items-center'>
         <div class='banner flex-1 text-2xl'><a href='/'>Neosys</a></div>
-        <nav class='flex justify-end items-end'>
-            <a href='/sources'>Sources</a>
+        <nav class='flex flex-wrap items-end justify-end'>
+            <div class='px-2'><a href='/sources'>Sources</a></div>
             @can('edit_pages')
-                &nbsp;|&nbsp; <a href='/pages'>Pages</a>
+                <div class='px-2'><a href='/pages'>Pages</a></div>
             @endcan
-            &nbsp;|&nbsp; <a href='/archetypes'>Archetypes</a>
-            &nbsp;|&nbsp; <a href='/spells'>Spells</a>
-            &nbsp;|&nbsp; <a href='/monsters'>Monsters</a>
-            &nbsp;|&nbsp;
+            <div class=' px-2'><a href='/archetypes'>Archetypes</a></div>
+            <div class=' px-2'><a href='/spells'>Spells</a></div>
+            <div class='px-2'><a href='/monsters'>Monsters</a></div>
+           
             <!--
             @guest
                 <a href="{{ route('login') }}" class="">Log in</a> &nbsp;|&nbsp;
@@ -56,7 +56,7 @@
             @endauth
             |
 -->
-            <a href="/mode">Mode</a>
+            <div class='px-2'><a href="/mode">Mode</a></div>
         </nav>
     </header>
     <main class='max-w-3xl mx-auto p-6 mt-2'>
