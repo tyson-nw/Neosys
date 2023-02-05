@@ -3,17 +3,17 @@
 Players have control of a single character and any creatures that player character may control or direct.
 
 ### Character
-The character is how the player expresses their will and agency in the game. Blank character sheets are available at [https://drive.google.com/file/d/10aTlE9hAZtmhwTteEyUx-46Uy69LCkR-/view?usp=sharing]
+The character is how the player expresses their will and agency in the game. [Blank character](https://drive.google.com/file/d/10aTlE9hAZtmhwTteEyUx-46Uy69LCkR-/view?usp=sharing) sheets are available.
 
 And pre filled ones are here:
-- Dwarf Dedicant - https://drive.google.com/file/d/114E2sK_7I09KSKzecUlknW1E1v1qb2u9/view?usp=sharing
-- Elf Ranger - https://drive.google.com/file/d/11K5lYz8d2CPvTzBQxKIzCKaYAnUtZr4P/view?usp=sharing
-- Gnome Wizard - https://drive.google.com/file/d/11U48bqMSRvJkBtzZnvkMLTJZFOqUYBDh/view?usp=sharing
-- Half Elf Druid - https://drive.google.com/file/d/11JiBHj2i3yWWfiDUhSi7sbxAyucr2ggx/view?usp=share_link
-- Half Orc Barbarian - https://drive.google.com/file/d/113rrvzK8xQgvCtijL3DFTSWlXybs5_gT/view?usp=sharing
-- Halfun Rogue - https://drive.google.com/file/d/11RsNodYd7gMdiT_ArwRa3ORdAa5perQP/view?usp=sharing
-- Human God Touched - https://drive.google.com/file/d/11EgMHrjaBaxIX2iqXZhGgmoEWela5N0z/view?usp=sharing
-- Human Warrior - https://drive.google.com/file/d/1113w2Ws6RQ2bqMAn8_IZlApBIh44_O3-/view?usp=sharing
+- [Dwarf Dedicant](https://drive.google.com/file/d/114E2sK_7I09KSKzecUlknW1E1v1qb2u9/view?usp=sharing)
+- [Elf Ranger]( https://drive.google.com/file/d/11K5lYz8d2CPvTzBQxKIzCKaYAnUtZr4P/view?usp=sharing)
+- [Gnome Wizard](https://drive.google.com/file/d/11U48bqMSRvJkBtzZnvkMLTJZFOqUYBDh/view?usp=sharing)
+- [Half Elf Druid](https://drive.google.com/file/d/11JiBHj2i3yWWfiDUhSi7sbxAyucr2ggx/view?usp=share_link)
+- [Half Orc Barbarian](https://drive.google.com/file/d/113rrvzK8xQgvCtijL3DFTSWlXybs5_gT/view?usp=sharing)
+- [Halfun Rogue](https://drive.google.com/file/d/11RsNodYd7gMdiT_ArwRa3ORdAa5perQP/view?usp=sharing)
+- [Human God Touched](https://drive.google.com/file/d/11EgMHrjaBaxIX2iqXZhGgmoEWela5N0z/view?usp=sharing)
+- [Human Warrior](https://drive.google.com/file/d/1113w2Ws6RQ2bqMAn8_IZlApBIh44_O3-/view?usp=sharing)
 
 ## Game Master
 The Game Master facilitates the game, describes the world, controls all other creatures, and is the final arbiter of the rules.
@@ -110,31 +110,30 @@ What undermines your character? Is it your drive taken to extreme? Is it an exce
 - In the face of overwhelming odds I will abandon my fellows.
 - The pursuit of knowledge blinds me to the plight of others.
 
-
-## Starting Specialties
-An [[#Expertise]] is an aspect of your character that you can call on to improve rolls by adding your proficiency bonus to your rolls. Some are broad, some are very specific. Only one Expertise can be added to a roll at a given time, and the Game Master is the final arbiter of whether or not a [[#Expertise]] applies to a roll.
-
-### Ancestry
+## Ancestry
 What fantastical bloodline do you come from? What ancestry abilities does that bloodline bestow? A full-blooded character gains both ancestry abilities. A half-blooded character chooses one ability from each parent's ancestry.
 
-#### Elf Blooded
+### Elf Blooded
 * **Low Light Vision** - Elves can see in low light as if it were bright light.
 * **Keen Senses** - This [[#Expertise]] can be added to [[#Senses]] rolls.
-#### Human blooded
+### Human blooded
 * **Driven** - Humans gain an additional [[#Skill]].
 * **Well-versed** - Humans gain an additional [[#Expertise]].
-#### Halfun Blooded
+### Halfun Blooded
 * **Vanish into a crowd** - Halfuns can make a [[#Wits]]+[[#Stealth]] check against the [[#Mind]] defense of all creatures that cannot see the halfun to hide from them. Halfuns can [[#Hide]] behind creatures one size larger than them.
 * **Small Stature** - Halfuns may have [[#Hinderance]] when wielding weapons with the [[#Heavy]] tag and have a movement speed of 20 ft.
-#### Dwarf Blooded
+### Dwarf Blooded
 * **Low Light Vision** - Dwarves can see in low light as if it were bright light.
 * **Stout Physique** - Dwarves have Edge on [[#Body]] saves versus [[#Sickened]].
-#### Orc Blooded
+### Orc Blooded
 * **Relentless** - When reduced to 0 hit points an orc is reduced to 1 hit point instead. This ability can be used once per long rest.
 * **Savage Blows** - When an orc scores a critical hit add, add the  [[#Proficiency Bonus]] to damage.
-#### Gnome Blooded
+### Gnome Blooded
 * **Mechanical Mind** - Gnomes have Edge on [[#Mind]] saves versus magic.
 * **Small Stature** - Gnomes may have [[#Hinderance]] when wielding weapons with the [[#Heavy]] tag and have a movement speed of 20 ft.
+
+## Starting Expertices
+An [[#Expertise]] is an aspect of your character that you can call on to improve rolls by adding your proficiency bonus to your rolls. Some are broad, some are very specific. Only one Expertise can be added to a roll at a given time, and the Game Master is the final arbiter of whether or not a [[#Expertise]] applies to a roll.
 
 ### Culture
 Your culture provides a base of experience, as well it forms a broad [[#Expertise]]. Characters can use their culture as a Expertise in general if the situation calls for it. As well, each culture has a Expertise that bestows a specific ability or [[#Expertise]]. 
@@ -333,97 +332,97 @@ You can inherently spot the ins and outs of any settlement, the blind spots, the
 * Thieves Tools
 * Waterskin
 
-### Archetype
+## Archetype
 What character archetype does your character fit into?
 
-#### Barbarian
+### Barbarian
 Barbarians channel their primal rage into strength of arms. Their favored [[#Stats]] are [[#Strength]] and [[#Will]]. They are proficient in [[#Athletics]], [[#Focus]], [[#Weapon]], and one additional [[#Skills|Skill]]. Barbarians have a base [[#HP]] of 12. They begin with a [[#Martial]] weapon and two [[#Thrown]] weapons.
 
-##### Rage
-Barbarians can fly into a rage with [[#Bonus Action]] by making an Easy ([[#Target Number]] 6) [[#Will]]+[[#Focus]] roll. If they took damage last round they have an Edge on the roll. When they rage, increase their [[#Burn]] by one. While in a Rage the Barbarian adds their [[#Will]] to damage, has [[#Damage Resistance]], automatically succeeds on [[#Massive Damage]] rolls, and does not go [[#Unconscious]] when reduced to 0 [[#HP]] but are [[#Dying]].  The Rage lasts until they do not roll against an enemy by the end of their turn or  they decide to end it.
+#### Rage
+Barbarians can fly into a rage with [[#Swift Act]] by making an Easy ([[#Target Number]] 6) [[#Will]]+[[#Focus]] roll. If they took damage last round they have an Edge on the roll. When they rage, increase their [[#Burn]] by one. While in a Rage the Barbarian adds their [[#Will]] to damage, has [[#Damage Resistance]], automatically succeeds on [[#Massive Damage]] rolls, and does not go [[#Unconscious]] when reduced to 0 [[#HP]] but are [[#Dying]].  The Rage lasts until they do not roll against an enemy by the end of their turn or  they decide to end it.
 
-##### Fearsome
-Barbarians can [[#Intimidate]] someone within 30ft [[#Range]] to make them [[#Frightened]] until the end of their next turn with a [[#Strength]]+[[#Social]] roll versus [[#Mind]] defense as a [[#Bonus Action]].
+#### Fearsome
+Barbarians can [[#Intimidate]] someone within 30ft [[#Range]] to make them [[#Frightened]] until the end of their next turn with a [[#Strength]]+[[#Social]] roll versus [[#Mind]] defense as a [[#Swift Act]].
 
-#### Dedicant
+### Dedicant
 Dedicants are dedicated to an oath and through that oath they express their life. Their favored [[#Stats]] are [[#Strength]] and [[#Will]]. They are proficient in [[#Athletics]], [[#Social]], [[#Weapon]], and one additional skill. Paladins have a base HP of 10. They begin with a [[#Martial]] weapon and a Chain Shirt.
 
-##### Smite
+#### Smite
 Instead of casting a spell the Dedicant can channel their will into a burst of righteous fury. When you hit, by spending a spell you deal an additional 2d8 damage. If the target is an undead or outsider it deals an additional 2d10 instead.
 
-##### Spellcasting
+#### Spellcasting
 Dedicant channel the power of their oath to shape the world. Their [[#Casting Stat]] is [[#Will]]. They use their [[#Focus]] as their [[#Casting Skill]]. They know as many Tier 1 spells as their [[#Will]] bonus. They have a base [[#Burn]] of 6 that resets after a [[#Long Rest]].
 
-#### Druid
+### Druid
 Druids are one with nature. Their favored [[#Stats]] are [[#Will]] and  [[#Wits]], They are proficient in [[#Enigma]] ([[#Primal]]), [[#Knowledge]], [[#Focus]], and one additional skill. Druids have a base [[#HP]] of 8. Druids begin with a [[#Simple]] weapon, leather armor, and a druidic focus they created.
 
-##### Primal Channel
+#### Primal Channel
 Spells are revealed to Druids through their connection with the primal forces of nature. They use a Druid Focus or Apothecary Pouch as a focus item. They know as many Tier 1 spells as their [[#Wits]]+[[#Knowledge]] and two [[#Cantrips]]. During a [[#Long Rest]] they can commune with nature and change the spells they know. They have a starting [[#Burn]] of 6 that resets after a Long Rest.
 
-##### Wild Shape
+#### Wild Shape
 A Druid can roll against their [[#Burn]] to polymorph into a Beast of Challenge up to 2, they gain the beast's HP along with its Strength, Fortitude, and Dexterity bonuses. Their Defenses, Deflect and Soak are derived from these new bonuses. When the Wild Shaped Druid is reduced to 0 HP they revert to their natural form and take any additional damage left over from the attack. Wildshaping increases their Burn by 2.
 
-#### God-Touched
+### God-Touched
 God-Touched are called by the divine to act in the world and channel their power. Their favored [[#Stats]] are [[#Aptitude]] and [[#Will]]. God-Touched have a base [[#HP]] of 8. They begin with a [[#Simple]] weapon, Holy Symbol, and a Chain Shirt.
 
-##### Divine Spark
+#### Divine Spark
 God-Touched channel spells from a Divine source. Their [[#Spellcasting Stat]] is [[#Will]]. They pray every morning at dawn for spells and prepare as many spells as their [[#Aptitude]]+[[#Knowledge]] bonus. They always know two [[#Cantrips]]. They have a starting [[#Burn]] of 6 that resets after a Long Rest.
 
-##### Domain
+#### Domain
 God Touched also have spells granted to them by their divinity. Depending on the Domain they always have certain spells prepared that don't count against their prepared spells.
-###### Arcana
+##### Arcana
 * [[#Chaos Orb]]
-###### Life
+##### Life
 * [[#Bolster]]
-###### Order
+##### Order
 * [[#Command]]
-###### Sun
+##### Sun
 * [[#Purifying Flame]]
-###### Tempest
+##### Tempest
 * [[#Thunderblast]]
-###### War
+##### War
 * [[#Bond of Ward]]
 
-#### Ranger
+### Ranger
 
 Rangers are masters of the wilds. Their favored [[#Stats]] are [[#Dexterity]] and [[#Wits]]. They are proficient in, [[#Senses]], [[#Stealth]], [[#Weapon]] and one other skill. Rangers have a base [[#HP]] of 10. They begin with a Scimitar, a Longbow with a quiver of 20 arrows or another Scimitar, and Leather Armor.
 
-##### Weapon Mastery
+#### Weapon Mastery
 A ranger chooses one weapon mastery
  - **Tight Quarters Archery** - the Ranger doesn’t have disadvantage while using a ranged weapon in melee
 - **Two Weapon Master** - the Ranger can use Finesse weapons to make an off-hand attack
 
-##### Wildswalker
+#### Wildswalker
 A ranger has [[#Expertise]] in tracking, hunting, navigating, and surviving in the wilds. They can move through [[#Difficult Terrain]] without a penalty to their speed. And they can move at full speed while hidden.
 
-#### Rogue
+### Rogue
 Rogues are always watching for opportunities they can exploit. Their favored [[#Stats]] are [[#Dexterity]] and [[#Wits]]. They are proficient in [[#Athletics]], [[#Weapons]], [[#Social]], [[#Stealth]], and two other skills. Rogues have a base [[#HP]] of 8. Rogues begin with a Short Sword, a Dagger, and Leather Armor.
 
-##### Slippery
-Rogues can make a [[#Dash]], [[#Hide]], or [[#Withdraw]] as a [[#Bonus Action]]. 
+#### Slippery
+Rogues can make a [[#Dash]], [[#Hide]], or [[#Withdraw]] as a [[#Swift Act]]. 
 
-##### Sneak Attack 2d6
+#### Sneak Attack 2d6
 Attacks that [[#Exploit]] a foe deal an additional 2d6 damage.
 
-#### Warrior
+### Warrior
 Warriors specialize in violence. Their favored [[#Stats]] are [[#Strength]] and [[#Fortitude]]. They are proficient in [[#Athletics]], [[#Weapons]], and two additional [[#Skills]]. Warriors have a base HP of 10 and begin with a [[#Martial]] weapon and a Chain Shirt.
 
-##### Battle Recovery
+#### Battle Recovery
 As an [[#Act]] Warriors roll their [[#Fortitude]]+[[#Focus]] and gain  that many [[#Temporary HP]]. They can do this once per [[#Short Rest]].
 
-##### Martial Expertise
+#### Martial Expertise
 Warriors gain [[#Expertise]] in a specific weapon.
 
-#### Wizard 
+### Wizard 
 Wizards are masters of the arcane. Their favored stats are [[#Aptitude]] and [[#Will]]. They are proficient in [[#Enigma]] (Arcane), [[#Focus]], [[#Knowledge]], and one additional skill. Wizards have a base HP of 6. Wizards begin with a weapon with the [[#Simple]] tag, and an arcane focus or spell component pouch.
 
-##### Arcane Initiate
+#### Arcane Initiate
 Wizards use spellbooks to store their spells. Their [[#Spellcasting Stat]] is [[#Aptitude]]. After each [[#Long Rest]] they decide what spells to prepare for the following day, up to their [[#Aptitude]]+[[#Knowledge]] bonus. Wearing armor casting causes [[#Hinderance]] on [[#Enigma]] rolls. They have a starting [[#Burn]] of 6 that resets after a Long Rest.
 
-##### Ritual Cast
+#### Ritual Cast
 The wizard can cast any spell from their spellbook as a [[#Ritual]].
 
-##### Spellbook
+#### Spellbook
 The wizard records all the spells they know in their spellbook.  They start with  two [[#Cantrips]] and as many Tier 1 spells as their [[#Aptitude]]. They can scribe a new spell from a scroll or other spellbook into their spellbook with an [[#Aptitude]]+[[#Enigma]] roll. Scribing takes one hour per [[#Spell Tier]]. The spell takes up two pages per [[#Spell Tier]] of the spell in the spellbook. And if you fail the roll, that many pages of the spellbook are ruined.
 
 | [[#Spell Tier]] | [[#Target Number]] |
@@ -635,13 +634,13 @@ Requires a [[#Strength]] modifier of +2, +3 for creatures with small stature. Ot
 #### Heavy armor
 Requires a Strength of +3 to wear. Otherwise you have [[#Hinderance]] on [[#React]] rolls.
 #### Fine
-Can be used to attack as a [[#Bonus Action]] in the off-hand. 
+Can be used to attack as a [[#Swift Act]] in the off-hand. 
 #### Light armor
 Simple armor with no requirements
 #### Martial
 Requires [[#Weapon]] [[#Skill]] otherwise you have [[#Hinderance]] on [[#Weapon]] rolls.
 #### Mechanical
-Requires a [[#Bonus Action]] to reload. Uses [[#Wits]] for rolls and damage bonus.
+Requires a [[#Swift Act]] to reload. Uses [[#Wits]] for rolls and damage bonus.
 #### Medium armor
 Requires a Strength of +1 to wear, otherwise you have [[#Hinderance]] on [[#React]] rolls.
 #### Mounted
@@ -700,7 +699,7 @@ These are additional items a character can buy at character creation
 |Waterskin||
 
 ## Pets
-Pets act on their master’s turn and are trained to [[#Withdraw]] where directed, [[#Hide]], or [[#Dodge]] in combat. Commanding a pet is a bonus action. If attacked, and not given instructions otherwise, the pet will attack its attacker.
+Pets act on their master’s turn and are trained to [[#Withdraw]] where directed, [[#Hide]], or [[#Dodge]] in combat. Commanding a pet is a Swift Act. If attacked, and not given instructions otherwise, the pet will attack its attacker.
 
 | Animal | Cost|
 |:--|:--:|
@@ -715,7 +714,7 @@ Purchased pets are already trained. Training a pet to rely on you takes 6 plus t
 
 ### Training Pets for Combat
 
-Training a pet for combat takes time. If purchasing one multiply the cost of the animal by 10. It takes as many weeks as the [[#Beast]]’s [[#Challenge]], working 2 hours per day. At the end of each week roll  [[#Will]]+[[#Social]] vs 6 plus the [[#Beast]]’s [[#Challenge]]. On a failed roll add another week to the training. Once trained, the pet can also be commanded to Attack or Help a target as a Bonus action.
+Training a pet for combat takes time. If purchasing one multiply the cost of the animal by 10. It takes as many weeks as the [[#Beast]]’s [[#Challenge]], working 2 hours per day. At the end of each week roll  [[#Will]]+[[#Social]] vs 6 plus the [[#Beast]]’s [[#Challenge]]. On a failed roll add another week to the training. Once trained, the pet can also be commanded to Attack or Help a target as a Swift Act.
 
 # Running the Game
 
@@ -748,7 +747,7 @@ The party can track a creature through the wilds with a shared challenge of read
 All characters roll their [[#React]] defense to determine their initiative score. Creatures initiative score is their [[#React]] defense. Creatures and characters go in order from highest to lowest.
 
 ### Turn
-On each creature's initiative they can make one [[#Act]], one [[#Bonus Action]], and a [[#Minor Action]].
+On each creature's initiative they can make one [[#Act]], one [[#Swift Act]], and a [[#Minor Action]].
 
 ### Expose
 Exposing a target makes them vulnerable to exploiting. Some conditions expose a creature to specific attacks. 
@@ -767,7 +766,7 @@ Acts are the primary actions made in combat. They do the most, hit the hardest, 
 You make a [[#Weapons]]+[[#Stats|Stat]] (as appropriate for that weapon) roll against a target's [[#React]] defense. If you roll over the [[#React]] defense the attack connects and you deal damage according to the weapon's features. Some weapons have features that can be used instead of making an attack. Using those features is treated like an attack.
 
 ##### Cast a spell
-To cast a spell you roll Enigmas + Stat (Casting stat for your class) against the target's defense as listed in the spell. If you cast a spell of level 1 or higher you can no longer cast a spell as a bonus action.
+To cast a spell you roll Enigmas + Stat (Casting stat for your class) against the target's defense as listed in the spell. If you cast a spell of level 1 or higher you can no longer cast a spell as a Swift Act.
 
 ##### Dash
 You can move up to your speed.
@@ -790,14 +789,14 @@ You make a [[#Strength]]+[[#Athletics]] against the target's [[#Body]] to push t
 ##### Withdraw
 The character can make the withdraw action, as such they don't provoke [[#Movement Response]]
 
-#### Bonus Action
-Bonus actions are actions that follow the main action. They could be offhand attacks, abilities, or other actions that don't rise to a full [[#Act]].
+#### Swift Act
+Swift Acts are actions that follow the main action. They could be offhand attacks, abilities, or other actions that don't rise to a full [[#Act]].
 
 ##### Offhand Attack
 If you have a weapon with the [[#Fine]] feature it can be used to make an offhand attack.
 
 ##### Cast a Spell
-If you cast a spell with a [[#Bonus Action]] casting time, you cannot cast another spell this round, other than a cantrip.
+If you cast a spell with a [[#Swift Act]] casting time, you cannot cast another spell this round, other than a cantrip.
 
 ##### Scan the Battlefield
 You make a [[#Wits]]+[[#Senses]] roll to reveal hidden enemies.
@@ -876,7 +875,7 @@ The creature cannot move towards the source of their fear. Frightened characters
 The grappled creature's speed is reduced to 0 and attacks with weapons that don't have the [[#Fine]] tag are at Hinderance. Grappled creatures are [[#Expose|Exposed]].
 
 ### Incapacitated
-The creature cannot [[#Act]], make a [[#Bonus Action]], make a [[#Response]], or move. Incapacitated  creatures are [[#Expose|Exposed]].
+The creature cannot [[#Act]], make a [[#Swift Act]], make a [[#Response]], or move. Incapacitated  creatures are [[#Expose|Exposed]].
 
 ### Paralyzed
 A creature is [[#Incapacitated]] and cannot speak. They automatically fail [[#React]] defenses. Melee attacks against the paralyzed creature are a [[#Critical Success]]. Paralyzed creatures are [[#Expose|Exposed]].
@@ -952,7 +951,7 @@ Difficult terrain require two squares of movement to move through each square of
 Hazardous terrain is [[#Difficult Terrain]] that also deals damage when a character begins their turn within the area or every 5ft they move through the area.
 
 #### Terrain Opportunities
-Terrain should also include features that creatures can interact with. Chandeliers to swing across, pillars to knock over, chairs to throw into enemy's faces are all things within the battlefield. Interacting with the terrain should be a [[#Bonus Action]] so the characters can still do things after they interact.
+Terrain should also include features that creatures can interact with. Chandeliers to swing across, pillars to knock over, chairs to throw into enemy's faces are all things within the battlefield. Interacting with the terrain should be a [[#Swift Act]] so the characters can still do things after they interact.
 
 #### Aquatic Terrain
 ##### Swimming
@@ -1017,7 +1016,7 @@ Expertises are additional training that your character has received. They are no
 * **History** - Knowledge of history
 * **Intimidation** - Manipulating and controlling creatures through fear
 * **Medic** - Knowledge of medicine
-* **Mounted Combat** - Mastery of controlling a mount in combat and can spur a mount to attack as a [[#Bonus Action]].
+* **Mounted Combat** - Mastery of controlling a mount in combat and can spur a mount to attack as a [[#Swift Act]].
 * **Persuasion** - Manipulating creatures through force of personality
 * **Religion** - Knowledge of religion
 * **Unarmed Combat** - Mastery of dealing damage with your body.
@@ -1138,10 +1137,10 @@ God Touched also have abilities granted to them by their deity.
 **Glorious Dawn** As an [[#Act]] you glow with a 20ft aura of Daylight for 1 minute. You have [[#Edge]] on all [[#Social]] rolls against creatures within that aura.
 
 ###### Tempest
-**Call the Thunder** As a [[#Bonus Action]], the Tempest domain God-Touched can add 2d8 damage to an attack that hit. This increases their [[#Burn]] by 1.
+**Call the Thunder** As a [[#Swift Act]], the Tempest domain God-Touched can add 2d8 damage to an attack that hit. This increases their [[#Burn]] by 1.
 
 ###### War
-**Battle Bond** With a Response to an ally being struck, you can switch places with the ally, making the attack miss, and make a melee weapon attack against any creature within range.
+**Armament Mastery** Gain Expertise in one weapon.
 
 ### Tier 3
 
@@ -1164,9 +1163,10 @@ God Touched also have spells granted to them by their divinity. Depending on the
 **Channel of the Sun** As an act you can change the light given by a light source you are carrying into daylight. This doubles the radius and lasts for as long as the light source lasts. You can only channel one light source at a time for as long as you carry it.
 
 ###### Tempest
-**Throw the Lightning** As a Bonus Action, the Tempest domain God-Touched can cast Lighting Bolt, increasing [[#Burn]] as if cast normally.
+**Throw the Lightning** As a Swift Act, the Tempest domain God-Touched can cast Lighting Bolt, increasing [[#Burn]] as if cast normally.
 
 ###### War
+**Battle Bond** With a Response to an ally being struck, you can switch places with the ally, making the attack miss, and make a melee weapon attack against any creature within range.
 
 #### Tier 4
 ##### Divine Spark
@@ -1177,6 +1177,7 @@ God-Touched channel spells from a Divine source. Their [[#Spellcasting Stat]] is
 God Touched also have abilities granted to them by their divinity. Depending on the Domain they always have certain spells prepared that don't count against their prepared spells.
 
 ###### Arcana
+**Spell Mastery** Choose one 1st level spell, you can cast it as a Cantrip at its lowest level.
 
 ###### Life
 **Master of Life** When you cast a spell that heals or grants temporary hit points you grant the maximum that the die would allow.
@@ -1185,24 +1186,43 @@ God Touched also have abilities granted to them by their divinity. Depending on 
 **Divine Intercession** Once before a long rest, the god-touched can summon a Tier 2 Outsider (Celestial) that will do your bidding for 1 minute.
 
 ###### Sun
-**Blinding Blows** When you hit with a melee weapon, roll your burn and blind the target for a round. Does not increase burn.
+**Blinding Blows** When you hit with a melee weapon, if your roll exceeds your burn, blind the target for a round. Does not increase burn.
 
 ###### Tempest
+**Storm Aura** As an act you can summon an 15ft aura. Foes that begin their turn within the or move into it aura take 1d6 damage. As a Swift Act you can push a foe out of the aura. Ranged attacks into the aura have a hinderance.
 
 ###### War
-
+**Command Liturgy** As an Swift Act you can command an ally to move up to half of their movement and make a single attack.
 
 ### Advanced Ranger
 
-###### Beast Bond
-As a [[#Ritual]] a Ranger can forge a magical bond with a [[#Beast]] of Challenge 2 by succeeding on a [[#Will]]+[[#Social]] roll against the [[#Beast|Beast's]] [[#Mind]]. The [[#Beast]] will trust the Ranger, and as a [[#Bonus Action]] the Ranger can give it a single-word command and a target. The [[#Beast]] will attempt to do the commanded task. Sample commands are:
-* **Attack** - [[#Beast]] makes all its attacks against a target.
-* **Flee** - [[#Beast]] attempts to [[#Withdraw]] and leave the battlefield until called back.
-* **Guard** - Attacks creatures that approach the [[#Beast]], or target creature.
-* **Harrie** - [[#Beast]] uses the [[#Aid|Aids]] an ally against a target creature.
+#### Tier 2
 
-###### Wild casting
-Rangers gain access to Ranger spells. They can know at any time their [[#Wits]]+[[#Knowledge]] amount of spells. They can cast their [[#Proficiency Bonus]] spells before a [[#Short Rest]].
+##### Confident Strider
+The ranger can actively check for hazards while moving at full speed.
+
+##### Foebinding
+As a Swift Act you can designate a foe. As long as you make no attacks against other foes or make responses to other foes, the next round you have advantage on attack and senses rolls against that foe.
+
+#### Tier 3
+
+##### Foehammering
+The Ranger adds their proficiency modifier to damage on designated foes.
+
+##### Threatspotter
+The Ranger gains [[#Expertise]] in spotting traps, ambushes, and other hazards.
+
+##### Wildworn Skin
+The Ranger adds their proficiency modifier to their soak.
+
+#### Tier 4
+
+##### Uncanny senses
+The Ranger gains Blindsense 30ft.
+
+##### Denial Attack
+The ranger can respond to their designated foe's acts and make a single attack. If the damage is over the target's mind defense, the foe fails that act.
+
 
 ### Advanced Rogue
 
@@ -1325,7 +1345,7 @@ Cantrips can be cast at any time. Some cantrips scale as you advance in the tier
 Spells with a tier can only be cast using a slot of that tier or higher. Some spells can be cast with a higher tier slot and have details of that in their description.
 
 ### Casting time
-Spells can be cast as an [[#Act]], a [[#Bonus Action]], or a [[#Response]] to cast. If you cast a spell as a [[#Bonus Action]] you cannot use an [[#Act]] to cast a spell, other than a [[#Cantrip]].
+Spells can be cast as an [[#Act]], a [[#Swift Act]], or a [[#Response]] to cast. If you cast a spell as a [[#Swift Act]] you cannot use an [[#Act]] to cast a spell, other than a [[#Cantrip]].
 
 ### Material Component
 Some spells require a material component beyond using your focus item. If one is listed it is consumed when the spell is successfully cast.
@@ -1497,7 +1517,7 @@ Your [[#Deflect]] becomes +4 and you add +2 to your [[#Soak]]. Add a +1 to [[#De
 
 ### Arcane Step
 * **Tier 1** [[#Wizard]]
-* **Casting Time** [[#Bonus Action]]
+* **Casting Time** [[#Swift Act]]
 * **Target** [[#Self]]
 Teleport up to 60ft into an unoccupied space you can see. For each tier the spell is cast at beyond 1 take an additional adjacent creature with you.
 
@@ -1554,7 +1574,7 @@ Target creature gains Edge on defenses and damage reduction. When the target tak
 * **Casting Time** [[#Act]]
 * **Target** 5ft [[#Sphere]], 30ft [[#Range]], [[#React]]
 * **Duration** 1 minute
-Creatures within the bonfire or that move through it that fail their [[#React]] take 1d6 damage. As a [[#Bonus Action]] you can move the bonfire 30ft. Increase the die for every [[#Tier]] the caster is beyond 1st.
+Creatures within the bonfire or that move through it that fail their [[#React]] take 1d6 damage. As a [[#Swift Act]] you can move the bonfire 30ft. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ### Charming
 * **Tier 1** [[#Wizard]]
@@ -1594,7 +1614,7 @@ You can understand any language you hear or read. You cannot speak the language 
 * **Casting Time** [[#Act]]
 * **Target** [[#Self]]
 * **Duration** 1 minute
-A torch sized flame appears in the casters hand that can be used it to light fires. As a [[#Bonus Action]] you can fling a flame that deals 1d6 damage. Flinging the flame does not end the spell. Increase the die for every [[#Tier]] the caster is beyond 1st.
+A torch sized flame appears in the casters hand that can be used it to light fires. As a [[#Swift Act]] you can fling a flame that deals 1d6 damage. Flinging the flame does not end the spell. Increase the die for every [[#Tier]] the caster is beyond 1st.
 
 ### Corpse Grasp
 * **Cantrip** [[#Wizard]]
@@ -1613,7 +1633,7 @@ Heal the 1d8+Spellcasting Modifier [[#Temporary HP]]. Add an additional die for 
 * **Cantrip** [[#Wizard]]
 * **Casting Time** [[#Act]]
 * **Target** 120ft [[#Range]]
-You summon a torch sized light within [[#Range]] that hover in the air for the duration. You can move the light up to 60ft within the [[#Range]] as a bonus action. You conjure an additional light by one for every [[#Tier]] the caster is beyond 1st.
+You summon a torch sized light within [[#Range]] that hover in the air for the duration. You can move the light up to 60ft within the [[#Range]] as a Swift Act. You conjure an additional light by one for every [[#Tier]] the caster is beyond 1st.
 
 ### Darkness
 * **Tier 1** [[#Druid]], [[#Wizard]]
@@ -1634,7 +1654,7 @@ You can see magical aura's of ongoing spells, know what spell is being cast by a
 * **Casting Time** [[#Act]]
 * **Target** 60ft [[#Range]], [[#Deflect]]
 * **Duration** 1 minute
-Conjure flying weapon that deals 1d6 damage that can be directed to move up to 60 feet and attack as a bonus action. Add an additional die for each tier beyond 1st it is cast at.
+Conjure flying weapon that deals 1d6 damage that can be directed to move up to 60 feet and attack as a Swift Act. Add an additional die for each tier beyond 1st it is cast at.
 
 ### Divine Flame
 * **Tier 1** [[#God Touched]], [[#Paladin]]
@@ -1653,7 +1673,7 @@ Target adds 1d4 to [[#Soak]] every time they take damage. Add an additional crea
 ### Enhance
 * **Tier 1** [[#Druid]], [[#Paladin]]
 * **Casting Time** [[#Act]], [[#Ritual]]
-* **Range** [[#Touch]]
+* **Target** [[#Touch]]
 * **Duration** 1 hour, [[#Concentration]]
 Target has [[#Edge]] on rolls with one [[#Stats|Stat]] chosen when the spell is cast. Add an additional creature for each tier it is cast at beyond 1st.
 
@@ -1678,22 +1698,22 @@ Target is blinded for 1d6 rounds. Add an additional creature for each tier it is
 
 ### Flameblade
 - **Tier 1** [[#Druid]]
-* **Casting Time** [[#Bonus Action]]
-* **Range** [[#Self]]
+* **Casting Time** [[#Swift Act]]
+* **Target** [[#Self]]
 * **Duration** 1 hour, [[#Concentration]]
 You summon a flaming weapon that deals 2d6 damage and has the bladed, finesse, and simple tags. It can be used to start fires. Add an additional 1d6 for each tier it is cast at beyond 1st.
 
 ### Foxfire
 * **Tier 1** [[#Druid]]
 * **Casting Time** [[#Act]]
-* **Range** 10ft [[#Sphere]], 120ft [[#Range]], [[#React]]
+* **Target** 10ft [[#Sphere]], 120ft [[#Range]], [[#React]]
 * **Duration** 1 minute, [[#Concentration]]
 Targets glow with dim light, revealing invisible creatures. Rolls against the target's [[#Deflect]] defense have Edge.
 
 ### Fog
 * **Tier 1** [[#Druid]]
 * **Casting Time** [[#Act]], [[#Ritual]]
-* **Range** 20ft [[#Sphere]], 120ft [[#Range]]
+* **Target** 20ft [[#Sphere]], 120ft [[#Range]]
 * **Duration** 1 hour
 Creatures within the fog have [[#Cover]].
 
@@ -1707,7 +1727,7 @@ Allied creatures within the aura have Edge on [[#Mind]] defense rolls and are im
 ### Goodberry
 * **Tier 1** [[#Druid]]
 * **Casting Time** [[#Ritual]]
-* **Range** [[#Self]]
+* **Target** [[#Self]]
 You enchant [[#Will]]+[[#Enigma]] berries. Each berry heals 1 [[#HP]] and provides nourishment for 1 day. The berries rot after 1 hour.
 
 ### Gust of Wind
@@ -1790,7 +1810,7 @@ A beam shines down dealing 3d6 damage. Half as much on a successful defense. Add
 
 ### Message
 * **Cantrip** [[#Wizard]]
-* **Casting Time** [[#Bonus Action]]
+* **Casting Time** [[#Swift Act]]
 * **Target**  120ft [[#Range]]
 * **Duration** 1 round
 You can whisper a message to a creature within [[#Range]]. They can reply to you with a whisper of their own. The targets increase by one for every [[#Tier]] the caster is beyond 1st.
@@ -1881,7 +1901,7 @@ You conjure a whip that has a 15ft reach that deals 1d6 damage. If the attack ro
 
 ### Tremor
 * **Tier 1** [[#Druid]]
-* **Casting Time** [[#Bonus Action]]
+* **Casting Time** [[#Swift Act]]
 * **Target** 10ft [[#Circle]], 120ft [[#Range]], [[#Body]]
 Targets within [[#Range]] fall prone and take 1d6 damage. Add an additional die for each tier beyond 1st it is cast at.
 
@@ -1971,12 +1991,12 @@ Creatures within 5ft of the target, including the target make a [[#React]] defen
 ### Firebrand
 *Tier 1*
 
-As a [[#Bonus Action]] you can engulf the blade in flames and it deals an additional 1d6 damage.
+As a [[#Swift Act]] you can engulf the blade in flames and it deals an additional 1d6 damage.
 
 ### Iceblade
 _Tier 1, Attunement_
 
-Melee attacks deal an additional 1d6 damage. As a [[#Bonus Action]] you can extinguish mundane or magical flames within 30ft. [[#Enigma]] rolls to cast a spell that involves fire targeting within 60ft of you are rolled with [[#Hinderance]].
+Melee attacks deal an additional 1d6 damage. As a [[#Swift Act]] you can extinguish mundane or magical flames within 30ft. [[#Enigma]] rolls to cast a spell that involves fire targeting within 60ft of you are rolled with [[#Hinderance]].
 
 ### Lighting Caller
 _Tier 1, Attuned_
@@ -2024,7 +2044,7 @@ You have [[#Expertise]] when moving silently.
 ### Boots of Striding
 _Tier 1_
 
-Your speed is always 30ft regardless of terrain unless reduced to 0ft. You can [[#Dash]] as a bonus action.
+Your speed is always 30ft regardless of terrain unless reduced to 0ft. You can [[#Dash]] as a Swift Act.
 
 ### Cloak of the Wilds
 _Tier 1, Attunement_
@@ -2114,7 +2134,7 @@ You have damage resistance and Edge on [[#Body]] defenses for 1 hour.
 ### Rope of Climbing
 _Tier 1_
 
-As a [[#Bonus Action]] you can command the rope to fasten itself to an object within 60ft.
+As a [[#Swift Act]] you can command the rope to fasten itself to an object within 60ft.
 
 ### Slippers of the Spider
 _Tier 1, Attunement_
@@ -2196,8 +2216,8 @@ Attack acts have the [[#Target Number]] for the defense roll listed. Followed by
 #### Recharge
 Some abilities need to recharge between uses. Roll a [[#d6]] at the beginning of the creature's turn to determine if the ability recharges.
 
-### Creature Bonus Actions
-These are the [[#Bonus Actions]] the creature may have.
+### Creature Swift Acts
+These are the [[#Swift Acts]] the creature may have.
 
 ### Creature Responses
 These are the [[#Response|Responses]] the creature may have. Creatures may be able to have more than 1 response between their turns.
@@ -2218,7 +2238,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 8. Choose Skills where appropriate
 9. Write abilities
 10. Create attacks. Base damage is 3 for medium creatures, 2 for small, 4 for large, half the die if it is for a weapon.
-11. Create Bonus actions
+11. Create Swift Acts
 12. Create Responses
 13. Create Lair Actions
 
@@ -2254,7 +2274,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***False Appearance*** While motionless it is indistinguishable from a cave formation. 
 * **Acts**
 	* ***Crush*** 8 [[#Deflect]], 5 damage. The target is [[#Grappled]] and if [[#Medium]] or smaller is [[#Blinded]]. The grapple can be broken with a 10 [[#Strength]]+[[#Athletics]] [[#Act]]. Grappled creatures are [[#Suffocating]].
-* ***Bonus Action***
+* ***Swift Act***
 	* **Darkness** 15ft [[#Aura]], [[#Concentration]], The area is filled with magical darkness blocking all light sources within it, including those from magical sources. It can do this once before a long rest.
 
 ### Bandit
@@ -2289,7 +2309,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 * **Acts**
 	* ***Dagger*** 10 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
 	* ***Scimitar*** 10 [[#Deflect]], 6 damage
-* **Bonus Action**
+* **Swift Act**
 	* ***Dagger*** 10 [[#Deflect]], [[#Thrown]] 20ft, 5 damage
 * **Responses** 1
 	* ***Parry*** When an adjacent attacker the captain can see hits with a melee attack, they must re-roll the attack against 15 [[#Deflect]].
@@ -2313,7 +2333,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Keen Smell*** [[#Expertise]] with scent.
 * **Acts**
 	* ***Claw*** 10 [[#Deflect]], 7 damage.
-* **Bonus Action**
+* **Swift Act**
 	* ***Bite*** 10 [[#Deflect]], 5 damage.
 
 ### Berserker
@@ -2557,7 +2577,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Pack Tactics*** Attacks on exposed enemies have [[#Edge]].
 * **Acts**
 	* ***Bite*** 8 [[#Deflect]] 3 damage. 
-* **Bonus Action**
+* **Swift Act**
 	* ***Flicker*** Teleports to an unoccupied space it can see within 40ft.
 
 ### Gargoyle
@@ -2579,7 +2599,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Multiattack*** The gargoyle can make two Claw attacks.
 * **Acts**
 	* ***Claw*** 11 [[#Deflect]], 8 damage. Target is [[#Grappled]]. The [[#Target Number]] break the grapple is 11.
-* **Bonus Action**
+* **Swift Act**
 	* **Bite** 11 [[#Deflect]], 6 damage. Target has Hinderance on their [[#Deflect]] roll if [[#Grappled]].
 
 ### Ghoul
@@ -2598,7 +2618,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Low Light Vision***  Can see in low light as if it were bright light.
 * **Acts**
 	*  ***Claws*** 8 [[#Deflect]], 8 damage. Target is [[#Grappled]].
-* **Bonus Action**
+* **Swift Act**
 	* **Bite** 8 [[#Deflect]], 6 damage. Target must make a 9 [[#Body]] roll or be [[#Paralyzed]] for 1 minute. The target can make the [[#Body]] roll again at the end of their turn to end the [[#Paralyzed]] condition. Ghoul has [[#Edge]] on bite against a [[#Grappled]] target.
 
 ### Giant Constrictor Snake
@@ -2690,7 +2710,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Low Light Vision***  Can see in low light as if it were bright light.
 * **Acts**
 	* ***Scimitar*** 8 [[#Deflect]], 5 damage.  
-* **Bonus Action**
+* **Swift Act**
 	* ***[[#Withdraw]]***
 	* ***[[#Hide]]***
 
@@ -2726,7 +2746,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 * **Acts**
 	* ***Longsword*** 9 [[#Deflect]], 6 damage.
 	* ***Longbow*** 9 [[#Deflect]], [[#Ranged]] 120ft, 6 damage.
-* **Bonus Action**
+* **Swift Act**
 	* ***Formation Fighting*** If the longsword [[#Act]] hits its target and another hobgoblin is adjacent, deal an additional 6 damage to target.
 
 ### Horse
@@ -2759,8 +2779,8 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Keen Sight*** [[#Expertise]] with sight.
 * **Acts**
 	* ***Beak*** 11 [[#Deflect]], 1 damage.
-* **Bonus Action**
-	* ***Flyby***  [[#Withdraw]] as a [[#Bonus Action]]
+* **Swift Act**
+	* ***Flyby***  [[#Withdraw]] as a [[#Swift Act]]
 
 ### Knight
 [[#Medium]] [[#Humanoid]] (any [[#Ancestry]]), Tier 1, [[#Challenge]] 5
@@ -2782,7 +2802,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Longsword*** 11 [[#Deflect]], 7 damage.
 	* ***Lance*** 11 [[#Deflect]], 8 damage
 	* ***Heavy Crossbow*** 8 [[#Deflect]], 4 damage.
-* **Bonus Actions**
+* **Swift Acts**
 	* ***Rally*** [[#Recharge]] 3-6, an ally can immediately move half their speed and [[#Act]].
 	* ***Spur on*** The knight's mount attacks an adjacent enemy and Moves.
 * **Responses** 1
@@ -2823,7 +2843,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Regeneration*** Mummy regains 3 [[#HP]] at the beginning of its turn.
 * **Acts**
 	* ***Rotting Blow*** 11 [[#Deflect]], 6+6 damage. Target must mage a 11 [[#Body]] defense or be cursed with mummy rot. Mummy rot prevents target from gaining [[#HP]]. If target dies they turn to dust. Curse lasts until a [[#Remove Curse]] is cast, or other magic.
-* **Bonus Actions**
+* **Swift Acts**
 	* ***Dreadful Glare*** 11 [[#Mind]], 60ft [[#Range]]. Target becomes [[#Frightened]] until the end of the mummy's next turn. If the target succeeds they are immune to dreadful glare until the next long rest.
 * **Lair Acts**
 	* ***Blinding Dust*** 11 [[#Body]], targets [[#Blinded]] until next Lair Act.
@@ -2970,7 +2990,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 	* ***Daylight Weakness*** When in daylight the shadow has Hinderance on all rolls.
 * **Acts**
 	* ***Vitality Drain*** 10 [[#Body]], 3 damage, [[#Body]] defense reduces by 1. If [[#Body]] reduced to 0 target dies. [[#Body]] defense is restored with a [[#Short Rest]]. Creatures that die become a Shadow 1d4 hours later.
-* **Bonus Action**
+* **Swift Act**
 	* ***Hide***
 
 ### Skeleton
@@ -3007,7 +3027,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 * **Acts**
 	* ***Hand Crossbow*** 11 [[#Deflect]], 6 damage.
 	* ***Shortsword*** 11 [[#Deflect]], 6 damage.
-* **Bonus Action**
+* **Swift Act**
 	* ***[[#Dash]]***
 	* ***Feint*** 10 [[#React]]. Target is [[#Expose|Exposed]]
 	* ***[[#Hide]]***
@@ -3065,7 +3085,7 @@ To determine what is an appropriate encounter, total the tiers of the characters
 * **Abilities**
 	* ***Keen Smell*** [[#Expertise]] with scent.
 	* ***Pounce*** If the tiger moves half their movement before making a Claw attack the target needs to make a 9 [[#Body]] roll or be knocked [[#Prone]].
-	* ***Vicious Opportunist*** The tiger can make a [[#Bite]] attack as a [[#Bonus Action]] against an [[#Expose|Exposed]] target.
+	* ***Vicious Opportunist*** The tiger can make a [[#Bite]] attack as a [[#Swift Act]] against an [[#Expose|Exposed]] target.
 * **Acts**
 	* ***Bite*** 11 [[#Deflect]], 6 damage.
 	* ***Claw*** 11 [[#Deflect]], 7 damage. 

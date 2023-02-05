@@ -731,7 +731,7 @@
 	* ***Shadow Form*** Dim light is treated as darkness when perceiving the shadow,
 	* ***Daylight Weakness*** When in daylight the shadow has Hinderance on all rolls.
 * **Acts**
-	* ***Vitality Drain*** 7 [[#Body]], 3 damage, [[#Body]] defense reduces by 1. If [[#Body]] reduced to -5 target dies. [[#Body]] defense is restored with a [[#Short Rest]]. Creatures that die become a Shadow 1d4 hours later.
+	* ***Vitality Drain*** 10 [[#Body]], 3 damage, [[#Body]] defense reduces by 1. If [[#Body]] reduced to 0 target dies. [[#Body]] defense is restored with a [[#Short Rest]]. Creatures that die become a Shadow 1d4 hours later.
 * **Bonus Action**
 	* ***Hide***
 

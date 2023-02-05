@@ -15,9 +15,6 @@ God Touched also have spells granted to them by their divinity. Depending on the
 ### Life
 [[#Bolster]]
 
-### Nature
-[[#Spike Field]]
-
 ### Order
 [[#Command]]
 
@@ -63,6 +60,7 @@ God-Touched channel spells from a Divine source. Their [[#Spellcasting Stat]] is
 ## Domain
 
 God Touched also have spells granted to them by their divinity. Depending on the Domain they always have certain spells prepared that don't count against their prepared spells.
+
 ### Arcana
 **Countershock** As a reaction the god-touched of the arcana domain can deal 2d8 damage to a target within 30ft that is casting a spell. If the damage is greater than the defense of the spell, the spell des not complete.
 
@@ -79,6 +77,7 @@ God Touched also have spells granted to them by their divinity. Depending on the
 **Throw the Lightning** As a Bonus Action, the Tempest domain God-Touched can cast Lighting Bolt, increasing [[#Burn]] as if cast normally.
 
 ### War
+**Battle Bond** With a Response to an ally being struck, you can switch places with the ally, making the attack miss, and make a melee weapon attack against any creature within range.
 
 # Tier 4
 ## Divine Spark
@@ -89,6 +88,7 @@ God-Touched channel spells from a Divine source. Their [[#Spellcasting Stat]] is
 God Touched also have abilities granted to them by their divinity. Depending on the Domain they always have certain spells prepared that don't count against their prepared spells.
 
 ### Arcana
+**Spell Mastery** Choose one 1st level spell, you can cast it as a Cantrip at its lowest level.
 
 ### Life
 **Master of Life** When you cast a spell that heals or grants temporary hit points you grant the maximum that the die would allow.
@@ -97,8 +97,10 @@ God Touched also have abilities granted to them by their divinity. Depending on 
 **Divine Intercession** Once before a long rest, the god-touched can summon a Tier 2 Outsider (Celestial) that will do your bidding for 1 minute.
 
 ### Sun
-**Blinding Blows** When you hit with a melee weapon, roll your burn and blind the target for a round. Does not increase burn.
+**Blinding Blows** When you hit with a melee weapon, if your roll exceeds your burn, blind the target for a round. Does not increase burn.
 
 ### Tempest
+**Storm Aura** As an act you can summon an 15ft aura. Foes that begin their turn within the or move into it aura take 1d6 damage. As a bonus act you can push a foe out of the aura. Ranged attacks into the aura have a hinderance.
 
 ### War
+**Command Liturgy** As an bonus act you can command an ally to move up to half of their movement and make a single attack.

@@ -1,5 +1,5 @@
 # Character
-The character is how the player expresses their will and agency in the game. Blank character sheets are available at [https://drive.google.com/file/d/10aTlE9hAZtmhwTteEyUx-46Uy69LCkR-/view?usp=sharing]
+The character is how the player expresses their will and agency in the game. 
 
 # Game Master
 The Game Master facilitates the game, describes the world, controls all other creatures, and is the final arbiter the rules.
@@ -454,25 +454,6 @@ Some classes have abilities that reset on a Short Rest.
 
 # Expertise
 Expertises are additional training that your character has received. They are not tied to a specific [[#Skills|Skill]] or [[#Stats|Stat]]. You can apply an Expertise to rolls by adding your proficiency modifier to the roll. You can only add once Expertise to any one roll. You do not need to be proficient in a skill to use an Expertise.
-
-* **Animal Handling** - Manipulating and controlling animals.
-* **Arcana** - Knowledge of the arcane.
-* **Bladed Weapons**  - Mastery over weapons with the bladed tag.
-* **Blunt Weapons** - Mastery over weapons with the blunt tag.
-* **Bows** - Mastery of ranged weapons without the mechanical tag.
-* **Crossbows** - Mastery of weapons with the mechanical tag, can load as a [[#Bonus Action]]
-* **History** - Knowledge of history
-* **Intimidation** - Manipulating and controlling creatures through fear
-* **Medic** - Knowledge of medicine
-* **Mounted Combat** - Mastery of controlling a mount in combat and can spur a mount to attack as a [[#Bonus Action]].
-* **Persuasion** - Manipulating creatures through force of personality
-* **Piercing Weapons** - Mastery of weapons with the piercing tag
-* **Religion** - Knowledge of religion
-* **Thrown Weapons** - Mastery weapons with the thrown tag
-* **Unarmed Combat** - Mastery of dealing damage with your body.
-
-# Creating Specialties
-Specialties are short descriptions of a realm of experience. They should not be too specific, but not as broad as the specialties gained from [[#Culture]] or [[#Background]] or [[#Class]].
 
 # Source
 Each spellcasting class draws on a source of their power. 
