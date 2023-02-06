@@ -19,7 +19,7 @@ class PageSeeder extends Seeder
         $welcome = [];
         $welcome['title'] = "Welcome"; 
         $welcome['slug'] = STR::slug($welcome['title']);
-        $welcome['content'] = file_get_contents(database_path().'/sources/welcome.md');
+        $welcome['content'] = file_get_contents(base_path().'/README.md');
         Page::create($welcome);
     }
 }
