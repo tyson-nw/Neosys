@@ -46,7 +46,7 @@
                     <option value='' @empty( request()->archetypes =='') selected @endempty></option>
                     <option value='Druid' @if(request()->archetypes=='Druid') selected @endif>Druid</option>
                     <option value='Dedicant' @if(request()->archetypes=='Dedicant') selected @endif>Dedicant</option>
-                    <option value='God Touched' @if(request()->archetypes=='God-Touched') selected @endif>God Touched</option>
+                    <option value='God-Touched' @if(request()->archetypes=='God-Touched') selected @endif>God-Touched</option>
                     <option value='Paladin' @if(request()->archetypes=='Dedicant') selected @endif>Dedicant</option>
                     <option value='Wizard' @if(request()->archetypes=='Wizard') selected @endif>Wizard</option>
                 </select>
