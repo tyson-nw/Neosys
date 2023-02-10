@@ -17,27 +17,27 @@ class SourceSeeder extends Seeder
     public function run()
     {
 
-        $sources = scandir(database_path().'/sources/');
+        $sources = scandir(base_path().'/sources/');
         array_shift($sources);
         array_shift($sources);
         
         foreach($sources as $source){
-            if(is_dir(database_path().'/sources/'.$source)){
+            if(is_dir(base_path().'/sources/'.$source)){
                 $sp = new SourceParser($source);
                 $sp->parseSource();
-                if(file_exists(database_path().'/sources/'.$source."/Spells.md")){
+                if(file_exists(base_path().'/sources/'.$source."/Spells.md")){
                     $sp->parseSpells();
                     echo "Spells Parsed \n";
                 }
-                if(file_exists(database_path().'/sources/'.$source."/Glossary.md")){
+                if(file_exists(base_path().'/sources/'.$source."/Glossary.md")){
                     $sp->parseGlossary();
                     echo "Glossary Parsed \n";
                 }
-                if(file_exists(database_path().'/sources/'.$source."/Monsters.md")){
+                if(file_exists(base_path().'/sources/'.$source."/Monsters.md")){
                     $sp->parseMonsters();
                     echo "Monsters Parsed \n";
                 }
-                if(file_exists(database_path().'/sources/'.$source."/Archetypes")){
+                if(file_exists(base_path().'/sources/'.$source."/Archetypes")){
                     $sp->parseArchetypes();
                     echo "Archetypes Parsed \n";
                 }
