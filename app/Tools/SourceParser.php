@@ -15,7 +15,7 @@ class SourceParser {
     public $directory;
 
     public function  __construct(string $directory){
-        $this->directory = database_path()."/sources/{$directory}";
+        $this->directory = base_path()."/sources/{$directory}";
         if(!file_exists($this->directory."/{$directory}.md")){
             dd("File does not exist",$this->directory."{$directory}.md");
         }
