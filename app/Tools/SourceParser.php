@@ -21,7 +21,11 @@ class SourceParser {
         }
         if(is_dir($this->directory)){
             $this->source = $directory;
-            $this->license = file_get_contents($this->directory ."/License");
+            if(file_exists($this->directory ."/License")){
+                $this->license = file_get_contents($this->directory ."/License");
+            }else{
+                $this->license = "Copyright Double Crescent Productions";
+            }
         }else{
             dd("File not a directory",$this->directory);
         }
@@ -40,85 +44,110 @@ class SourceParser {
         return true;
     }
 
+    public function dropSource(){
+        return Source::where('title', $this->source)->forceDelete();
+    }
+
+
     public function parseSpells(){
         if(!file_exists($this->directory. "/Spells.md")){
             return FALSE;
         }
 
         $file = fopen($this->directory . "/Spells.md", 'r');
-    
-            
-        $spells = [];
-        $current_spell = [];
+
+        $preg = "/\[\[\#([A-z \-\d\'|]*)\]\]/";
         while (($line = fgets($file)) !== FALSE){
-            $exploded = explode(" ",$line);
-
-            $element = array_shift($exploded);
-            if($element =="#"){
-                if(!empty($current_spell)){
-                    if(str_contains($current_spell['details'][count($current_spell['details'])-1], "[[#Tier]]")){
-                        $current_spell['higher_cast'] = array_pop($current_spell['details']);
-                        
-                    }
-                    $current_spell['details'] = implode("\n", $current_spell['details']);
-
+            $out = [];
+            
+            if(mb_substr($line, 0, 1) == "#"){ //if title row
+                if(isset($current_spell)){
+                    
                     Spell::create($current_spell);
+
                 }
-                
                 $current_spell = [];
-                $current_spell['title'] = trim(implode(" ",$exploded));
+                $current_spell['title'] = mb_substr($line, strpos($line, " ")+1 );
                 $current_spell['slug'] = Str::slug($current_spell['title']);
                 $current_spell['license'] = $this->license;
                 $current_spell['source'] = $this->source;
-            }elseif($element == "-"){
-
-            
-                $first = array_shift($exploded);
-                if($first == "**Cantrip**"){
-                    $current_spell['tier'] = '[[#Cantrip]]';
-                    $current_spell['archetypes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
-                }elseif($first == "**Tier"){
-                    $current_spell['tier'] = trim(array_shift($exploded),"*");
-                    $current_spell['archetypes'] = trim(json_encode(explode(",", implode( " ", $exploded))));
-                }
-                elseif($first =="**Casting"){
-                    array_shift($exploded);
-                    $current_spell['casting_time'] = trim(json_encode(explode(",", implode( " ", $exploded))));
-                }
-                elseif($first == "**Target**"){
-                    $target = explode(", ", trim(implode(" ",$exploded)));
-                    
-                    $current_spell['target'] = $target[0];
-                    $defenses = ["[[#Body]]","[[#Mind]]","[[#React]]","[[#Deflect]]"];
-                    if(in_array($target[count($target)-1],$defenses)){
-                        $current_spell['defense'] = array_pop($target);
-                    }
-                    $current_spell['target'] = trim(json_encode(explode(",", implode( " ", $target))));
-                }
-                elseif($first == "**Duration**"){
-                    $target = explode(", ", trim(implode(" ",$exploded)));
-                    
-                    $current_spell['duration'] = $target[0];
-                    if(isset($target[1])){
-                        $current_spell['concentration'] = TRUE;
-                    }
-                }
+                $current_spell['details'] = "";
+            }elseif(mb_substr($line, 0, 1) == "-"){
                 
-            }
-            elseif($element !== "#"){ 
-                if(trim($element) != ""){
-                    array_unshift($exploded, $element);
-                    $current_spell['details'][] = trim(implode(" ",$exploded));
+                if(str_contains( $line,"- **Cantrip**")){
+                    $current_spell['tier'] = 'Cantrip';
+                    $out = [];
+                    preg_match_all($preg, $line,$out);
+                    $current_spell['archetypes'] = json_encode($out[1], TRUE);
+                }
+                if(str_contains($line, "- **Tier")){
+                    $out = [];
+                    preg_match("/\d/", $line, $out);
+                    $current_spell['tier'] = $out[0];
+                    $out = [];
+                    preg_match_all($preg, $line,$out);
+                    $current_spell['archetypes'] = json_encode($out[1], TRUE);
+                }
+                if(str_contains($line, "- **Casting Time**")){
+                    $out = [];
+                    preg_match_all($preg, $line,$out);
+                    $current_spell['casting_time'] = json_encode($out[1], TRUE);
+                }
+                if(str_contains($line, "- **Target**")){
+                    $ex = explode("-",$line);
+                    $targets = explode(',', array_pop($ex));
+                    if(str_contains($line,"Mind")){
+                        $current_spell['defense'] = "Mind";
+                        array_pop($targets);
+                    }
+                    if(str_contains($line,"Body")){
+                        $current_spell['defense'] = "Body";
+                        array_pop($targets);
+                    }
+                    if(str_contains($line,"React")){
+                        $current_spell['defense'] = "React";
+                        array_pop($targets);
+                    }
+                    if(str_contains($line,"Deflect")){
+                        $current_spell['defense'] = "Deflect";
+                        array_pop($targets);
+                    }
+                    $current_spell['target'] = json_encode($targets, TRUE);
+                    
+                }
+                if(str_contains($line, "- **Duration**")){
+                    $ex = explode("-",$line);
+                    $duration = trim(array_pop($ex));
+                    
+                    if(str_contains( $duration, "Concentration")){
+                        $current_spell['concentration'] = TRUE;
+                        $ex = explode(",",$duration);
+                        array_pop($ex);
+                        $duration = implode(",",$ex);
+                    }
+                    $current_spell['duration'] = $duration;
+                }
+
+
+            }else{
+                $current_spell['details'] .= $line;
+
+                $sentences = explode(".", $line);
+                foreach($sentences as $sentence){
+                    if(str_contains($sentence,"When cast at a higher")){
+                        $current_spell['higher_cast'] = $sentence;
+                    }
+                    if(str_contains($sentence,"If cast as a")){
+                        $current_spell['ritual'] = $sentence;
+                    }
                 }
             }
         }
-        if(str_contains($current_spell['details'][count($current_spell['details'])-1], "[[#Tier]]")){
-            $current_spell['higher_cast'] = array_pop($current_spell['details']);
-            
-        }
-        $current_spell['details'] = implode("\n", $current_spell['details']);
         Spell::create($current_spell);
-        return TRUE;
+    }
+
+    public function dropSpells(){
+        return Spell::where('source', $this->source)->forceDelete();
     }
 
     public function parseGlossary(){
@@ -162,6 +191,10 @@ class SourceParser {
         return TRUE;
     }
 
+    public function dropGlossary(){
+        return Glossary::where('source', $this->source)->forceDelete();
+    }
+
     public function parseMonsters(){
         if(!file_exists($this->directory. "/Monsters.md")){
             return FALSE;
@@ -196,6 +229,10 @@ class SourceParser {
         return TRUE;
     }
 
+    public function dropMonsters(){
+        return Monster::where('source', $this->source)->forceDelete();
+    }
+
     public function parseArchetypes(){
 
         if(!is_dir($this->directory. "/Archetypes")){
@@ -223,5 +260,17 @@ class SourceParser {
         
 
         
+    }
+
+    public function dropArchetypes(){
+        return Archetype::where('source', $this->source)->forceDelete();
+    }
+
+    public function dropAll(){
+        $this->dropArchetypes();
+        $this->dropGlossary();
+        $this->dropMonsters();
+        $this->dropSource();
+        $this->dropSpells();
     }
 }
