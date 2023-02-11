@@ -17,12 +17,6 @@
     @endcan
 </div>
 
-@if( session()->has('spell_deleted'))
-    <div class='mx-auto bg-amber-200 border-amber-400 p-4 m-2 border-2 rounded-full'>
-        {{session('spell_deleted')['title'] }} has been deleted.
-    </div>
-@endif
-
 <details id='filters' class='border p-3'>
     <summary>
         Filters
