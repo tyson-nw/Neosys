@@ -150,7 +150,10 @@
                         </li>
                     @endisset
                         <li>{!!$ctp( $converter->convert($spell->details))!!}</li>
-                    <li class='text-xs flex justify-between'><div class='m-3'>Source: <a href="/source/{{Str::slug($spell->source)}}" >{{$spell->source}} </a></div><div class='m-3'>{{$spell->license}}</div></li>
+                    <li class='text-xs flex justify-between'>
+                        <div class='m-3'>Source: <a href="/source/{{Str::slug($spell->source)}}" >{{$spell->source}} </a></div>
+                        <div class='m-3'>{{$spell->license}}</div>
+                    </li>
                 </ul>
             </details>
         </form>
