@@ -78,7 +78,7 @@ class SourceParser {
                     $current_spell['tier'] = 'Cantrip';
                     $out = [];
                     preg_match_all($preg, $line,$out);
-                    $current_spell['archetypes'] = json_encode($out[1], TRUE);
+                    $current_spell['archetypes'] = json_encode($out[0], TRUE);
                 }
                 if(str_contains($line, "- **Tier")){
                     $out = [];
@@ -86,12 +86,12 @@ class SourceParser {
                     $current_spell['tier'] = $out[0];
                     $out = [];
                     preg_match_all($preg, $line,$out);
-                    $current_spell['archetypes'] = json_encode($out[1], TRUE);
+                    $current_spell['archetypes'] = json_encode($out[0], TRUE);
                 }
                 if(str_contains($line, "- **Casting Time**")){
                     $out = [];
                     preg_match_all($preg, $line,$out);
-                    $current_spell['casting_time'] = json_encode($out[1], TRUE);
+                    $current_spell['casting_time'] = json_encode($out[0], TRUE);
                 }
                 if(str_contains($line, "- **Target**")){
                     $ex = explode("-",$line);

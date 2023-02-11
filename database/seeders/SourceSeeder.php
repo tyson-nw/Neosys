@@ -24,22 +24,23 @@ class SourceSeeder extends Seeder
         foreach($sources as $source){
             if(is_dir(base_path().'/sources/'.$source)){
                 $sp = new SourceParser($source);
+                echo "Parsing $source\n";
                 $sp->parseSource();
                 if(file_exists(base_path().'/sources/'.$source."/Spells.md")){
                     $sp->parseSpells();
-                    echo "Spells Parsed \n";
+                    echo "- Spells Parsed \n";
                 }
                 if(file_exists(base_path().'/sources/'.$source."/Glossary.md")){
                     $sp->parseGlossary();
-                    echo "Glossary Parsed \n";
+                    echo "- Glossary Parsed \n";
                 }
                 if(file_exists(base_path().'/sources/'.$source."/Monsters.md")){
                     $sp->parseMonsters();
-                    echo "Monsters Parsed \n";
+                    echo "- Monsters Parsed \n";
                 }
                 if(file_exists(base_path().'/sources/'.$source."/Archetypes")){
                     $sp->parseArchetypes();
-                    echo "Archetypes Parsed \n";
+                    echo "- Archetypes Parsed \n";
                 }
             }
         }

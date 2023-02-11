@@ -20,6 +20,13 @@ class SpellController extends Controller
     public function index()
     {   
         
+        if(request()->title){
+            if(empty($spells)){
+                $spells = Spell::where('title','LIKE',"%" .request()->title."%");
+            }else{
+                $spells->where('title','LIKE',"%" .request()->title."%");
+            }
+        }
 
         if(request()->tier){
             if(empty($spells)){
