@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreSpellRequest;
-use App\Http\Requests\UpdateSpellRequest;
 use App\Models\Spell;
 use App\Tools\AbsoluteUrlResolver;
-use App\Tools\GlossaryTagParser;
+use App\Tools\AnchorTagParser;
 
 use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
@@ -101,7 +99,7 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
 
-        $gtp = new GlossaryTagParser();
+        $gtp = new AnchorTagParser("/glossary");
 
         if(isset($spells)){
             return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter, 'ctp'=>$gtp]);
@@ -118,6 +116,7 @@ class SpellController extends Controller
      */
     public function show(Spell $spell)
     {
+        
         $resolver = new AbsoluteUrlResolver(url('/'));
         $extension = new LeagueCommonMarkObsidianExtension(
           attachmentLinkResolver: $resolver,
@@ -130,7 +129,7 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
         $spell->details = $converter->convert($spell->details);
-        $spell->ctp = new GlossaryTagParser();
+        $spell->ctp = new AnchorTagParser("/glossary");
         
         return view('spell.view',$spell);
     }

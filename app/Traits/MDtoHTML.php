@@ -5,7 +5,6 @@ use League\CommonMark\Environment\Environment;
 use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
 use League\CommonMark\Extension\Autolink\AutolinkExtension;
 use League\CommonMark\Extension\HeadingPermalink\HeadingPermalinkExtension;
-use League\CommonMark\Extension\HeadingPermalink\HeadingPermalinkRenderer;
 use League\CommonMark\Extension\TableOfContents\TableOfContentsExtension;
 use League\CommonMark\Extension\Table\TableExtension;
 use League\CommonMark\MarkdownConverter;
@@ -14,7 +13,6 @@ use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
 use App\Tools\AbsoluteUrlResolver;
 use App\Tools\AnchorTagParser;
-use App\Tools\GlossaryTagParser;
 
 trait MDtoHTML{
     function convertMDtoHTML($content){
@@ -77,7 +75,7 @@ trait MDtoHTML{
         }
         
 
-        $converter = new \League\CommonMark\MarkdownConverter($environment);
+        $converter = new MarkdownConverter($environment);
 
         return $atp($converter->convert($content));
     }
