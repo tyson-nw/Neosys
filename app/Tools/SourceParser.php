@@ -73,47 +73,48 @@ class SourceParser {
                 $current_spell['source'] = $this->source;
                 $current_spell['details'] = "";
             }elseif(mb_substr($line, 0, 1) == "-"){
-                
-                if(str_contains( $line,"- **Cantrip**")){
-                    $current_spell['tier'] = 'Cantrip';
-                    $out = [];
-                    preg_match_all($preg, $line,$out);
-                    $current_spell['archetypes'] = json_encode($out[0], TRUE);
-                }
-                if(str_contains($line, "- **Tier")){
-                    $out = [];
-                    preg_match("/\d/", $line, $out);
-                    $current_spell['tier'] = $out[0];
-                    $out = [];
-                    preg_match_all($preg, $line,$out);
-                    $current_spell['archetypes'] = json_encode($out[0], TRUE);
-                }
-                if(str_contains($line, "- **Casting Time**")){
-                    $out = [];
-                    preg_match_all($preg, $line,$out);
-                    $current_spell['casting_time'] = json_encode($out[0], TRUE);
-                }
-                if(str_contains($line, "- **Target**")){
-                    $ex = explode("-",$line);
-                    $targets = explode(',', array_pop($ex));
-                    if(str_contains($line,"Mind")){
-                        $current_spell['defense'] = "Mind";
-                        array_pop($targets);
+                if(strlen($line)){
+                    if(str_contains( $line,"- **Cantrip**")){
+                        $current_spell['tier'] = 'Cantrip';
+                        $out = [];
+                        preg_match_all($preg, $line,$out);
+                        $current_spell['archetypes'] = json_encode($out[0], TRUE);
                     }
-                    if(str_contains($line,"Body")){
-                        $current_spell['defense'] = "Body";
-                        array_pop($targets);
+                    if(str_contains($line, "- **Tier")){
+                        $out = [];
+                        preg_match("/\d/", $line, $out);
+                        $current_spell['tier'] = $out[0];
+                        $out = [];
+                        preg_match_all($preg, $line,$out);
+                        $current_spell['archetypes'] = json_encode($out[0], TRUE);
                     }
-                    if(str_contains($line,"React")){
-                        $current_spell['defense'] = "React";
-                        array_pop($targets);
+                    if(str_contains($line, "- **Casting Time**")){
+                        $out = [];
+                        preg_match_all($preg, $line,$out);
+                        $current_spell['casting_time'] = json_encode($out[0], TRUE);
                     }
-                    if(str_contains($line,"Deflect")){
-                        $current_spell['defense'] = "Deflect";
-                        array_pop($targets);
+                    if(str_contains($line, "- **Target**")){
+                        $ex = explode("-",$line);
+                        $targets = explode(',', array_pop($ex));
+                        if(str_contains($line,"Mind")){
+                            $current_spell['defense'] = "Mind";
+                            array_pop($targets);
+                        }
+                        if(str_contains($line,"Body")){
+                            $current_spell['defense'] = "Body";
+                            array_pop($targets);
+                        }
+                        if(str_contains($line,"React")){
+                            $current_spell['defense'] = "React";
+                            array_pop($targets);
+                        }
+                        if(str_contains($line,"Deflect")){
+                            $current_spell['defense'] = "Deflect";
+                            array_pop($targets);
+                        }
+                        $current_spell['target'] = json_encode($targets, TRUE);
+                        
                     }
-                    $current_spell['target'] = json_encode($targets, TRUE);
-                    
                 }
                 if(str_contains($line, "- **Duration**")){
                     $ex = explode("-",$line);
