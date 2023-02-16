@@ -46,19 +46,13 @@ Route::patch('/page/{page:slug}/edit', [PageController::class, 'update'])->can('
 Route::delete('/page/{page:slug}', [PageController::class, 'destroy'])->can('delete-spell');
 
 Route::get('/spells', [SpellController::class, 'index']);
-Route::get('/spells/create', [SpellController::class, 'create'])->can('create-spell');
-Route::post('/spells/create', [SpellController::class, 'store'])->can('create-spell');
 Route::get('/spell/{spell}', [SpellController::class, 'show']);
-Route::get('/spell/{spell}/edit', [SpellController::class, 'edit'])->can('edit-spell');
-//Route::patch('/spell/{spell}/edit', [SpellController::class, 'update']);
-//Route::delete('/spell/{spell}', [SpellController::class, 'destroy']);
 
 Route::get('/sources', [SourceController::class, 'index']);
 Route::get('/source/{source}', [SourceController::class, 'show']);
 
 Route::get('/monsters', [MonsterController::class, 'index']);
 Route::get('/monster/{monster}', [MonsterController::class, 'show']);
-
 
 Route::get('/archetypes', [ArchetypeController::class, 'index']);
 Route::get('/archetype/{archetype}', [ArchetypeController::class, 'show']);

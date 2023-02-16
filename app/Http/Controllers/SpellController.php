@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreSpellRequest;
-use App\Http\Requests\UpdateSpellRequest;
 use App\Models\Spell;
 use App\Tools\AbsoluteUrlResolver;
-use App\Tools\GlossaryTagParser;
+use App\Tools\AnchorTagParser;
 
 use Elazar\LeagueCommonMarkObsidian\LeagueCommonMarkObsidianExtension;
 
@@ -20,6 +18,13 @@ class SpellController extends Controller
     public function index()
     {   
         
+        if(request()->title){
+            if(empty($spells)){
+                $spells = Spell::where('title','LIKE',"%" .request()->title."%");
+            }else{
+                $spells->where('title','LIKE',"%" .request()->title."%");
+            }
+        }
 
         if(request()->tier){
             if(empty($spells)){
@@ -94,7 +99,7 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
 
-        $gtp = new GlossaryTagParser();
+        $gtp = new AnchorTagParser("/glossary");
 
         if(isset($spells)){
             return view('spell.index', ['spells'=>$spells->get(),'converter'=>$converter, 'ctp'=>$gtp]);
@@ -102,30 +107,7 @@ class SpellController extends Controller
         return view('spell.index', ['spells'=>Spell::get(),'converter'=>$converter, 'ctp'=>$gtp]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('spell.create');
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreSpellRequest  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(StoreSpellRequest $request)
-    {
-        $valid = $request->validated();
-        Spell::create($valid);
-        return redirect('/spells')->with('spell_created', ['title'=>$valid['title'], 'slug'=>$valid['slug']]);
-    
-    }
-
+   
     /**
      * Display the specified resource.
      *
@@ -134,6 +116,7 @@ class SpellController extends Controller
      */
     public function show(Spell $spell)
     {
+        
         $resolver = new AbsoluteUrlResolver(url('/'));
         $extension = new LeagueCommonMarkObsidianExtension(
           attachmentLinkResolver: $resolver,
@@ -146,46 +129,9 @@ class SpellController extends Controller
 
         $converter = new \League\CommonMark\MarkdownConverter($environment);
         $spell->details = $converter->convert($spell->details);
-        $spell->ctp = new GlossaryTagParser();
+        $spell->ctp = new AnchorTagParser("/glossary");
         
         return view('spell.view',$spell);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Spell  $spell
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Spell $spell)
-    {
-        return view('spell.edit',$spell);
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateSpellRequest  $request
-     * @param  \App\Models\Spell  $spell
-     * @return \Illuminate\Http\Response
-     */
-    public function update(UpdateSpellRequest $request, Spell $spell)
-    {
-        $spell->fill($request->all())->save();
-        session()->flash('spell_updated', 'Spell Updated');
-        return redirect("/spell/{$spell->slug}"); 
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Spell  $spell
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Spell $spell)
-    {
-        session()->flash('spell_deleted', ['title'=>$spell['title'], 'slug'=>$spell['slug']]);
-        $spell->delete();
-        return redirect('/spells');
-    }
 }

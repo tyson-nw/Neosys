@@ -19,7 +19,7 @@ class Source extends Model
     ];
 
     protected $tableofcontents = TRUE;
-    protected $tableofcontentslevel = 1;
+    protected $tableofcontentslevel = 2;
     
     public function getRouteKeyName()
     {

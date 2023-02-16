@@ -81,7 +81,10 @@
                 </summary>
                 <div class='mx-10 my-3'>
                     {!! $monster->html !!}
-                    <div class='text-xs container'><div class='m-3'>{{$monster->license}}</div> <div class='m-3'>Source: <a href="sources/{{$monster->source_slug}}" >{{$monster->source}} </a></div></div>
+                    <div class='text-xs flex justify-between'>
+                        <div class='m-3'>Source: <a href="/source/{{Str::slug($monster->source)}}" >{{$monster->source}} </a></div>
+                        <div class='m-3'>{{$monster->license}}</div>
+                    </div>
                 </div>
             </details>
         </li>

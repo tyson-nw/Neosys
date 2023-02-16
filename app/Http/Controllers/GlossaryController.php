@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Str;
+
 use App\Http\Requests\StoreCardRequest;
 use App\Http\Requests\UpdateCardRequest;
 use App\Models\Glossary;
@@ -24,7 +26,7 @@ class GlossaryController extends Controller
 
     public function lookup($term)
     {
-        $cards = Glossary::where('slug',$term)->orderBy('source_slug')->get();
+        $cards = Glossary::where('slug',STR::slug($term))->orderBy('source_slug')->get();
         if(empty($cards)){
             abort(404);
         }

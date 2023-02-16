@@ -28,6 +28,7 @@ class CreateSpellsTable extends Migration
             $table->boolean('concentration')->default(FALSE);
             $table->text('details');
             $table->text('higher_cast')->nullable();
+            $table->text('ritual')->nullable();
             $table->timestamps();
         });
     }
