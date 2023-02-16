@@ -1,6 +1,6 @@
 ## This is the test environment for the Codename: Neosys (Actual Name Pending) Basic Alpha .4 SRD
 
-Our goal is to create an SRD that supports a game that is sightly less complext than D&amp;D but still feels familar. We are aiming for a game with more complexity than your average Indy title. It should include modern affordances that OSR games tend to eschew. If you are interested in seeing a game that fits into that sweet spot view and comment the current form of the the ruleset, please comment on the [Working Document](https://docs.google.com/document/d/15cZJZe0GiNoclUz8xxm2k3waE8Gx9b6oLM6qo8_Jy6g/edit?usp=sharing).
+Our goal is to create an SRD that supports a game that is sightly less complext than D&amp;D but still feels familar. We are aiming for a game with more complexity than your average Indy title. It should include modern affordances that OSR games tend to eschew. If you are interested in seeing a game that fits into that sweet spot view and comment the current form of the the ruleset, please comment on the [Working Document](https://docs.google.com/document/d/1Nnc9Kupt8wwPYBTr6D6TwKROPY6E8BDTBLxECuPFMyk/edit?usp=sharing).
 
 [Blank character](https://drive.google.com/file/d/10aTlE9hAZtmhwTteEyUx-46Uy69LCkR-/view?usp=sharing) sheets are available.
 
